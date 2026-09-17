@@ -16,6 +16,11 @@ subprojects {
 // module to evaluate (afterEvaluate fails on already-evaluated projects).
 subprojects {
     afterEvaluate { project ->
+        // isar_flutter_libs ships with compileSdk 30 → android:attr/lStar
+        // (API 31+) is missing. Raise it to the app's compileSdk.
+        if (project.name == 'isar_flutter_libs') {
+            project.android.compileSdkVersion 34
+        }
         if (project.hasProperty('android') && project.android.namespace == null) {
             project.android.namespace = project.group.toString()
         }
