@@ -1,0 +1,3342 @@
+about|preposition|درباره
+above|preposition|بالای
+accept|verb|پذیرفتن
+accident|noun|تصادف؛ حادثه
+account|noun|حساب
+accurate|adjective|دقیق
+across|preposition|آن سوی؛ عرضِ
+act|verb|عمل کردن؛ بازی کردن
+action|noun|عمل؛ کنش
+active|adjective|فعال
+actor|noun|بازیگر
+actually|adverb|در واقع
+add|verb|افزودن
+address|noun|نشانی؛ آدرس
+admire|verb|تحسین کردن
+admit|verb|پذیرفتن؛ اعتراف کردن
+adult|noun|بزرگسال
+advance|noun|پیشرفت؛ پیش‌پرداخت
+advantage|noun|مزیت
+adventure|noun|ماجراجویی
+advertisement|noun|آگهی
+advice|noun|توصیه؛ نصیحت
+afford|verb|از عهده (هزینه‌ای) برآمدن
+afraid|adjective|ترسیده
+after|preposition|بعد از
+afternoon|noun|بعدازظهر
+again|adverb|دوباره
+against|preposition|مقابل؛ علیه
+age|noun|سن؛ عصر
+agent|noun|عامل؛ مأمور
+ago|adverb|پیش؛ قبل
+agree|verb|موافق بودن؛ توافق کردن
+ahead|adverb|جلو؛ پیش‌تر
+air|noun|هوا
+airplane|noun|هواپیما
+airport|noun|فرودگاه
+alarm|noun|زنگ هشدار
+album|noun|آلبوم
+alcohol|noun|الکل
+alive|adjective|زنده
+all|determiner|همه؛ تمام
+allow|verb|اجازه دادن
+almost|adverb|تقریباً
+alone|adjective|تنها
+along|preposition|در امتداد
+already|adverb|از قبل؛ هم‌اکنون
+also|adverb|همچنین
+although|conjunction|اگرچه
+always|adverb|همیشه
+amazing|adjective|شگفت‌انگیز
+ambition|noun|جاه‌طلبی؛ آرزوی بزرگ
+among|preposition|در میان
+amount|noun|مقدار؛ مبلغ
+ancient|adjective|باستانی؛ قدیمی
+angry|adjective|عصبانی
+animal|noun|حیوان
+ankle|noun|مچ پا
+anniversary|noun|سالگرد
+announce|verb|اعلام کردن
+annoyed|adjective|آزرده؛ کلافه
+annual|adjective|سالانه
+answer|noun|پاسخ
+ant|noun|مورچه
+anxious|adjective|مضطرب؛ نگران
+any|determiner|هر؛ هیچ
+anyone|pronoun|هرکسی
+anything|pronoun|هر چیز
+apartment|noun|آپارتمان
+apologize|verb|عذرخواهی کردن
+appear|verb|ظاهر شدن؛ به نظر رسیدن
+apple|noun|سیب
+apply|verb|درخواست دادن؛ اعمال کردن
+approach|verb|نزدیک شدن
+april|noun|آوریل (فروردین)
+area|noun|منطقه؛ ناحیه
+argue|verb|بحث کردن؛ دعوا کردن
+arm|noun|بازو
+army|noun|ارتش؛ ارگان
+arrange|verb|ترتیب دادن؛ آراستن
+arrest|verb|بازداشت کردن
+arrive|verb|رسیدن
+art|noun|هنر
+article|noun|مقاله؛ حرف تعریف
+artist|noun|هنرمند
+ashamed|adjective|خجل
+aside|adverb|کنار؛ کنارِ گذاشته
+ask|verb|پرسیدن؛ درخواست کردن
+asleep|adjective|خواب‌آلود؛ در خواب
+assistant|noun|دستیار؛ معاون
+astonished|adjective|متحیر؛ شگفت‌زده
+athlete|noun|ورزشکار
+atmosphere|noun|اتمسفر؛ جوّ
+attach|verb|پیوست کردن
+attack|verb|حمله کردن
+attempt|noun|تلاش؛ کوشش
+attend|verb|شرکت کردن؛ حاضر شدن
+attention|noun|توجه
+attitude|noun|نگرش؛ نگرش
+attract|verb|جلب کردن؛ جذب کردن
+audience|noun|مخاطبان؛ تماشاگران
+august|noun|اوت (مرداد)
+aunt|noun|عمه؛ خاله
+author|noun|نویسنده
+autumn|noun|پاییز
+available|adjective|در دسترس؛ موجود
+average|adjective|متوسط
+avoid|verb|اجتناب کردن
+awake|adjective|بیدار
+award|noun|جایزه
+aware|adjective|آگاه
+away|adverb|دور؛ بیرون
+awful|adjective|افتضاح؛ وحشتناک
+awkward|adjective|ناجور؛ دست‌وپاچلفتی
+baby|noun|نوزاد؛ عروسک
+back|noun|پشت
+background|noun|پس‌زمینه
+backward|adjective|رو به عقب
+bacteria|noun|باکتری
+bad|adjective|بد
+badly|adverb|به‌شدت؛ به‌طور بد
+bag|noun|کیف؛ کیسه
+bake|verb|پختن (در فر)
+balance|noun|تعادل
+ball|noun|توپ؛ گوی
+balloon|noun|بادکنک
+bamboo|noun|خیزران؛ بامبو
+banana|noun|موز
+band|noun|گروه موسیقی؛ نوار
+bank|noun|بانک؛ کنار رودخانه
+bar|noun|میز بشکه؛ میله
+barbecue|noun|باربیکیو
+barely|adverb|به‌سختی
+bargain|noun|چانه‌زنی؛ سود معامله
+barrier|noun|مانع؛ دیوار حایل
+base|noun|پایه؛ قاعده
+baseball|noun|بیسبال
+basement|noun|زیرزمین
+basic|adjective|پایه‌ای؛ اساسی
+basically|adverb|در اصل؛ اساساً
+basket|noun|سبد
+basketball|noun|بسکتبال
+bath|noun|حمام
+bathroom|noun|دستشویی؛ حمام
+battery|noun|باتری
+battle|noun|نبرد؛ جنگ
+beach|noun|ساحل
+bean|noun|لوبیا؛ دانه
+bear|noun|خرس
+beard|noun|ریش
+beat|verb|زدن؛ شکست دادن
+beautiful|adjective|زیبا
+beauty|noun|زیبایی
+because|conjunction|چون؛ زیرا
+become|verb|شدن؛ گشتن
+bed|noun|تخت
+bedroom|noun|اتاق خواب
+bee|noun|زنبور عسل
+beef|noun|گوشت گاو
+beer|noun|آبجو
+before|preposition|قبل از
+beg|verb|گدایی کردن؛ التماس کردن
+begin|verb|شروع کردن
+beginning|noun|آغاز
+behave|verb|رفتار کردن
+behavior|noun|رفتار
+behind|preposition|پشت
+belief|noun|باور
+believe|verb|باور داشتن؛ اعتقاد داشتن
+bell|noun|زنگ
+belong|verb|تعلق داشتن
+below|preposition|پایین‌تر از
+belt|noun|کمربند
+bench|noun|نیمکت
+bend|verb|خم کردن
+beneath|preposition|زیر
+benefit|noun|سود؛ منفعت
+berry|noun|توت
+beside|preposition|کنار
+best|adjective|بهترین
+bet|verb|شرط بستن
+better|adjective|بهتر
+between|preposition|بین
+beyond|preposition|فراتر از
+bicycle|noun|دوچرخه
+big|adjective|بزرگ
+bike|noun|دوچرخه
+bill|noun|صورت‌حساب؛ اسکناس
+bin|noun|سطل زباله
+biology|noun|زیست‌شناسی
+bird|noun|پرنده
+birth|noun|تولد
+birthday|noun|تولد
+biscuit|noun|بیسکویت
+bit|noun|تکه؛ کمی
+bite|verb|گاز گرفتن
+bitter|adjective|تلخ
+black|adjective|سیاه
+blade|noun|تیغه
+blame|verb|مقصر دانستن
+blank|adjective|خالی
+blanket|noun|پتو
+bleed|verb|خونریزی کردن
+blend|verb|مخلوط کردن
+blind|adjective|نابینا
+block|noun|بلوک؛ ساختمان
+blood|noun|خون
+blouse|noun|بلوز زنانه
+blow|verb|دمیدن
+blue|adjective|آبی
+board|noun|تخته؛ هیئت
+boat|noun|قایق
+body|noun|بدن
+boil|verb|جوشیدن؛ جوشاندن
+bomb|noun|بمب
+bone|noun|استخوان
+book|noun|کتاب
+bookcase|noun|کتابخانه (مبلمان)
+border|noun|مرز
+boring|adjective|خسته‌کننده
+born|adjective|به‌دنیا آمده
+borrow|verb|قرض گرفتن
+boss|noun|رئیس
+both|determiner|هر دو
+bother|verb|آزار دادن؛ زحمت دادن
+bottle|noun|بطری
+bottom|noun|پایین؛ ته
+bounce|verb|جهیدن (توپ)
+bowl|noun|کاسه
+box|noun|جعبه؛ باکس
+boy|noun|پسر
+brain|noun|مغز
+branch|noun|شاخه؛ شعبه
+brand|noun|برند؛ مارک
+brave|adjective|شجاع
+bread|noun|نان
+break|verb|شکستن
+breakfast|noun|صبحانه
+breath|noun|نفس
+breathe|verb|نفس کشیدن
+breed|verb|پرورش دادن
+breeze|noun|نسیم
+brick|noun|آجر
+bride|noun|عروس
+bridge|noun|پل
+brief|adjective|مختصر
+bright|adjective|روشن؛ باهوش
+brilliant|adjective|درخشان؛ نابغه
+bring|verb|آوردن
+broad|adjective|پهن؛ گسترده
+broken|adjective|شکسته
+bronze|noun|برنز
+brother|noun|برادر
+brown|adjective|قهوه‌ای
+brush|noun|برس؛ قلم‌مو
+bubble|noun|حباب
+bucket|noun|سطل
+budget|noun|بودجه
+build|verb|ساختن
+building|noun|ساختمان
+bulb|noun|حباب لامپ
+bull|noun|گاو نر
+bunch|noun|دسته؛ خوشه
+burn|verb|سوختن؛ آتش زدن
+burst|verb|ترکیدن
+bury|verb|دفن کردن
+bus|noun|اتوبوس
+business|noun|کسب‌وکار؛ تجارت
+busy|adjective|پرمشغله؛ شلوغ
+butter|noun|کره
+butterfly|noun|پروانه
+button|noun|دکمه
+buy|verb|خریدن
+cabbage|noun|کلم (سبزیجاتی)
+cabinet|noun|کابینت؛ گنجه
+cable|noun|کابل
+cafe|noun|کافه
+cage|noun|قفس
+cake|noun|کیک
+calendar|noun|تقویم
+call|verb|صدا زدن؛ تماس گرفتن
+calm|adjective|آرام
+camera|noun|دوربین
+camp|noun|اردوگاه
+campaign|noun|کارزار؛ کمپین
+campus|noun|پردیس دانشگاه
+can|noun|قوطی
+cancel|verb|لغو کردن
+cancer|noun|سرطان
+candidate|noun|داوطلب؛ نامزد
+candle|noun|شمع
+candy|noun|آب‌نبات؛ شکلات
+cap|noun|کلاه نقابی
+capable|adjective|قادر؛ توانا
+capital|noun|پایتخت؛ سرمایه
+captain|noun|کاپیتان؛ ناخدا
+capture|verb|گرفتن؛ اسیر کردن
+car|noun|ماشین
+carbon|noun|کربن
+card|noun|کارت
+care|noun|مراقبت
+career|noun|شغل؛ مسیر شغلی
+careful|adjective|محتاط؛ بااحتیاط
+careless|adjective|بی‌دقت
+cargo|noun|بار؛ محموله
+carpet|noun|فرش؛ موکت
+carrot|noun|هویج
+carry|verb|حمل کردن
+cartoon|noun|کارتون
+carve|verb|تراشیدن؛ حک کردن
+case|noun|مورد؛ جعبه
+cash|noun|پول نقد
+cast|verb|انداختن؛ بازیگر انتخاب کردن
+castle|noun|قلعه
+casual|adjective|غیررسمی؛ اتفاقی
+cat|noun|گربه
+catch|verb|گرفتن
+category|noun|دسته؛ مقوله
+cause|noun|علت؛ دلیل
+caution|noun|احتیاط
+cave|noun|غار
+ceiling|noun|سقف
+celebrate|verb|جشن گرفتن
+celebrity|noun|سلبریتی؛ چهره مشهور
+cell|noun|سلول؛ زندان
+cent|noun|سنت
+center|noun|مرکز
+central|adjective|مرکزی
+century|noun|قرن
+ceremony|noun|مراسم
+certain|adjective|مطمئن؛ معین
+certainly|adverb|حتماً
+chain|noun|زنجیر
+chair|noun|صندلی
+chairman|noun|رئیس (هیئت)
+chalk|noun|گچ
+challenge|noun|چالش
+chamber|noun|اتاق؛ تالار
+champion|noun|قهرمان
+chance|noun|شانس
+change|verb|تغییر دادن
+channel|noun|کانال
+chapter|noun|فصل (کتاب)
+character|noun|شخصیت؛ کاراکتر
+charge|noun|هزینه؛ اتهام
+charity|noun|خیریه؛ بخشش
+charm|noun|جاذبه؛ طلسم
+chart|noun|نمودار
+chase|verb|تعقیب کردن
+chat|verb|گپ زدن
+cheap|adjective|ارزان
+cheat|verb|تقلب کردن
+check|verb|بررسی کردن
+cheek|noun|گونه
+cheer|verb|تشویق کردن
+cheese|noun|پنیر
+chef|noun|سرآشپز
+chemical|adjective|شیمیایی
+chemist|noun|داروساز؛ شیمیدان
+cherry|noun|گیلاس
+chess|noun|شطرنج
+chest|noun|قفسه سینه؛ صندوق
+chew|verb|جویدن
+chicken|noun|جوجه؛ مرغ
+chief|adjective|ارشد؛ اصلی
+child|noun|کودک
+childhood|noun|کودکی
+chimney|noun|دودکش
+chin|noun|چانه
+chip|noun|تراشه؛ چیپس
+chocolate|noun|شکلات
+choice|noun|انتخاب
+choir|noun|گروه سرود
+choose|verb|انتخاب کردن
+chop|verb|خرد کردن؛ قطع کردن
+chronic|adjective|مزمن
+church|noun|کلیسا
+cigarette|noun|سیگار
+cinema|noun|سینما
+circle|noun|دایره
+circumstance|noun|شرایط؛ اوضاع
+cite|verb|استناد کردن؛ نقل کردن
+citizen|noun|شهروند
+city|noun|شهر
+civil|adjective|مدنی؛ شهروندی
+claim|verb|ادعا کردن
+clap|verb|دست زدن
+clarify|verb|روشن کردن
+class|noun|کلاس؛ طبقه
+classic|adjective|کلاسیک
+classroom|noun|کلاس درس
+clean|adjective|تمیز
+clear|adjective|روشن؛ شفاف
+clerk|noun|کارمند
+clever|adjective|باهوش
+click|verb|کلیک کردن
+client|noun|مشتری؛ موکل
+cliff|noun|صخره پرتگاه
+climate|noun|اقلیم؛ آب‌وهوا
+climb|verb|بالارفتن
+clock|noun|ساعت دیواری
+close|verb|بستن
+cloth|noun|پارچه
+clothes|noun|لباس‌ها
+cloud|noun|ابر
+club|noun|باشگاه
+clue|noun|سرنخ
+cluster|noun|خوشه؛ خروار
+coach|noun|مربی
+coal|noun|زغال‌سنگ
+coast|noun|ساحل دریا
+coat|noun|پالتو
+code|noun|کد
+coffee|noun|قهوه
+coin|noun|سکه
+cold|adjective|سرد
+collapse|verb|فروریختن
+collar|noun|یقه
+colleague|noun|همکار
+collect|verb|جمع‌آوری کردن
+college|noun|کالج
+collision|noun|برخورد
+color|noun|رنگ
+column|noun|ستون؛ ستون روزنامه
+comb|noun|شانه
+combine|verb|ترکیب کردن
+come|verb|آمدن
+comfort|noun|آسایش
+comfortable|adjective|راحت
+comic|adjective|کمدی؛ طنز
+command|verb|فرمان دادن
+comment|noun|نظر
+commerce|noun|تجارت
+commit|verb|مرتکب شدن
+common|adjective|رایج؛ مشترک
+communicate|verb|ارتباط برقرار کردن
+community|noun|جامعه؛ اجتماع
+compact|adjective|فشرده
+companion|noun|همدم؛ رفیق
+company|noun|شرکت؛ همراهی
+compare|verb|مقایسه کردن
+compass|noun|قطب‌نما
+compete|verb|رقابت کردن
+complain|verb|شکایت کردن
+complete|adjective|کامل
+complex|adjective|پیچیده
+complicated|adjective|پیچیده
+compose|verb|آهنگ ساختن؛ سرودن
+composition|noun|نوشته؛ ترکیب
+comprehend|verb|درک کردن
+computer|noun|کامپیوتر
+conceal|verb|پنهان کردن
+concentrate|verb|تمرکز کردن
+concept|noun|مفهوم
+concern|noun|نگرانی؛ موضوع
+concert|noun|کنسرت
+conclude|verb|نتیجه‌گیری کردن
+concrete|noun|بتن؛ عینی
+condition|noun|شرط؛ وضعیت
+conduct|verb|انجام دادن؛ هدایت کردن
+conference|noun|کنفرانس
+confidence|noun|اعتمادبه‌نفس
+confident|adjective|مطمئن؛ بااعتمادبه‌نفس
+confirm|verb|تأیید کردن
+conflict|noun|درگیری؛ تعارض
+confuse|verb|گیج کردن
+congratulate|verb|تبریک گفتن
+connect|verb|وصل کردن
+conscious|adjective|هوشیار؛ آگاه
+consequence|noun|نتیجه؛ پیامد
+conservative|adjective|محافظه‌کار
+consider|verb|در نظر گرفتن
+constant|adjective|ثابت؛ مداوم
+construct|verb|ساختن
+consult|verb|مشورت کردن
+consume|verb|مصرف کردن
+contact|noun|تماس
+contain|verb|در بر داشتن
+contemporary|adjective|معاصر
+content|noun|محتوا؛ رضایت
+contest|noun|مسابقه
+context|noun|زمینه؛ بافت
+continue|verb|ادامه دادن
+contract|noun|قرارداد
+contrary|adjective|مخالف
+contrast|noun|تضاد؛ کنتراست
+contribute|verb|مشارکت کردن
+control|verb|کنترل کردن
+convention|noun|کنوانسیون؛ همایش
+conversation|noun|گفتگو
+convince|verb|قانع کردن
+cook|verb|آشپزی کردن
+cookie|noun|کلوچه
+cool|adjective|خنک؛ باحال
+cooperate|verb|همکاری کردن
+copy|noun|رونوشت؛ نسخه
+cord|noun|سیم؛ بند
+core|noun|هسته
+corn|noun|ذرت
+corner|noun|گوشه
+correct|adjective|درست
+corridor|noun|راهرو
+cost|noun|هزینه
+cottage|noun|کلبه
+cotton|noun|پنبه
+couch|noun|کاناپه
+cough|verb|سرفه کردن
+could|verb|می‌توانست
+council|noun|شورا
+count|verb|شمردن
+counter|noun|شماره‌گیر؛ پیشخوان
+country|noun|کشور
+countryside|noun|حومه؛ روستا
+couple|noun|زوج؛ چندتا
+courage|noun|شجاعت؛ دلیری
+course|noun|دوره؛ مسیر
+court|noun|دادگاه؛ زمین بازی
+cousin|noun|پسرخاله/دخترخاله؛ عموزاده
+cover|verb|پوشاندن
+cow|noun|گاو
+crack|noun|ترک
+craft|noun|صنعتگری؛ هنر دستی
+crash|verb|تصادف کردن
+crazy|adjective|دیوانه
+cream|noun|خامه؛ کرم
+create|verb|خلق کردن؛ ساختن
+creature|noun|موجود
+credit|noun|اعتبار
+creek|noun|جویبار
+crew|noun|خدمه
+crime|noun|جرم
+criminal|noun|مجرم
+crisis|noun|بحران
+criticize|verb|نقد کردن
+crop|noun|محصول کشاورزی
+cross|verb|عبور کردن
+crowd|noun|جمعیت
+crowded|adjective|شلوغ
+cruel|adjective|بی‌رحم
+crush|verb|له کردن
+cry|verb|گریه کردن
+culture|noun|فرهنگ
+cup|noun|فنجان
+cupboard|noun|کابینت؛ گنجه
+cure|verb|درمان کردن
+curious|adjective|کنجکاو
+currency|noun|واحد پول
+current|adjective|جاری؛ فعلی
+curtain|noun|پرده
+curve|noun|منحنی
+custom|noun|رسم؛ سفارشی
+customer|noun|مشتری
+cut|verb|بریدن
+cute|adjective|بامزه؛ دوست‌داشتنی
+cycle|noun|چرخه؛ سیکل
+daily|adjective|روزانه
+damage|noun|آسیب
+damp|adjective|مرطوب
+dance|verb|رقصیدن
+danger|noun|خطر
+dare|verb|جرئت کردن
+dark|adjective|تاریک
+data|noun|داده
+date|noun|تاریخ؛ قرار
+daughter|noun|دختر (فرزند)
+dawn|noun|سپیده‌دم
+day|noun|روز
+dead|adjective|مرده
+deadline|noun|مهلت
+deaf|adjective|ناشنوا
+deal|noun|معامله
+dear|adjective|عزیز
+death|noun|مرگ
+debate|noun|مناظره
+debt|noun|بدهی
+decade|noun|دهه
+decide|verb|تصمیم گرفتن
+decision|noun|تصمیم
+declare|verb|اعلام کردن
+decline|verb|کاهش یافتن؛ رد کردن
+decorate|verb|تزئین کردن
+decrease|verb|کاهش دادن
+deep|adjective|عمیق
+deer|noun|آهو
+defeat|verb|شکست دادن
+defend|verb|دفاع کردن
+define|verb|تعریف کردن
+definite|adjective|قطعی
+degree|noun|درجه؛ مدرک
+delay|noun|تأخیر
+delete|verb|حذف کردن
+delicate|adjective|ظریف؛ لطیف
+delicious|adjective|خوشمزه
+delight|noun|خوشحالی؛ لذت
+deliver|verb|تحویل دادن
+demand|noun|تقاضا؛ مطالبه
+democracy|noun|دموکراسی
+demonstrate|verb|نشان دادن؛ تظاهرات کردن
+dentist|noun|دندانپزشک
+deny|verb|انکار کردن
+depart|verb|حرکت کردن
+department|noun|دپارتمان؛ بخش
+depend|verb|بستگی داشتن
+deposit|noun|سپرده؛ ودیعه
+depressed|adjective|افسرده
+depth|noun|عمق
+describe|verb|توصیف کردن
+desert|noun|بیابان
+deserve|verb|شایسته بودن
+design|noun|طراحی
+desire|noun|آرزو؛ اشتیاق
+desk|noun|میز تحریر
+despair|noun|ناامیدی
+dessert|noun|دسر
+destination|noun|مقصد
+destroy|verb|نابود کردن
+destruction|noun|تخریب
+detail|noun|جزئیات
+detect|verb|کشف کردن
+determine|verb|تعیین کردن
+develop|verb|توسعه دادن
+device|noun|دستگاه؛ وسیله
+devote|verb|وقف کردن
+diagram|noun|نمودار
+dial|verb|گرفتن شماره
+dialogue|noun|گفتگو
+diamond|noun|الماس
+diary|noun|دفتر خاطرات
+dictate|verb|املا کردن؛ دیکته کردن
+dictionary|noun|دیکشنری
+die|verb|مردن
+diet|noun|رژیم غذایی
+differ|verb|متفاوت بودن
+difference|noun|تفاوت
+different|adjective|متفاوت
+difficult|adjective|دشوار
+dig|verb|کندن
+digital|adjective|دیجیتال
+dilemma|noun|معمای اخلاقی؛ دو راهی
+diligent|adjective|کوشا
+dinner|noun|شام
+dinosaur|noun|دایناسور
+diplomat|noun|دیپلمات
+direct|adjective|مستقیم
+direction|noun|جهت؛ مسیر
+dirt|noun|خاک؛ کثیفی
+dirty|adjective|کثیف
+disabled|adjective|معلول
+disagree|verb|مخالفت کردن
+disappear|verb|ناپدید شدن
+disappoint|verb|ناامید کردن
+disaster|noun|فاجعه
+discipline|noun|نظم؛ انضباط
+discount|noun|تخفیف
+discover|verb|کشف کردن
+discuss|verb|بحث کردن
+disease|noun|بیماری
+dish|noun|ظرف؛ غذا
+dismiss|verb|اخراج کردن؛ رد کردن
+disorder|noun|اختلال
+display|verb|نمایش دادن
+distance|noun|فاصله
+distant|adjective|دور
+distinguish|verb|تشخیص دادن؛ متمایز کردن
+distribute|verb|توزیع کردن
+district|noun|منطقه؛ ناحیه
+divide|verb|تقسیم کردن
+divorce|noun|طلاق
+dizzy|adjective|سرگیجه‌دار
+doctor|noun|پزشک
+document|noun|سند؛ مدرک
+dog|noun|سگ
+doll|noun|عروسک
+dollar|noun|دلار
+dolphin|noun|دلفین
+domestic|adjective|خانگی؛ داخلی
+dominate|verb|تسلط یافتن
+donate|verb|اهدا کردن
+donkey|noun|الاغ
+door|noun|در
+dot|noun|نقطه
+double|adjective|دوتایی
+doubt|noun|شک
+down|preposition|پایین
+download|verb|دانلود کردن
+downtown|noun|مرکز شهر
+dozen|noun|دوجین
+draft|noun|پیش‌نویس
+drag|verb|کشیدن
+dragon|noun|اژدها
+drama|noun|نمایشنامه؛ درام
+draw|verb|کشیدن (نقاشی)
+drawing|noun|نقاشی
+dream|noun|رؤیا
+dress|noun|پیراهن زنانه؛ لباس
+drift|verb|راندن؛ رها شدن در جریان
+drink|verb|نوشیدن
+drive|verb|رانندگی کردن
+driver|noun|راننده
+drop|verb|انداختن
+drought|noun|خشکسالی
+drown|verb|غرق شدن
+drug|noun|دارو؛ مواد مخدر
+drum|noun|طبل
+dry|adjective|خشک
+duck|noun|اردک
+dust|noun|غبار
+duty|noun|وظیفه
+eager|adjective|مشتاق
+eagle|noun|عقاب
+ear|noun|گوش
+early|adjective|زودهنگام
+earn|verb|به دست آوردن (پول)
+earnest|adjective|صمیمانه؛ جدی
+earth|noun|زمین
+earthquake|noun|زمین‌لرزه
+ease|noun|آسانی
+easily|adverb|به‌آسانی
+east|noun|شرق
+easy|adjective|آسان
+eat|verb|خوردن
+echo|noun|پژواک
+eclipse|noun|خسوف/کسوف
+edge|noun|لبه
+edit|verb|ویرایش کردن
+edition|noun|چاپ؛ نسخه
+educate|verb|آموزش دادن
+effect|noun|اثر
+effective|adjective|مؤثر
+efficient|adjective|کارآمد
+effort|noun|تلاش
+egg|noun|تخم‌مرغ
+eight|numeral|هشت
+either|conjunction|یا؛ هرکدام
+elbow|noun|آرنج
+elder|noun|بزرگ‌تر (خانواده)
+elect|verb|انتخاب کردن
+election|noun|انتخابات
+electric|adjective|برقی
+electricity|noun|برق
+elegant|adjective|شیک؛ باوقار
+element|noun|عنصر
+elephant|noun|فیل
+elevator|noun|آسانسور
+else|adverb|دیگر؛ غیر از این
+email|noun|ایمیل
+embarrass|verb|خجالت‌زده کردن
+embrace|verb|در آغوش گرفتن
+emerge|verb|پدیدار شدن
+emergency|noun|اورژانس
+emotion|noun|هیجان؛ احساس
+emperor|noun|امپراتور
+emphasize|verb|تأکید کردن
+empire|noun|امپراتوری
+employ|verb|استخدام کردن
+employee|noun|کارمند
+empty|adjective|خالی
+enable|verb|ممکن ساختن
+encounter|verb|مواجه شدن
+encourage|verb|تشویق کردن
+end|noun|پایان
+enemy|noun|دشمن
+energetic|adjective|پرانرژی
+energy|noun|انرژی
+engage|verb|درگیر شدن؛ نامزد کردن
+engine|noun|موتور
+engineer|noun|مهندس
+enjoy|verb|لذت بردن
+enormous|adjective|عظیم
+enough|determiner|کافی
+enquire|verb|پرس‌وجو کردن
+ensure|verb|اطمینان حاصل کردن
+enter|verb|وارد شدن
+entertain|verb|سرگرم کردن
+enthusiasm|noun|شوق و ذوق
+entire|adjective|تمام؛ کامل
+entrance|noun|ورودی
+envelope|noun|پاکت نامه
+environment|noun|محیط‌زیست
+envy|verb|حسادت کردن
+equal|adjective|برابر
+equipment|noun|تجهیزات
+equivalent|adjective|معادل
+error|noun|خطا
+escape|verb|فرار کردن
+especially|adverb|به‌ویژه
+essay|noun|انشا؛ مقاله
+essential|adjective|ضروری
+establish|verb|تأسیس کردن
+estate|noun|ملک؛ املاک
+estimate|verb|برآورد کردن
+eternal|adjective|ابدی
+ethnic|adjective|قومی
+evaluate|verb|ارزیابی کردن
+even|adverb|حتی
+evening|noun|عصر
+event|noun|رویداد
+eventually|adverb|در نهایت
+ever|adverb|همیشه؛ تاکنون
+every|determiner|هر
+everybody|pronoun|همه؛ هر کسی
+everyday|adjective|روزمره
+everyone|pronoun|همه
+everything|pronoun|همه چیز
+everywhere|adverb|همه‌جا
+evidence|noun|شاهد؛ مدرک
+evil|adjective|شیطانی؛ بد
+exact|adjective|دقیق
+exactly|adverb|دقیقاً
+exaggerate|verb|اغراق کردن
+exam|noun|امتحان
+examine|verb|معاینه کردن؛ بررسی کردن
+example|noun|مثال
+excellent|adjective|عالی
+except|preposition|به جز
+exception|noun|استثنا
+exchange|verb|تبادل کردن
+excite|verb|هیجان‌زده کردن
+excited|adjective|هیجان‌زده
+exciting|adjective|هیجان‌انگیز
+exclude|verb|مستثنی کردن
+excuse|noun|بهانه؛ عذرخواهی
+exercise|noun|ورزش؛ تمرین
+exhausted|adjective|فرسوده؛ خسته
+exhibit|verb|به نمایش گذاشتن
+exist|verb|وجود داشتن
+expand|verb|گسترش دادن
+expect|verb|انتظار داشتن
+expensive|adjective|گران
+experience|noun|تجربه
+experiment|noun|آزمایش
+expert|noun|متخصص
+explain|verb|توضیح دادن
+explode|verb|منفجر شدن
+explore|verb|اکتشاف کردن
+export|verb|صادر کردن
+expose|verb|افشا کردن
+express|verb|بیان کردن
+expression|noun|اصطلاح؛ بیان
+extend|verb|تمدید کردن؛ گسترش دادن
+extension|noun|افزونه؛ امتداد
+external|adjective|بیرونی
+extra|adjective|اضافی
+extraordinary|adjective|فوق‌العاده
+extreme|adjective|شدید؛ افراطی
+eye|noun|چشم
+eyebrow|noun|ابرو
+fable|noun|افسانه
+fabric|noun|پارچه
+face|noun|صورت
+facility|noun|تسهیلات؛ امکانات
+fact|noun|واقعیت
+factor|noun|عامل
+factory|noun|کارخانه
+fade|verb|محو شدن
+fail|verb|شکست خوردن
+failure|noun|شکست
+faint|adjective|کم‌رنگ؛ ضعیف
+fair|adjective|منصفانه؛ روشن
+fairly|adverb|نسبتاً
+faith|noun|ایمان
+fall|verb|افتادن
+false|adjective|نادرست؛ دروغ
+fame|noun|شهرت
+familiar|adjective|آشنا
+family|noun|خانواده
+famous|adjective|مشهور
+fan|noun|طرفدار؛ پنکه
+fancy|adjective|فانتزی؛ عجیب
+fantastic|adjective|فانتستیک؛ فوق‌العاده
+far|adjective|دور
+fare|noun|کرایه
+farm|noun|مزرعه
+farmer|noun|کشاورز
+fashion|noun|مد؛ سبک
+fast|adjective|سریع
+fasten|verb|بستن
+fat|adjective|چاق
+fate|noun|سرنوشت
+father|noun|پدر
+fault|noun|خطا؛ عیب
+favor|noun|لطف؛ محبت
+favorite|adjective|محبوب‌ترین؛ موردعلاقه
+fear|noun|ترس
+feast|noun|ضیافت
+feather|noun|پر (پرنده)
+feature|noun|ویژگی
+february|noun|فوریه (بهمن)
+fee|noun|دستمزد؛ هزینه
+feed|verb|غذا دادن
+feel|verb|حس کردن
+feeling|noun|احساس
+fellow|noun|هم‌دم؛ رفیق
+female|adjective|زن؛ مادینه
+fence|noun|حصار
+ferry|noun|کشتی تفریحی؛ فرّی
+fertile|adjective|حاصلخیز
+festival|noun|جشنواره
+fetch|verb|رفتن و آوردن
+fever|noun|تب
+few|determiner|چند؛ معدود
+fiber|noun|الیاف
+fiction|noun|داستان تخیلی
+field|noun|میدان؛ مزرعه
+fierce|adjective|خشن؛ ستیزه‌جو
+fifteen|numeral|پانزده
+fifty|numeral|پنجاه
+fight|verb|جنگیدن
+figure|noun|شکل؛ رقم
+file|noun|پرونده؛ فایل
+fill|verb|پر کردن
+film|noun|فیلم
+final|adjective|نهایی
+finally|adverb|سرانجام
+finance|noun|مالی
+find|verb|پیدا کردن
+fine|adjective|خوب؛ ریز
+finger|noun|انگشت
+finish|verb|تمام کردن
+fire|noun|آتش
+firm|adjective|محکم؛ باثبات
+first|numeral|اول
+fish|noun|ماهی
+fist|noun|مشت
+fit|adjective|تناسب؛ سالم
+five|numeral|پنج
+fix|verb|تعمیر کردن
+flag|noun|پرچم
+flake|noun|پوسته؛ دانه برف
+flame|noun|شعله
+flash|noun|فلاش؛ جرقه
+flat|adjective|صاف؛ مسطح
+flavor|noun|طعم
+flee|verb|گریختن
+flesh|noun|گوشت (تن)
+flexible|adjective|انعطاف‌پذیر
+flight|noun|پرواز
+float|verb|شناور شدن
+flock|noun|گله؛ دسته پرندگان
+flood|noun|سیل
+floor|noun|کف؛ طبقه
+flour|noun|آرد
+flow|verb|جاری شدن
+flower|noun|گل
+fluent|adjective|روان (زبان)
+fly|verb|پرواز کردن
+focus|noun|تمرکز
+fog|noun|مه
+fold|verb|تا کردن
+folk|noun|مردم؛ قوم
+follow|verb|دنبال کردن
+fond|adjective|علاقه‌مند
+food|noun|غذا
+fool|noun|احمق
+foolish|adjective|احمقانه
+foot|noun|پا
+football|noun|فوتبال
+for|preposition|برای
+forbid|verb|منع کردن
+force|noun|نیرو
+forecast|noun|پیش‌بینی
+forehead|noun|پیشانی
+foreign|adjective|خارجی
+forest|noun|جنگل
+forever|adverb|برای همیشه
+forget|verb|فراموش کردن
+forgive|verb|بخشیدن
+fork|noun|چنگال
+form|noun|فرم؛ شکل
+formal|adjective|رسمی
+former|adjective|سابق
+fortnight|noun|دو هفته
+fortune|noun|ثروت؛ بخت
+forward|adverb|به جلو
+fossil|noun|فسیل
+foster|verb|پرورش دادن
+found|verb|بنیان گذاشتن
+fountain|noun|آبنما
+four|numeral|چهار
+fourteen|numeral|چهارده
+fox|noun|روباه
+fragile|adjective|شکننده
+frame|noun|قاب
+framework|noun|چارچوب
+frank|adjective|رک؛ صادقانه
+free|adjective|آزاد؛ رایگان
+freedom|noun|آزادی
+freeze|verb|یخ زدن
+frequent|adjective|مکرر
+fresh|adjective|تازه
+friday|noun|جمعه
+friend|noun|دوست
+friendly|adjective|صمیمی
+friendship|noun|دوستی
+frighten|verb|ترساندن
+frog|noun|قورباغه
+from|preposition|از
+front|noun|جلو
+frost|noun|یخ‌بندان
+frown|verb|اخم کردن
+fruit|noun|میوه
+fry|verb|سرخ کردن
+fuel|noun|سوخت
+full|adjective|پر
+fun|noun|تفریح؛ سرگرمی
+function|noun|عملکرد؛ تابع
+fund|noun|بودجه؛ صندوق
+funeral|noun|مراسم خاکسپاری
+funny|adjective|خنده‌دار
+fur|noun|خز
+furious|adjective|خشمگین
+furniture|noun|اثاثیه؛ مبلمان
+future|noun|آینده
+gain|verb|به دست آوردن
+galaxy|noun|کهکشان
+gallery|noun|نگارخانه
+gamble|verb|قمار کردن
+game|noun|بازی
+gang|noun|گروه؛ باند
+gap|noun|شکاف
+garage|noun|گاراژ
+garbage|noun|زباله
+garden|noun|باغ
+garlic|noun|سیر
+gas|noun|گاز
+gate|noun|دروازه؛ دروازه ورودی
+gather|verb|جمع شدن
+gauge|verb|سنجیدن
+gaze|verb|خیره شدن
+general|adjective|عمومی
+generally|adverb|به‌طور کلی
+generate|verb|تولید کردن
+generous|adjective|بخشنده
+genius|noun|نبوغ
+gentle|adjective|ملایم؛ مهربان
+gentleman|noun|آقا؛ جنتلمن
+genuine|adjective|اصیل؛ واقعی
+geography|noun|جغرافیا
+gesture|noun|ژست؛ حرکت
+get|verb|گرفتن
+ghost|noun|روح؛ شبح
+giant|adjective|غول‌پیکر
+gift|noun|هدیه
+gigantic|adjective|غول‌آسا
+ginger|noun|زنجبیل
+giraffe|noun|زرافه
+girl|noun|دختر
+give|verb|دادن
+glad|adjective|خوشحال
+glance|noun|نگاه سریع
+glass|noun|شیشه؛ لیوان
+glide|verb|سُر خوردن
+glimpse|noun|نگاه گذرا
+global|adjective|جهانی
+glory|noun|شکوه؛ افتخار
+glove|noun|دستکش
+glow|verb|درخشش ملایم
+glue|noun|چسب
+go|verb|رفتن
+goal|noun|هدف؛ گل
+goat|noun|بز
+god|noun|خدا
+gold|noun|طلا
+golden|adjective|طلایی
+golf|noun|گلف
+good|adjective|خوب
+goodbye|interjection|خداحافظ
+goodness|noun|خوبی؛ نیکی
+goods|noun|کالاها
+goose|noun|غاز
+govern|verb|حکومت کردن
+government|noun|دولت
+gown|noun|جلاء؛ ردا
+grab|verb|قاپیدن؛ چنگ زدن
+grace|noun|لطف؛ زیبایی
+grade|noun|نمره؛ پایه
+gradual|adjective|تدریجی
+graduate|verb|فارغ‌التحصیل شدن
+grain|noun|غله؛ دانه
+grand|adjective|بزرگ؛ باشکوه
+grandmother|noun|مادربزرگ
+grant|verb|اعطا کردن
+graph|noun|نمودار
+grasp|verb|درک کردن؛ چنگ زدن
+grass|noun|چمن
+grateful|adjective|سپاسگزار
+grave|noun|قبر
+gravity|noun|جاذبه
+gray|adjective|خاکستری
+great|adjective|بزرگ؛ عالی
+greedy|adjective|طماع؛ حریص
+green|adjective|سبز
+greet|verb|سلام کردن
+grief|noun|اندوه
+grin|verb|پوزخند زدن
+grind|verb|آسیاب کردن
+grip|noun|چنگال؛ گرفتن محکم
+groan|verb|ناله کردن
+grocery|noun|خواروبار
+gross|adjective|ناخالص؛ ناپسند
+ground|noun|زمین
+group|noun|گروه
+grow|verb|رشد کردن
+growth|noun|رشد
+guarantee|verb|گارانتی کردن؛ تضمین کردن
+guard|verb|محافظت کردن
+guess|verb|حدس زدن
+guest|noun|مهمان
+guide|noun|راهنما
+guilt|noun|گناه؛ عذاب وجدان
+guitar|noun|گیتار
+gun|noun|تفنگ
+guy|noun|آدم؛ بچه‌مرد
+gym|noun|باشگاه ورزشی
+habit|noun|عادت
+hair|noun|مو
+haircut|noun|آرایش مو
+half|noun|نصف
+hall|noun|تالار
+halloween|noun|هالووین
+ham|noun|گوشت خوک نمکی
+hamburger|noun|همبرگر
+hammer|noun|چکش
+hand|noun|دست
+handbag|noun|کیف دستی
+handle|verb|رسیدگی کردن
+handsome|adjective|خوش‌قیافه
+handwriting|noun|دست‌خط
+handy|adjective|در دسترس؛ مفید
+hang|verb|آویزان کردن
+happen|verb|اتفاق افتادن
+happiness|noun|خوشبختی
+happy|adjective|خوشحال
+harbor|noun|بندرگاه
+hard|adjective|سخت
+hardly|adverb|به‌سختی
+hardship|noun|سختی و رنج
+hardware|noun|سخت‌افزار
+harm|noun|آسیب
+harmful|adjective|زیان‌بار
+harmony|noun|هماهنگی
+harvest|noun|برداشت محصول
+hat|noun|کلاه
+hate|verb|متنفر بودن
+hatred|noun|نفرت
+haul|verb|کشیدن (بار)
+have|verb|داشتن
+hawk|noun|باز (پرنده)
+hay|noun|یونجه خشک
+hazard|noun|خطر
+head|noun|سر
+headache|noun|سردرد
+heal|verb|شفاء دادن
+health|noun|سلامتی
+healthy|adjective|سالم
+hear|verb|شنیدن
+heart|noun|قلب
+heat|noun|گرما
+heaven|noun|بهشت
+heavy|adjective|سنگین
+hedge|noun|بوته‌زار حصاری
+heel|noun|پاشنه
+height|noun|قد؛ ارتفاع
+helicopter|noun|هلیکوپتر
+hell|noun|جهنم
+helmet|noun|کلاه‌خود
+help|verb|کمک کردن
+helpful|adjective|مفید؛ کمک‌کننده
+hen|noun|مرغ خانگی
+here|adverb|اینجا
+hero|noun|قهرمان
+hesitate|verb|تردید کردن
+hide|verb|پنهان کردن
+high|adjective|بلند؛ بالا
+highlight|verb|برجسته کردن
+highway|noun|بزرگراه
+hike|verb|کوه‌پیمایی کردن
+hill|noun|تپه
+hint|noun|اشاره
+hire|verb|استخدام کردن
+historical|adjective|تاریخی
+history|noun|تاریخ
+hit|verb|زدن
+hive|noun|کندو
+hobby|noun|سرگرمی
+hockey|noun|هاکی
+hold|verb|نگه داشتن
+hole|noun|سوراخ
+holiday|noun|تعطیلات
+hollow|adjective|توخالی
+holy|adjective|مقدس
+home|noun|خانه
+homeland|noun|میهن
+honest|adjective|صادق
+honey|noun|عسل
+honor|noun|افتخار
+hood|noun|کلاه (لباس)؛ کاپوت
+hook|noun|قلاب
+hope|noun|امید
+hopeful|adjective|امیدوار
+horizon|noun|افق
+horrible|adjective|وحشتناک
+horse|noun|اسب
+hospital|noun|بیمارستان
+host|noun|میزبان
+hostile|adjective|خصمانه
+hot|adjective|داغ؛ گرم
+hotel|noun|هتل
+hour|noun|ساعت
+house|noun|خانه
+household|noun|خانوار
+housework|noun|کارهای خانه
+however|adverb|با این حال
+huge|adjective|بزرگ؛ عظیم
+human|adjective|انسانی
+humble|adjective|متواضع
+humid|adjective|مرطوب و شرجی
+humor|noun|شوخ‌طبعی
+hunger|noun|گرسنگی
+hungry|adjective|گرسنه
+hunt|verb|شکار کردن
+hurricane|noun|توفان سهمگین
+hurry|verb|عجله کردن
+hurt|verb|آسیب رساندن
+husband|noun|شوهر
+hut|noun|کلبه زغالی
+hydrogen|noun|هیدروژن
+ice|noun|یخ
+iceberg|noun|کوه یخ
+idea|noun|ایده؛ فکر
+ideal|adjective|آرمانی
+identify|verb|شناسایی کردن
+identity|noun|هویت
+idle|adjective|بی‌کار؛ بیکار
+ignorance|noun|نادانی
+ignore|verb|نادیده گرفتن
+ill|adjective|مریض
+illegal|adjective|غیرقانونی
+illness|noun|بیماری
+illustrate|verb|تصویرسازی کردن
+image|noun|تصویر
+imagination|noun|تخیل
+imagine|verb|تصور کردن
+imitate|verb|تقلید کردن
+immediate|adjective|فوری
+immigrant|noun|مهاجر
+impact|noun|ضربه؛ تأثیر
+impatient|adjective|بی‌صبر
+imply|verb|به‌طور ضمنی رساندن
+import|verb|وارد کردن
+importance|noun|اهمیت
+important|adjective|مهم
+impose|verb|تحمیل کردن
+impress|verb|تحسین برانگیختن
+impression|noun|تأثیر؛ برداشت
+impressive|adjective|چشمگیر
+improve|verb|بهبود بخشیدن
+improvement|noun|بهبود
+impulse|noun|تکانش؛ میل آنی
+incident|noun|حادثه
+include|verb|شامل شدن
+income|noun|درآمد
+increase|verb|افزایش دادن
+incredible|adjective|باورنکردنی
+independent|adjective|مستقل
+index|noun|فهرست؛ شاخص
+indicate|verb|نشان دادن
+indifferent|adjective|بی‌تفاوت
+individual|adjective|فردی
+indoor|adjective|داخل خانه
+industrial|adjective|صنعتی
+industry|noun|صنعت
+infect|verb|آلوده کردن
+inflation|noun|تورم
+influence|noun|نفوذ؛ تأثیر
+inform|verb|اطلاع دادن
+information|noun|اطلاعات
+inhabit|verb|ساکن بودن
+inherit|verb|به ارث بردن
+initial|adjective|اولیه
+injure|verb|جراحت رساندن
+injury|noun|جراحت
+injustice|noun|بی‌عدالتی
+innocent|adjective|بی‌گناه
+innovative|adjective|نوآورانه
+input|noun|ورودی
+inquire|verb|تحقیق کردن
+insect|noun|حشره
+insert|verb|درج کردن
+inside|preposition|داخل
+insist|verb|اصرار کردن
+inspect|verb|بازرسی کردن
+inspire|verb|الهام بخشیدن
+install|verb|نصب کردن
+instance|noun|مثال؛ مورد
+instant|adjective|فوری؛ آنی
+instead|adverb|به‌جای آن
+instinct|noun|غریزه
+institute|noun|مؤسسه
+instruction|noun|دستورالعمل
+instrument|noun|آلت موسیقی؛ ابزار
+insult|verb|توهین کردن
+insurance|noun|بیمه
+intelligent|adjective|باهوش
+intend|verb|قصد داشتن
+intense|adjective|شدید
+intention|noun|نیت
+interest|noun|علاقه؛ سود
+interesting|adjective|جالب
+interfere|verb|مداخله کردن
+internal|adjective|داخلی
+international|adjective|بین‌المللی
+internet|noun|اینترنت
+interpret|verb|تفسیر کردن
+interrupt|verb|قطع کردن (صحبت)
+interval|noun|فاصله؛ بازه
+interview|noun|مصاحبه
+intimate|adjective|صمیمی
+into|preposition|به داخل
+introduce|verb|معرفی کردن
+invade|verb|حمله (نظامی) کردن
+invent|verb|اختراع کردن
+invest|verb|سرمایه‌گذاری کردن
+investigate|verb|تحقیق کردن
+invitation|noun|دعوت‌نامه
+invite|verb|دعوت کردن
+involve|verb|درگیر کردن
+iron|noun|آهن؛ اتو
+ironic|adjective|طعنه‌آمیز
+island|noun|جزیره
+issue|noun|مسئله؛ شماره مجله
+itinerary|noun|برنامه سفر
+jacket|noun|کاپشن
+jail|noun|زندان
+jam|noun|مربا؛ ترافیک
+january|noun|ژانویه (دی)
+jar|noun|شیشه مربا
+jaw|noun|فک
+jazz|noun|جاز
+jealous|adjective|حسود
+jeans|noun|شلوار جین
+jeep|noun|جیپ
+jet|noun|جت
+jewel|noun|جواهر
+job|noun|شغل
+join|verb|پیوستن
+joint|noun|مفصل؛ مشترک
+joke|noun|جوک
+journal|noun|روزنامه؛ مجله تخصصی
+journalist|noun|روزنامه‌نگار
+joy|noun|شادی
+judge|noun|قاضی
+juice|noun|آبمیوه
+july|noun|جولای (تیر)
+jump|verb|پریدن
+june|noun|جون (خرداد)
+jungle|noun|جنگل انبوه
+junior|adjective|جوان‌تر؛ پایین‌تر
+junk|noun|آشغال
+jury|noun|هیئت منصفه
+just|adverb|فقط؛ همین الان
+justice|noun|عدالت
+keen|adjective|مشتاق؛ تیز
+keep|verb|نگه داشتن
+kettle|noun|کتری
+key|noun|کلید
+keyboard|noun|صفحه‌کلید
+kick|verb|لگد زدن
+kid|noun|بچه
+kidnap|verb|ربودن
+kidney|noun|کلیه
+kill|verb|کشتن
+kilogram|noun|کیلوگرم
+kilometer|noun|کیلومتر
+kind|adjective|مهربان
+kindergarten|noun|مهدکودک
+kingdom|noun|پادشاهی
+kiss|verb|بوسیدن
+kitchen|noun|آشپزخانه
+kite|noun|بادبادک
+knee|noun|زانو
+knife|noun|چاقو
+knit|verb|بافتن
+knob|noun|دستگیره
+knock|verb|در زدن
+knot|noun|گره
+know|verb|دانستن
+knowledge|noun|دانش
+label|noun|برچسب
+labor|noun|کار؛ زحمت
+laboratory|noun|آزمایشگاه
+lace|noun|توری
+lack|noun|کمبود
+ladder|noun|نردبان
+lady|noun|خانم
+lake|noun|دریاچه
+lamp|noun|چراغ
+land|noun|زمین
+landscape|noun|چشم‌انداز
+lane|noun|کوچه؛ خط (جاده)
+language|noun|زبان
+lantern|noun|فانوس
+lap|noun|ران (نشسته)
+laptop|noun|لپ‌تاپ
+large|adjective|بزرگ
+laser|noun|لیزر
+last|adjective|آخرین
+late|adjective|دیر
+lately|adverb|به‌تازگی
+later|adverb|بعداً
+latest|adjective|آخرین؛ جدیدترین
+latter|adjective|دومی
+laugh|verb|خندیدن
+laughter|noun|خنده
+launch|verb|به فضا/بازار فرستادن
+laundry|noun|لباس‌شویی
+law|noun|قانون
+lawyer|noun|وکیل
+lay|verb|گذاشتن
+layer|noun|لایه
+lazy|adjective|تنبل
+lead|verb|رهبری کردن
+leader|noun|رهبر
+leadership|noun|رهبری
+leaf|noun|برگ
+league|noun|لیگ
+leak|verb|نشست کردن
+lean|verb|تکیه دادن
+leap|verb|جهیدن
+learn|verb|یاد گرفتن
+least|adjective|کمترین
+leather|noun|چرم
+leave|verb|ترک کردن
+lecture|noun|سخنرانی
+left|adjective|چپ
+leg|noun|پا
+legal|adjective|قانونی
+legend|noun|افسانه؛ اسطوره
+legislation|noun|قانون‌گذاری
+leisure|noun|اوقات فراغت
+lemon|noun|لیمو
+lend|verb|قرض دادن
+length|noun|طول
+lens|noun|عدسی
+less|adjective|کمتر
+lesson|noun|درس
+let|verb|گذاشتن؛ اجازه دادن
+letter|noun|نامه؛ حرف
+lettuce|noun|کاهو
+level|noun|سطح
+library|noun|کتابخانه
+license|noun|مجوز؛ گواهینامه
+lid|noun|درپوش
+lie|verb|دروغ گفتن؛ خوابیدن
+life|noun|زندگی
+lifestyle|noun|سبک زندگی
+lift|verb|بلند کردن
+light|noun|نور
+lightning|noun|رعد و برق
+like|preposition|مثل
+likely|adjective|محتمل
+lily|noun|نیلوفر
+limit|noun|محدودیت
+limp|verb|لنگیدن
+line|noun|خط
+link|noun|پیوند
+lion|noun|شیر
+lip|noun|لب
+liquid|noun|مایع
+list|noun|لیست
+listen|verb|گوش دادن
+literature|noun|ادبیات
+litre|noun|لیتر
+little|adjective|کوچک؛ کم
+live|verb|زندگی کردن
+lively|adjective|پرانرژی
+liver|noun|جگر
+living|adjective|زنده؛ معیشت
+load|noun|بار
+loaf|noun|قرص نان
+loan|noun|وام
+lobby|noun|لابی؛ هال ورودی
+local|adjective|محلی
+locate|verb|مکان‌یابی کردن
+lock|noun|قفل
+log|noun|کنده؛ لاگ
+logic|noun|منطق
+lonely|adjective|تنها و غمگین
+long|adjective|بلند؛ طولانی
+look|verb|نگاه کردن
+loose|adjective|شل؛ گشاد
+lord|noun|ارباب
+lorry|noun|کامیون
+lose|verb|از دست دادن
+loss|noun|ضرر
+lot|noun|مقدار زیاد؛ زمین
+loud|adjective|بلند (صدا)
+love|verb|دوست داشتن
+lovely|adjective|دوست‌داشتنی
+low|adjective|پایین
+loyal|adjective|وفادار
+luck|noun|شانس
+lucky|adjective|شانسی
+luggage|noun|چمدان‌ها
+lump|noun|توده
+lunch|noun|ناهار
+lung|noun|شش
+luxury|noun|تجمل؛ لوکس
+machine|noun|ماشین
+mad|adjective|دیوانه؛ عصبانی
+magazine|noun|مجله
+magic|noun|جادو
+magnet|noun|آهنربا
+magnificent|adjective|باشکوه
+maid|noun|خدمتکار
+mail|noun|نامه
+main|adjective|اصلی
+mainland|noun|خشکی اصلی
+mainly|adverb|عمدتاً
+maintain|verb|نگه داشتن؛ حفظ کردن
+major|adjective|اصلی؛ بزرگ
+majority|noun|اکثریت
+make|verb|ساختن
+makeup|noun|آرایش
+male|adjective|مرد؛ نر
+mall|noun|مرکز خرید
+man|noun|مرد
+manage|verb|مدیریت کردن
+management|noun|مدیریت
+manager|noun|مدیر
+manner|noun|روش؛ رفتار
+manufacture|verb|تولید کردن
+manufacturer|noun|تولیدکننده
+many|determiner|بسیاری
+map|noun|نقشه
+marathon|noun|ماراتن
+marble|noun|سنگ مرمر
+march|noun|مارس (اسفند)؛ راهپیمایی
+margin|noun|حاشیه
+mark|noun|علامت
+market|noun|بازار
+marriage|noun|ازدواج
+marry|verb|ازدواج کردن
+marvelous|adjective|شگفت‌انگیز
+mask|noun|ماسک
+mass|noun|توده؛ جرم
+master|noun|استاد؛ ارباب
+mat|noun|زیرانداز
+match|noun|مسابقه؛ کبریت
+mate|noun|رفیق؛ هم‌بازی
+material|noun|مواد؛ جنس
+mathematics|noun|ریاضیات
+matter|noun|مسئله؛ ماده
+mature|adjective|بالغ
+maximum|noun|حداکثر
+may|verb|شاید؛ می‌تواند
+maybe|adverb|شاید
+mayor|noun|شهردار
+meal|noun|وعده غذایی
+mean|verb|معنی داشتن
+meaning|noun|معنی
+meanwhile|adverb|در همین حال
+measure|verb|اندازه گرفتن
+meat|noun|گوشت
+mechanic|noun|مکانیک
+medal|noun|مدال
+media|noun|رسانه
+medical|adjective|طبی
+medicine|noun|دارو
+medium|adjective|متوسط
+meet|verb|ملاقات کردن
+meeting|noun|جلسه
+melody|noun|ملودی
+melon|noun|خربزه
+melt|verb|ذوب شدن
+member|noun|عضو
+memory|noun|حافظه؛ خاطره
+mend|verb|ترمیم کردن
+mental|adjective|ذهنی
+mention|verb|اشاره کردن
+menu|noun|منو
+merchant|noun|بازرگان
+mercy|noun|رحمت
+mere|adjective|صرف
+merry|adjective|شاد
+mess|noun|به‌هم‌ریختگی
+message|noun|پیام
+metal|noun|فلز
+meteor|noun|شهاب
+method|noun|روش
+microwave|noun|مایکروویو
+midday|noun|ظهر
+middle|noun|وسط
+midnight|noun|نیمه‌شب
+might|verb|شاید بتواند
+mild|adjective|ملایم
+mile|noun|مایل
+military|adjective|نظامی
+milk|noun|شیر
+mill|noun|آسیاب
+million|numeral|میلیون
+mind|noun|ذهن
+mine|pronoun|مال من
+miner|noun|معدنچی
+mineral|noun|معدنی
+mingle|verb|اختلاط کردن
+minimum|noun|حداقل
+minister|noun|وزیر
+ministry|noun|وزارت
+minor|adjective|فرعی؛ خردسال
+minute|noun|دقیقه
+miracle|noun|معجزه
+mirror|noun|آینه
+miserable|adjective|بدبخت؛ بیچاره
+mislead|verb|گمراه کردن
+miss|verb|از دست دادن؛ دلتنگ بودن
+missile|noun|موشک
+mission|noun|مأموریت
+mistake|noun|اشتباه
+mixture|noun|مخلوط
+moan|verb|شکوه کردن
+mobile|adjective|موبایل؛ متحرک
+model|noun|مدل
+modern|adjective|مدرن
+modest|adjective|فروتن
+moment|noun|لحظه
+monday|noun|دوشنبه
+money|noun|پول
+monitor|noun|مانیتور؛ ناظر
+monkey|noun|میمون
+month|noun|ماه
+monument|noun|بنای یادبود
+mood|noun|حال‌وهوا؛ خلق
+moon|noun|ماه
+moral|adjective|اخلاقی
+more|adverb|بیشتر
+moreover|adverb|علاوه بر این
+morning|noun|صبح
+mortal|adjective|فانی؛ میرا
+mosquito|noun|پشه
+most|adjective|بیشترین
+mother|noun|مادر
+motion|noun|حرکت
+motivate|verb|انگیزه دادن
+motor|noun|موتور
+mount|verb|سوار شدن
+mountain|noun|کوه
+mouse|noun|موش
+mouth|noun|دهان
+move|verb|حرکت کردن
+movement|noun|جنبش؛ حرکت
+movie|noun|فیلم
+much|adverb|خیلی
+mud|noun|گِل‌ولای
+multiply|verb|ضرب کردن
+museum|noun|موزه
+mushroom|noun|قارچ
+music|noun|موسیقی
+musical|adjective|موسیقایی
+musician|noun|موسیقیدان
+must|verb|باید
+mutual|adjective|متقابل
+mystery|noun|معما؛ راز
+myth|noun|اسطوره
+nail|noun|ناخن؛ میخ
+naked|adjective|برهنه
+name|noun|نام
+nap|noun|چرت
+narrow|adjective|باریک
+nasty|adjective|بدجنس؛ نفرت‌انگیز
+nation|noun|ملت
+national|adjective|ملی
+native|adjective|بومی
+natural|adjective|طبیعی
+naturally|adverb|به‌طور طبیعی
+nature|noun|طبیعت
+naughty|adjective|شیطون
+naval|adjective|دریایی (نظامی)
+navy|noun|نیروی دریایی
+near|preposition|نزدیک
+nearby|adjective|مجاور
+nearly|adverb|تقریباً
+neat|adjective|مرتب
+necessary|adjective|لازم
+necessity|noun|ضرورت
+neck|noun|گردن
+necklace|noun|گردنبند
+need|verb|نیاز داشتن
+needle|noun|سوزن
+negative|adjective|منفی
+neglect|verb|غفلت کردن
+negotiate|verb|مذاکره کردن
+neighbor|noun|همسایه
+neighborhood|noun|محله
+neither|conjunction|نه … نه
+nephew|noun|پسربرادر؛ پسرخواهر
+nerve|noun|عصب؛ رگ
+nervous|adjective|عصبی؛ مضطرب
+nest|noun|لانه
+net|noun|تور؛ شبکه
+network|noun|شبکه
+neutral|adjective|بی‌طرف
+never|adverb|هرگز
+nevertheless|adverb|با این وجود
+new|adjective|نو
+news|noun|اخبار
+newspaper|noun|روزنامه
+next|adjective|بعدی
+nice|adjective|خوب؛ خوشایند
+niece|noun|دختربرادر؛ دخترخواهر
+night|noun|شب
+nightmare|noun|کابوس
+nine|numeral|نه
+noble|adjective|نجیب
+nobody|pronoun|هیچ‌کس
+nod|verb|سر تکان دادن
+noise|noun|صدا؛ سر و صدا
+noisy|adjective|پرصدا
+none|pronoun|هیچ‌کدام
+nonsense|noun|حرف بی‌معنی
+noodle|noun|نودل
+noon|noun|ظهر
+nor|conjunction|و نه
+normal|adjective|عادی
+north|noun|شمال
+nose|noun|بینی
+not|adverb|نه
+note|noun|یادداشت؛ نت
+notebook|noun|دفتر
+nothing|pronoun|هیچ چیز
+notice|verb|متوجه شدن
+notify|verb|مطلع کردن
+notion|noun|تصور؛ مفهوم
+novel|noun|رمان
+november|noun|نوامبر (آبان)
+now|adverb|الان
+nowadays|adverb|امروزه
+nowhere|adverb|هیچ‌جا
+nuclear|adjective|هسته‌ای
+nudge|verb|آرام هل دادن
+number|noun|عدد؛ شماره
+numerous|adjective|فراوان
+nurse|noun|پرستار
+nut|noun|آجیل؛ مهره
+obey|verb|اطاعت کردن
+object|noun|شیء؛ اعتراض
+objective|noun|هدف
+obligation|noun|تعهد
+obscure|adjective|تاریک؛ گنگ
+observation|noun|مشاهده
+observe|verb|مشاهده کردن
+obstacle|noun|مانع
+obtain|verb|به دست آوردن
+obvious|adjective|بدیهی
+occasion|noun|مناسبت؛ موقعیت
+occupation|noun|شغل؛ اشغال
+occupy|verb|اشغال کردن
+occur|verb|اتفاق افتادن
+ocean|noun|اقیانوس
+october|noun|اکتبر (آذر)
+odd|adjective|فرد؛ عجیب
+odor|noun|بوی
+off|preposition|خارج از
+offend|verb|رنجاندن
+offer|verb|پیشنهاد دادن
+office|noun|دفتر
+officer|noun|افسر؛ مأمور
+official|adjective|رسمی
+often|adverb|اغلب
+oil|noun|روغن
+okay|interjection|باشه
+old|adjective|پیر؛ قدیمی
+olive|noun|زیتون
+omit|verb|حذف کردن
+once|adverb|یک بار؛ زمانی
+one|numeral|یک
+onion|noun|پیاز
+only|adverb|فقط
+onto|preposition|بر روی
+open|adjective|باز
+opera|noun|اپرا
+operate|verb|کار کردن؛ عمل جراحی
+operation|noun|عملیات
+opinion|noun|نظر
+opponent|noun|حریف
+opportunity|noun|فرصت
+oppose|verb|مخالفت کردن
+opposite|adjective|مقابل
+optimistic|adjective|خوش‌بین
+option|noun|گزینه
+orange|noun|پرتقال
+orbit|noun|مدار
+orchard|noun|باغ میوه
+orchestra|noun|ارکستر
+order|noun|سفارش؛ نظم
+ordinary|adjective|معمولی
+organ|noun|ارگ؛ اندام
+organic|adjective|ارگانیک
+organization|noun|سازمان
+organize|verb|سازماندهی کردن
+origin|noun|منشأ؛ ریشه
+original|adjective|اصلی
+ornament|noun|تزئین
+orphan|noun|یتیم
+other|adjective|دیگر
+otherwise|adverb|وگرنه
+ought|verb|باید
+ounce|noun|اونس
+out|adverb|بیرون
+outdoor|adjective|فضای باز
+outer|adjective|بیرونی
+output|noun|تولید؛ خروجی
+outside|preposition|بیرون
+outstanding|adjective|برجسته
+oven|noun|فر
+over|preposition|بالای
+overall|adjective|کلی
+overcome|verb|غلبه کردن
+overlook|verb|چشم‌پوشی کردن؛ مشرف بودن
+overseas|adjective|ماوراءبحار
+overtake|verb|سبقت گرفتن
+overwhelm|verb|غرق کردن (احساس)
+owe|verb|بدهکار بودن
+owl|noun|جغد
+own|adjective|خود (ملکی)
+owner|noun|صاحب
+ox|noun|گاو نر (اهلی)
+oxygen|noun|اکسیژن
+ozone|noun|ازن
+pace|noun|قدم؛ سرعت
+pack|verb|بسته‌بندی کردن
+package|noun|بسته
+packet|noun|بسته کوچک
+pad|noun|پد؛ دفتر
+paddle|noun|پارو
+page|noun|صفحه
+pain|noun|درد
+painful|adjective|دردناک
+paint|verb|رنگ کردن
+painter|noun|نقاش
+painting|noun|نقاشی
+pair|noun|جفت
+palace|noun|کاخ
+pale|adjective|رنگ‌پریده
+palm|noun|کف دست؛ نخل
+pan|noun|تابه
+pancake|noun|پنکیک
+panel|noun|پنل؛ هیئت
+panic|noun|وحشت
+pants|noun|شلوار
+paper|noun|کاغذ
+parade|noun|رژه
+paragraph|noun|پاراگراف
+parallel|adjective|موازی
+parcel|noun|بسته پستی
+pardon|verb|بخشیدن
+parent|noun|والدین
+park|noun|پارک
+parrot|noun|طوطی
+part|noun|بخش
+participate|verb|شرکت کردن
+particular|adjective|خاص؛ ویژه
+particularly|adverb|به‌طور خاص
+partner|noun|شریک؛ شریک زندگی
+party|noun|جشن؛ حزب
+pass|verb|رد شدن
+passage|noun|گذرگاه؛ قطعه متن
+passenger|noun|مسافر
+passion|noun|اشتیاق شدید
+passport|noun|گذرنامه
+past|noun|گذشته
+paste|noun|خمیر
+pastry|noun|شیرینی
+path|noun|مسیر
+patience|noun|صبر
+patient|noun|بیمار؛ صبور
+patrol|noun|گشت
+pattern|noun|الگو
+pause|noun|مکث
+pave|verb|سنگ‌فرش کردن
+pavement|noun|پیاده‌رو
+paw|noun|پنجه
+pay|verb|پرداخت کردن
+payment|noun|پرداخت
+pea|noun|نخود فرنگی
+peace|noun|صلح؛ آرامش
+peaceful|adjective|آرام
+peach|noun|هلو
+peak|noun|قله
+peanut|noun|بادام‌زمینی
+pear|noun|گلابی
+pearl|noun|مروارید
+peasant|noun|دهقان
+pebble|noun|سنگریزه
+peculiar|adjective|عجیب؛ خاص
+pen|noun|قلم
+penalty|noun|جریمه
+pencil|noun|مداد
+pendulum|noun|آونگ
+penny|noun|پنی (سکه)
+pension|noun|بازنشستگی؛ مستمری
+people|noun|مردم
+pepper|noun|فلفل
+per|preposition|به ازای هر
+percent|noun|درصد
+perfect|adjective|کامل
+perform|verb|اجرا کردن
+performance|noun|اجراء؛ عملکرد
+perfume|noun|عطر
+perhaps|adverb|شاید
+period|noun|دوره
+permanent|adjective|دائمی
+permission|noun|اجازه
+permit|verb|اجازه دادن
+persist|verb|پافشاری کردن
+person|noun|شخص
+personal|adjective|شخصی
+personality|noun|شخصیت
+persuade|verb|ترغیب کردن
+pet|noun|حیوان خانگی
+petition|noun|دادخواست؛ طومار
+petrol|noun|بنزین
+phenomenon|noun|پدیده
+philosophy|noun|فلسفه
+phone|noun|تلفن
+photo|noun|عکس
+photograph|noun|عکس
+phrase|noun|عبارت
+physical|adjective|بدنی؛ فیزیکی
+physician|noun|پزشک
+piano|noun|پیانو
+pick|verb|برچیدن؛ انتخاب کردن
+picnic|noun|پیک‌نیک
+picture|noun|تصویر
+pie|noun|پای (نان‌شیرینی)
+piece|noun|تکه
+pierce|verb|سوراخ کردن
+pig|noun|خوک
+pigeon|noun|کبوتر
+pile|noun|توده؛ کوه
+pilgrim|noun|زائر
+pill|noun|قرص
+pillar|noun|ستون
+pillow|noun|بالش
+pilot|noun|خلبان
+pin|noun|سنجاق
+pinch|verb|نیشگون گرفتن
+pine|noun|کاج
+pink|adjective|صورتی
+pint|noun|پینت
+pioneer|noun|پیشگام
+pipe|noun|لوله
+pirate|noun|دزد دریایی
+pistol|noun|تفنگ کمری
+pit|noun|چاله
+pitch|noun|زمین بازی؛ گام
+pity|noun|ترحم
+pizza|noun|پیتزا
+place|noun|مکان
+plague|noun|طاعون
+plain|adjective|ساده؛ هموار
+plan|noun|برنامه
+plane|noun|هواپیما؛ صفحه
+planet|noun|سیاره
+plank|noun|تخته‌پاره
+plant|noun|گیاه
+plaster|noun|گچ؛ چسب زخم
+plastic|noun|پلاستیک
+plate|noun|بشقاب
+platform|noun|سکو؛ سکوی ایستگاه
+play|verb|بازی کردن
+player|noun|بازیکن
+playground|noun|زمین بازی
+pleasant|adjective|خوشایند
+please|adverb|لطفاً
+pleased|adjective|خشنود
+pleasure|noun|لذت
+pledge|noun|قول؛ سوگند
+plenty|noun|فراوانی
+plot|noun|طرح؛ قطعه زمین
+plug|noun|پریز؛ دوشاخه
+plunge|verb|شیرجه زدن
+plural|adjective|جمع
+pocket|noun|جیب
+poem|noun|شعر
+poet|noun|شاعر
+poetry|noun|شعر
+point|noun|نقطه؛ امتیاز
+poison|noun|زهر
+poisonous|adjective|سمی
+poke|verb|سله؛ فرو کردن
+pole|noun|قطب؛ میله
+police|noun|پلیس
+policy|noun|سیاست
+polish|verb|پرداخت (سطوح)
+polite|adjective|مؤدب
+political|adjective|سیاسی
+politician|noun|سیاستمدار
+politics|noun|سیاست
+pollution|noun|آلودگی
+pond|noun|حوض
+ponder|verb|تفکر کردن
+pool|noun|استخر
+poor|adjective|فقیر
+pop|noun|بنگ‌بانگ؛ پاپ
+popular|adjective|محبوب
+population|noun|جمعیت
+porch|noun|ایوان
+pork|noun|گوشت خوک
+port|noun|بندر
+portable|adjective|قابل حمل
+portion|noun|بخش؛ پرس
+portrait|noun|پرتره
+position|noun|موقعیت
+positive|adjective|مثبت
+possess|verb|در اختیار داشتن
+possession|noun|دارایی
+possibility|noun|امکان
+possible|adjective|ممکن
+post|noun|پست
+postage|noun|هزینه پستی
+poster|noun|پوستر
+postpone|verb|به تعویق انداختن
+pot|noun|قابلمه
+potato|noun|سیب‌زمینی
+pottery|noun|سفالگری
+poultry|noun|طیور
+pound|noun|پوند؛ ضربه
+pour|verb|ریختن
+poverty|noun|فقر
+powder|noun|پودر
+power|noun|قدرت؛ توان
+powerful|adjective|قدرتمند
+practical|adjective|عملی
+practice|noun|تمرین
+praise|verb|ستایش کردن
+pray|verb|دعا کردن
+preach|verb|موعظه کردن
+precede|verb|مقدم بودن
+precious|adjective|گران‌بها
+precise|adjective|دقیق
+predict|verb|پیش‌بینی کردن
+prefer|verb|ترجیح دادن
+pregnant|adjective|باردار
+prepare|verb|آماده کردن
+prescribe|verb|تجویز کردن
+presence|noun|حضور
+present|adjective|حاضر؛ کنونی
+preserve|verb|حفظ کردن
+president|noun|رئیس‌جمهور
+press|verb|فشار دادن
+pressure|noun|فشار
+pretend|verb|ادعا کردن؛ وانمود کردن
+pretty|adjective|خوشگل
+prevail|verb|غالب آمدن
+prevent|verb|جلوگیری کردن
+previous|adjective|قبلی
+prey|noun|شکار (جانور)
+price|noun|قیمت
+pride|noun|غرور؛ افتخار
+priest|noun|کشیش
+primary|adjective|ابتدایی؛ اصلی
+prime|adjective|اصلی؛ نخست
+prince|noun|شاهزاده
+princess|noun|شاهدخت
+principal|adjective|اصلی؛ مدیر
+principle|noun|اصل
+print|verb|چاپ کردن
+prior|adjective|قبلی
+prison|noun|زندان
+private|adjective|خصوصی
+prize|noun|جایزه
+probably|adverb|احتمالاً
+problem|noun|مشکل
+procedure|noun|رویه
+proceed|verb|ادامه دادن
+process|noun|فرایند
+proclaim|verb|اعلام کردن
+produce|verb|تولید کردن
+product|noun|محصول
+profession|noun|حرفه
+professional|adjective|حرفه‌ای
+professor|noun|استاد دانشگاه
+profit|noun|سود
+program|noun|برنامه
+progress|noun|پیشرفت
+project|noun|پروژه
+prolong|verb|طولانی کردن
+prominent|adjective|برجسته
+promise|verb|قول دادن
+promote|verb|ارتقا دادن
+prompt|adjective|سریع؛ به‌موقع
+pronounce|verb|تلفظ کردن
+proof|noun|اثبات؛ مدرک
+proper|adjective|درست؛ مناسب
+property|noun|ملک؛ ویژگی
+prophet|noun|پیامبر
+proportion|noun|نسبت
+proposal|noun|پیشنهاد
+propose|verb|پیشنهاد کردن
+prospect|noun|چشم‌انداز
+protect|verb|محافظت کردن
+protein|noun|پروتئین
+protest|noun|اعتراض
+proud|adjective|مغرور؛ سربلند
+prove|verb|اثبات کردن
+provide|verb|فراهم کردن
+province|noun|استان
+psychology|noun|روان‌شناسی
+public|adjective|عمومی
+publish|verb|انتشار دادن
+puddle|noun|گودال آب
+pump|noun|پمپ
+punch|verb|مشت زدن
+punctual|adjective|خوش‌وقت
+punish|verb|تنبیه کردن
+pupil|noun|شاگرد
+purchase|verb|خریدن
+pure|adjective|خالص
+purple|adjective|بنفش
+purpose|noun|هدف
+purse|noun|کیف پول زنانه
+pursue|verb|پیگیری کردن
+push|verb|فشار دادن
+put|verb|گذاشتن
+puzzle|noun|معما
+pyramid|noun|هرم
+quake|noun|زمین‌لرزه
+qualification|noun|مدرک؛ صلاحیت
+quality|noun|کیفیت
+quantity|noun|مقدار
+quarrel|noun|دعوا
+quart|noun|کوارت (واحد)
+quarter|noun|ربع؛ فصل
+queen|noun|ملکه
+quest|noun|جستجو
+question|noun|سؤال
+queue|noun|صف
+quick|adjective|سریع
+quiet|adjective|آرام
+quilt|noun|لحاف
+quit|verb|ترک کردن
+quite|adverb|کاملاً
+quiz|noun|آزمون کوچک
+quota|noun|سهمیه
+quote|verb|نقل قول کردن
+rabbit|noun|خرگوش
+race|noun|مسابقه؛ نژاد
+racial|adjective|نژادی
+rack|noun|قفسه؛ پایه
+radar|noun|رادار
+radiation|noun|تشعشع
+radio|noun|رادیو
+raft|noun|کلک
+rage|noun|خشم
+rail|noun|ریل؛ نرده
+railroad|noun|راه‌آهن
+rain|noun|باران
+rainbow|noun|رنگین‌کمان
+raise|verb|بلند کردن
+rake|noun|شنکش
+rally|noun|گردهمایی
+ramble|verb|ول‌گردی کردن
+random|adjective|تصادفی
+range|noun|دامنه
+rank|noun|رتبه
+ransom|noun|بهای آزادی
+rapid|adjective|سریع
+rare|adjective|نادر
+rash|adjective|عجول؛ دانه‌های پوستی
+rat|noun|موش بزرگ
+rate|noun|نرخ؛ میزان
+rather|adverb|کمی؛ به‌جای
+ratio|noun|نسبت
+rational|adjective|منطقی
+raw|adjective|خام
+ray|noun|پرتو
+razor|noun|تیغ
+reach|verb|رسیدن
+react|verb|واکنش نشان دادن
+read|verb|خواندن
+reader|noun|خواننده
+ready|adjective|آماده
+real|adjective|واقعی
+realistic|adjective|واقع‌بینانه
+reality|noun|واقعیت
+realize|verb|پی بردن
+really|adverb|واقعاً
+realm|noun|قلمرو
+reason|noun|دلیل؛ عقل
+reasonable|adjective|منطقی؛ مناسب
+rebel|noun|شورشی
+recall|verb|به یاد آوردن
+receipt|noun|رسید
+receive|verb|دریافت کردن
+recent|adjective|اخیر
+reception|noun|پذیرش
+recipe|noun|دستور پخت
+recite|verb|از حفظ خواندن
+reckless|adjective|بی‌پروا
+recognize|verb|شناختن
+recommend|verb|توصیه کردن
+record|noun|رکورد؛ سابقه
+recover|verb|بهبود یافتن
+recruit|verb|به خدمت گرفتن
+red|adjective|قرمز
+reduce|verb|کاهش دادن
+refer|verb|ارجاع دادن
+refine|verb|پالایش کردن
+reflect|verb|بازتاب دادن؛ فکر کردن
+reform|noun|اصلاحات
+refresh|verb|تازه کردن
+refrigerator|noun|یخچال
+refuge|noun|پناهگاه
+refuse|verb|رد کردن
+regard|verb|نگاه داشتن؛ توجه
+region|noun|منطقه
+register|verb|ثبت‌نام کردن
+regret|verb|پشیمان بودن
+regular|adjective|منظم
+regulate|verb|تنظیم کردن
+rehearse|verb|تمرین کردن
+reign|noun|سلطنت
+reinforce|verb|تقویت کردن
+reject|verb|رد کردن
+relate|verb|مرتبط بودن
+relation|noun|رابطه
+relative|noun|خویشاوند
+relax|verb|آرام گرفتن
+release|verb|آزاد کردن
+relevant|adjective|مرتبط
+reliable|adjective|قابل اعتماد
+relief|noun|آرامش؛ امداد
+relieve|verb|تسکین دادن
+religion|noun|دین
+reluctant|adjective|بی‌میلی
+rely|verb|اتکا کردن
+remain|verb|باقی ماندن
+remark|noun|توضیح؛ نظر
+remarkable|adjective|قابل توجه
+remedy|noun|درمان
+remember|verb|به یاد داشتن
+remind|verb|یادآوری کردن
+remote|adjective|دورافتاده
+removal|noun|حذف؛ جابه‌جایی
+remove|verb|برداشتن
+rent|noun|اجاره
+repair|verb|تعمیر کردن
+repay|verb|بازپرداخت کردن
+repeat|verb|تکرار کردن
+replace|verb|جایگزین کردن
+reply|noun|پاسخ
+report|noun|گزارش
+represent|verb|نمایندگی کردن
+representative|noun|نماینده
+reputation|noun|اعتبار؛ شهرت
+request|noun|درخواست
+require|verb|مطالبه کردن
+rescue|verb|نجات دادن
+research|noun|تحقیق
+resemble|verb|شبیه بودن
+reserve|verb|رزرو کردن
+reservoir|noun|مخزن
+residence|noun|اقامتگاه
+resident|noun|ساکن
+resist|verb|مقاومت کردن
+resolution|noun|تصمیم؛ رزولوشن
+resolve|verb|حل کردن
+resort|noun|تفریحگاه؛ متوسل شدن
+resource|noun|منبع
+respect|noun|احترام
+respond|verb|پاسخ دادن
+response|noun|پاسخ
+responsibility|noun|مسئولیت
+responsible|adjective|مسئول
+rest|noun|استراحت
+restaurant|noun|رستوران
+restore|verb|بازگرداندن
+restrain|verb|بازداشتن
+restrict|verb|محدود کردن
+result|noun|نتیجه
+resume|verb|از سر گرفتن
+retail|noun|خرده‌فروشی
+retain|verb|نگه داشتن
+retire|verb|بازنشسته شدن
+retreat|noun|عقب‌نشینی
+return|verb|بازگشتن
+reveal|verb|افشا کردن
+revenge|noun|انتقام
+revenue|noun|درآمد
+reverse|adjective|معکوس
+review|noun|بازبینی؛ نقد
+revise|verb|بازنگری کردن
+revival|noun|احیا
+revolution|noun|انقلاب
+reward|noun|پاداش
+rhythm|noun|ریتم
+rib|noun|دنده
+ribbon|noun|روبان
+rice|noun|برنج
+rich|adjective|ثروتمند
+rid|verb|خلاص شدن
+riddle|noun|چیستان
+ride|verb|سواری کردن
+ridge|noun|خط‌الرأس
+ridiculous|adjective|مسخره
+rifle|noun|تفنگ
+right|adjective|درست؛ راست
+rigid|adjective|سفت؛ خشک
+ring|noun|حلقه؛ حلقه ازدواج
+rinse|verb|شست‌وشو کردن
+ripe|adjective|رسیده
+rise|verb|برخاستن
+risk|noun|ریسک؛ خطر
+ritual|noun|آیین
+rival|noun|رقیب
+river|noun|رودخانه
+road|noun|جاده
+roar|verb|غرش کردن
+roast|verb|برشته کردن
+rob|verb|سرقت کردن
+robber|noun|راهزن
+robe|noun|ردا؛ پیراهن بلند
+rock|noun|سنگ؛ راک
+rocket|noun|موشک
+rod|noun|میله
+role|noun|نقش
+roll|verb|غلتاندن
+roof|noun|پشت‌بام
+rookie|noun|تازه‌کار
+room|noun|اتاق
+root|noun|ریشه
+rope|noun|طناب
+rose|noun|گل رز
+rot|verb|پوسیدن
+rough|adjective|خشن؛ ناهموار
+round|adjective|گرد
+route|noun|مسیر
+routine|noun|روتین
+row|noun|ردیف
+royal|adjective|سلطنتی
+rub|verb|مالیدن
+rubber|noun|لاستیک
+rubbish|noun|زباله
+rude|adjective|بی‌ادب
+rug|noun|قالیچه
+ruin|verb|خراب کردن
+rule|noun|قاعده
+ruler|noun|خط‌کش؛ حاکم
+rumor|noun|شایعه
+run|verb|دویدن
+rural|adjective|روستایی
+rush|verb|هجوم آوردن
+rust|noun|زنگ آهن
+sacred|adjective|مقدس
+sacrifice|noun|قربانی
+sad|adjective|غمگین
+saddle|noun|زین
+safe|adjective|ایمن
+safety|noun|ایمنی
+sail|verb|قایقرانی کردن
+sailor|noun|ملوان
+saint|noun|قدیس
+salad|noun|سالاد
+salary|noun|حقوق
+sale|noun|فروش
+salesman|noun|فروشنده
+salmon|noun|ماهی سالمون
+salon|noun|سالن؛ آرایشگاه
+salt|noun|نمک
+sample|noun|نمونه
+sand|noun|شن
+sandwich|noun|ساندویچ
+satellite|noun|ماهواره
+satisfaction|noun|رضایت
+satisfy|verb|ارضا کردن
+saturday|noun|شنبه
+sauce|noun|سس
+sausage|noun|سوسیس
+savage|adjective|وحشی
+save|verb|نجات دادن؛ پس‌انداز کردن
+saving|noun|پس‌انداز
+saw|noun|اره
+say|verb|گفتن
+scale|noun|ترازو؛ مقیاس
+scan|verb|اسکن کردن
+scandal|noun|رسوایی
+scar|noun|جای زخم
+scarce|adjective| کمیاب
+scare|verb|ترساندن
+scarf|noun|شال‌گردن
+scatter|verb|پراکندن
+scene|noun|صحنه
+scenery|noun|منظره
+schedule|noun|برنامه زمانی
+scheme|noun|طرح
+scholar|noun|عالم؛ پژوهشگر
+scholarship|noun|بورسیه
+school|noun|مدرسه
+science|noun|علم
+scientific|adjective|علمی
+scientist|noun|دانشمند
+scissors|noun|قیچی
+scold|verb|سرزنش کردن
+scope|noun|گستره
+score|noun|امتیاز
+scorn|noun|تحقیر
+scout|noun|اسکات؛ پیشاهنگ
+scramble|verb|در رفتن؛ هم زدن
+scrape|verb|تراشیدن
+scratch|verb|خط انداختن
+scream|verb|جیغ زدن
+screen|noun|صفحه نمایش
+screw|noun|پیچ
+script|noun|متن؛ خط‌نگار
+scrub|verb|سابیدن
+sculpture|noun|مجسمه
+sea|noun|دریا
+seal|noun|فُک؛ مهر
+search|verb|جستجو کردن
+season|noun|فصل
+seat|noun|صندلی
+second|numeral|دوم
+secondary|adjective|ثانویه
+secret|noun|راز
+secretary|noun|منشی؛ وزیر
+section|noun|بخش
+secure|adjective|امن
+security|noun|امنیت
+seed|noun|بذر
+seek|verb|جستجو کردن
+seem|verb|به نظر رسیدن
+segment|noun|قطعه
+seize|verb|گرفتار کردن
+seldom|adverb|به‌ندرت
+select|verb|انتخاب کردن
+selfish|adjective|خودخواه
+sell|verb|فروختن
+semester|noun|نیم‌سال
+send|verb|فرستادن
+senior|adjective|ارشد؛ سالمند
+sense|noun|حس؛ معنی
+sensible|adjective|عاقلانه
+sensitive|adjective|حساس
+sentence|noun|جمله؛ حکم
+separate|verb|جدا کردن
+september|noun|سپتامبر (شهریور)
+series|noun|سری
+serious|adjective|جدی
+servant|noun|خدمتکار
+serve|verb|خدمت کردن
+service|noun|خدمات
+session|noun|جلسه
+set|verb|گذاشتن
+settle|verb|جاگیر شدن؛ حل کردن
+settlement|noun|مجتمع؛ توافق
+seven|numeral|هفت
+several|adjective|چندین
+severe|adjective|شدید؛ سخت
+sew|verb|دوختن
+shade|noun|سایه
+shadow|noun|سایه
+shaft|noun|چاهک؛ محور
+shake|verb|تکان دادن
+shallow|adjective|کم‌عمق
+shame|noun|شرم
+shampoo|noun|شامپو
+shape|noun|شکل
+share|verb|به اشتراک گذاشتن
+shark|noun|کوسه
+sharp|adjective|تیز
+shave|verb|اصلاح کردن
+sheep|noun|گوسفند
+sheer|adjective|خالص؛ ساده
+sheet|noun|ورقه؛ ملحفه
+shelf|noun|طاقچه
+shell|noun|پوسته
+shelter|noun|پناهگاه
+shepherd|noun|چوپان
+shield|noun|سپر
+shift|verb|جابه‌جا کردن
+shine|verb|درخشیدن
+ship|noun|کشتی
+shirt|noun|پیراهن
+shiver|verb|لرزیدن
+shock|noun|شوک
+shoe|noun|کفش
+shoot|verb|شلیک کردن
+shop|noun|فروشگاه
+shopkeeper|noun|دکه‌دار
+shore|noun|کرانه
+short|adjective|کوتاه
+shortage|noun|کمبود
+shot|noun|شات؛ شلیک
+should|verb|باید
+shoulder|noun|شانه
+shout|verb|فریاد زدن
+show|verb|نشان دادن
+shower|noun|دوش؛ بارش
+shrewd|adjective|زیرک
+shriek|verb|جیغ کشیدن
+shrink|verb|چروک شدن
+shrug|verb|شانه بالا انداختن
+shut|verb|بستن
+shutter|noun|کرکره
+shuttle|noun|سرویس رفت‌وبرگشتی
+shy|adjective|خجالتی
+sick|adjective|مریض
+side|noun|طرف؛ سمت
+sigh|verb|آه کشیدن
+sight|noun|دید؛ منظر
+sightseeing|noun|بازدید جاذبه‌ها
+signal|noun|سیگنال؛ علامت
+signature|noun|امضا
+significance|noun|اهمیت
+significant|adjective|چشمگیر
+silence|noun|سکوت
+silent|adjective|ساکت
+silk|noun|ابریشم
+silly|adjective|خنگ؛ احمقانه
+silver|noun|نقره
+similar|adjective|مشابه
+simple|adjective|ساده
+simply|adverb|به‌سادگی
+sincere|adjective|صادقانه
+sing|verb|خواندن (آواز)
+singer|noun|خواننده
+single|adjective|مجرد؛ تکی
+sink|verb|فرو رفتن؛ سینک
+sip|verb|جرعه‌جرعه نوشیدن
+sir|noun|آقا
+siren|noun|آژیر
+sister|noun|خواهر
+sit|verb|نشستن
+site|noun|محوطه؛ سایت
+situation|noun|وضعیت
+six|numeral|شش
+size|noun|اندازه
+skate|verb|اسکیت/اسکیت روی یخ
+sketch|noun|طرح اولیه
+ski|verb|اسکی کردن
+skill|noun|مهارت
+skilled|adjective|ماهر
+skim|verb|چشم‌زدن؛ پالا کردن
+skin|noun|پوست
+skip|verb|پرش کردن؛ رد کردن
+skirt|noun|دامن
+sky|noun|آسمان
+slam|verb|محکم بستن
+slap|verb|سیلی زدن
+slave|noun|برده
+sleep|verb|خوابیدن
+sleepy|adjective|خواب‌آلود
+sleeve|noun|آستین
+slice|noun|برش
+slide|verb|سُر دادن
+slight|adjective|جزئی
+slim|adjective|لاغر
+slip|verb|لغزیدن
+slipper|noun|دمپایی
+slogan|noun|شعار
+slope|noun|سراشیبی
+slow|adjective|آهسته
+slum|noun|محله فقیرنشین
+small|adjective|کوچک
+smart|adjective|باهوش؛ شیک
+smash|verb|متلاشی کردن
+smell|noun|بو
+smile|verb|لبخند زدن
+smoke|noun|دود
+smooth|adjective|صاف
+smuggle|verb|قاچاق کردن
+snack|noun|خوراکی سبک
+snake|noun|مار
+sneak|verb|قایم‌مشی رفتن
+sneeze|verb|عطسه کردن
+sniff|verb|بوییدن با بینی
+snow|noun|برف
+so|conjunction|پس؛ بنابراین
+soak|verb|خیساندن
+soap|noun|صابون
+soar|verb|اوج گرفتن
+soccer|noun|فوتبال
+social|adjective|اجتماعی
+society|noun|جامعه
+sock|noun|جوراب
+soda|noun|نوشابه گازدار
+soft|adjective|نرم
+software|noun|نرم‌افزار
+soil|noun|خاک
+solar|adjective|خورشیدی
+soldier|noun|سرباز
+solid|adjective|جامد؛ محکم
+solution|noun|راه‌حل
+solve|verb|حل کردن
+some|determiner|برخی
+somebody|pronoun|کسی
+somehow|adverb|به‌نحوی
+someone|pronoun|کسی
+something|pronoun|چیزی
+sometimes|adverb|گاهی اوقات
+somewhat|adverb|کمی
+somewhere|adverb|جایی
+son|noun|پسر (فرزند)
+song|noun|آهنگ
+soon|adverb|به‌زودی
+sophisticated|adjective|پیشرفته؛ پیچیده
+sore|adjective|دردناک
+sorrow|noun|غم
+sorry|adjective|متأسف؛ متأسفانه
+sort|noun|نوع
+soul|noun|روح
+sound|noun|صدا
+soup|noun|سوپ
+sour|adjective|ترش
+source|noun|منبع
+south|noun|جنوب
+souvenir|noun|یادگاری
+sovereign|adjective|حاکم
+sow|verb|کاشتن
+space|noun|فضا
+spacecraft|noun|فضاپیما
+spade|noun|بیله؛ بیل
+span|noun|بازه؛ پهنای
+spare|adjective|یدکی؛ اضافی
+spark|noun|جرقه
+sparkle|verb|برق زدن
+sparrow|noun|گنجشک
+speak|verb|صحبت کردن
+speaker|noun|بلندگو؛ گوینده
+special|adjective|خاص
+specialist|noun|متخصص
+species|noun|گونه
+specific|adjective|خاص؛ مشخص
+specimen|noun|نمونه
+spectacle|noun|منظر دیدنی
+spectator|noun|تماشاگر
+speech|noun|سخنرانی
+speed|noun|سرعت
+spell|verb|املا کردن
+spend|verb|خرج کردن
+sphere|noun|کره
+spice|noun|ادویه
+spider|noun|عنکبوت
+spill|verb|ریختن
+spin|verb|چرخاندن
+spinach|noun|اسفناج
+spine|noun|ستون فقرات
+spiral|adjective|مارپیچی
+spirit|noun|روح؛ روحیه
+spiritual|adjective|معنوی
+spit|verb|تف کردن
+splash|verb|پاشیدن
+splendid|adjective|عالی؛ مجلل
+split|verb|شکافتن
+spoil|verb|خراب کردن
+spoon|noun|قاشق
+sport|noun|ورزش
+spot|noun|مکان؛ لکه
+spread|verb|پخش کردن
+spring|noun|بهار؛ فنر
+sprinkle|verb|پاشیدن
+sprout|verb|جوانه زدن
+spruce|noun|درخت نوئل
+spur|verb|تحریک کردن
+spy|noun|جاسوس
+square|noun|میدان؛ مربع
+squeeze|verb|فشردن
+squirrel|noun|سنجاب
+stab|verb|خنجر زدن
+stable|adjective|پایدار
+stack|noun|پشته
+stadium|noun|استادیوم
+staff|noun|کارکنان
+stage|noun|مرحله؛ صحنه
+stain|noun|لکه
+stair|noun|پله
+stake|noun|سهم؛ میله
+stale|adjective|بیات
+stall|noun|دکه
+stamp|noun|تمبر
+stand|verb|ایستادن
+standard|noun|استاندارد
+staple|noun|منگنه؛ اصلی
+star|noun|ستاره
+stare|verb|خیره شدن
+start|verb|شروع کردن
+startle|verb|جمع کردن (متعجب)
+starve|verb|از گرسنگی مردن
+state|noun|وضعیت؛ ایالت
+statement|noun|بیانیه
+station|noun|ایستگاه
+statistics|noun|آمار
+statue|noun|مجسمه
+status|noun|وضعیت
+statute|noun|قانون مدون
+stay|verb|ماندن
+steady|adjective|ثابت
+steak|noun|استیک
+steal|verb|دزدیدن
+steam|noun|بخار
+steel|noun|فولاد
+steep|adjective|تند (شیب)
+steer|verb|راندن (خودرو/کشتی)
+stem|noun|ساقه
+step|noun|قدم
+stereo|noun|ضبط صوت
+stern|adjective|سخت‌گیر
+stew|noun|خورشت
+stick|noun|چوب‌دستی
+sticky|adjective|چسبناک
+stiff|adjective|خشک
+still|adverb|هنوز
+stimulate|verb|تحریک کردن
+sting|verb|گزش زدن
+stir|verb|هم زدن
+stitch|noun|بخیه؛ کوک
+stock|noun|سهام؛ موجودی
+stocking|noun|جوراب زنانه
+stomach|noun|شکم
+stone|noun|سنگ
+stool|noun|چهارپایه
+stoop|verb|خم شدن
+stop|verb|متوقف کردن
+storage|noun|انبارش
+store|noun|فروشگاه
+storm|noun|طوفان
+story|noun|داستان
+stove|noun|اجاق
+straight|adjective|مستقیم
+strain|noun|فشار؛ زحمت
+strait|noun|تنگه
+strand|noun|رشته
+strange|adjective|عجیب
+stranger|noun|غریبه
+strap|noun|بند
+strategy|noun|راهبرد
+straw|noun|کاه؛ نی
+stream|noun|جوی
+street|noun|خیابان
+strength|noun|قدرت
+strengthen|verb|تقویت کردن
+stress|noun|استرس
+stretch|verb|کشیدن
+strict|adjective|سخت‌گیرانه
+strike|verb|ضربت زدن؛ اعتصاب
+string|noun|نخ
+strip|verb|لخت کردن؛ نوار
+stripe|noun|نوار (رنگی)
+strive|verb|کوشیدن
+stroke|noun|سکته؛ ضربه
+stroll|verb|قه‌قهه؛ قدم زدن
+strong|adjective|قوی
+structure|noun|ساختار
+struggle|verb|تلاش سخت کردن
+stubborn|adjective|لجباز
+student|noun|دانش‌آموز؛ دانشجو
+studio|noun|استودیو
+study|verb|مطالعه کردن
+stuff|noun|چیزها
+stumble|verb|سکندری خوردن
+stun|verb|بی‌حس کردن؛ شوکه کردن
+stupid|adjective|احمق
+sturdy|adjective|مقاوم
+style|noun|سبک
+subject|noun|موضوع
+submit|verb|تقدیم کردن
+subordinate|noun|زیردست
+subscribe|verb|مشترک شدن
+subsequent|adjective|متوالی؛ بعدی
+substance|noun|ماده
+substitute|noun|جایگزین
+subtle|adjective|ظریف
+suburb|noun|حومه شهر
+succeed|verb|موفق شدن
+success|noun|موفقیت
+successful|adjective|موفق
+such|determiner|چنین
+sudden|adjective|ناگهانی
+suffer|verb|رنج کشیدن
+sufficient|adjective|کافی
+sugar|noun|شکر
+suggest|verb|پیشنهاد کردن
+suicide|noun|خودکشی
+suit|noun|کت‌وشلوار
+suitable|adjective|مناسب
+suitcase|noun|چمدان
+sum|noun|جمع؛ مبلغ
+summarize|verb|خلاصه کردن
+summer|noun|تابستان
+summit|noun|قله؛ اجلاس
+summon|verb|احضار کردن
+sun|noun|خورشید
+sunday|noun|یکشنبه
+sunlight|noun|نور خورشید
+sunny|adjective|آفتابی
+sunrise|noun|طلوع
+sunset|noun|غروب
+superb|adjective|فوق‌العاده
+superficial|adjective|سطحی
+superior|adjective|برتر
+supermarket|noun|سوپرمارکت
+supper|noun|شام سبک
+supplement|noun|مکمل
+supply|noun|تأمین
+support|verb|حمایت کردن
+suppose|verb|فرض کردن
+suppress|verb|سرکوب کردن
+supreme|adjective|عالی‌ترین
+sure|adjective|مطمئن
+surely|adverb|حتماً
+surf|verb|اسب‌سواری روی موج
+surface|noun|سطح
+surgeon|noun|جراح
+surgery|noun|جراحی
+surname|noun|نام خانوادگی
+surpass|verb|پیشی گرفتن
+surplus|noun|مازاد
+surprise|noun|غافلگیری
+surrender|verb|تسلیم شدن
+surround|verb|احاطه کردن
+survey|noun|نظرسنجی
+survive|verb|بقا یافتن
+survivor|noun|بازمانده
+suspect|verb|ظن داشتن
+suspend|verb|معلق کردن
+suspicion|noun|ظن
+sustain|verb|پایدار نگه داشتن
+swallow|verb|بلعیدن
+swamp|noun|باتلاق
+swan|noun|قو
+swap|verb|معاوضه کردن
+swarm|noun|دسته حشرات
+sway|verb|تکان خوردن
+swear|verb|قسم خوردن
+sweat|noun|عرق
+sweater|noun|پلیور
+sweep|verb|جارو کردن
+sweet|adjective|شیرین
+swell|verb|برآمده شدن
+swift|adjective|تند
+swim|verb|شنا کردن
+swing|verb|تاب خوردن
+switch|noun|کلید برق
+sword|noun|شمشیر
+syllable|noun|هجا
+symbol|noun|نماد
+sympathy|noun|همدردی
+symptom|noun|علامت بیماری
+system|noun|سیستم
+table|noun|میز
+tablet|noun|قرص؛ تبلت
+tackle|verb|رسیدگی کردن
+tag|noun|برچسب
+tail|noun|دُم
+tailor|noun|خیاط
+take|verb|گرفتن
+tale|noun|حکایت
+talent|noun|استعداد
+talk|verb|حرف زدن
+tall|adjective|بلند
+tank|noun|تانک؛ مخزن
+tap|verb|ضربه زدن
+tape|noun|نوار (کاست)
+target|noun|هدف
+task|noun|تکلیف
+taste|noun|چشیدن؛ ذائقه
+tattoo|noun|خالکوبی
+taught|verb|آموزش داد (گذشته teach)
+tax|noun|مالیات
+taxi|noun|تاکسی
+tea|noun|چای
+teach|verb|آموزش دادن
+teacher|noun|معلم
+team|noun|تیم
+tear|noun|اشک؛ پارگی
+tease|verb|سربه‌سر گذاشتن
+technical|adjective|فنی
+technique|noun|تکنیک
+technology|noun|فناوری
+tedious|adjective|خسته‌کننده
+teenager|noun|نوجوان
+telephone|noun|تلفن
+telescope|noun|تلسکوپ
+television|noun|تلویزیون
+tell|verb|گفتن
+temper|noun|خلق‌وخو
+temperature|noun|دما
+temple|noun|معبد؛ شقیقه
+temporarily|adverb|موقتاً
+temporary|adjective|موقتی
+tempt|verb|وسوسه کردن
+tenant|noun|مستأجر
+tend|verb|گرایش داشتن
+tender|adjective|نرم؛ داوطلب
+tennis|noun|تنیس
+tense|adjective|تنش‌زده؛ زمان (گرامر)
+tent|noun|چادر
+term|noun|ترم؛ اصطلاح
+terrible|adjective|وحشتناک؛ افتضاح
+territory|noun|قلمرو
+terror|noun|رعب
+test|noun|آزمون
+text|noun|متن
+textbook|noun|کتاب درسی
+texture|noun|بافت
+than|conjunction|از (مقایسه)
+thank|verb|تشکر کردن
+thanks|noun|تشکرها
+thanksgiving|noun|شکرگزاری
+that|pronoun|آن
+theater|noun|تئاتر
+theft|noun|سرقت
+their|pronoun|مال آنها
+theme|noun|تم؛ موضوع
+then|adverb|سپس
+theory|noun|نظریه
+therapy|noun|درمان
+there|adverb|آنجا
+therefore|adverb|بنابراین
+thermometer|noun|دماسنج
+these|pronoun|این‌ها
+thick|adjective|ضخیم
+thief|noun|دزد
+thigh|noun|ران
+thin|adjective|نازک
+thing|noun|چیز
+think|verb|فکر کردن
+third|numeral|سوم
+thirst|noun|تشنگی
+thirsty|adjective|تشنه
+thirteen|numeral|سیزده
+thirty|numeral|سی
+thorough|adjective|کامل و دقیق
+though|conjunction|اگرچه
+thought|noun|فکر
+thousand|numeral|هزار
+thread|noun|نخ
+threat|noun|تهدید
+threaten|verb|تهدید کردن
+thrill|noun|هیجان لذت‌بخش
+throat|noun|گلو
+throne|noun|تخت سلطنت
+through|preposition|از میان
+throughout|preposition|در سراسر
+throw|verb|پرتاب کردن
+thumb|noun|شست
+thunder|noun|رعد
+thursday|noun|پنجشنبه
+thus|adverb|بدین ترتیب
+ticket|noun|بلیط
+tickle|verb|قلقک دادن
+tide|noun|جزر و مد
+tidy|adjective|مرتب
+tie|verb|بستن
+tiger|noun|ببر
+tight|adjective|تنگ
+tile|noun|کاشی
+till|preposition|تا
+timber|noun|چوب الوار
+time|noun|زمان
+timetable|noun|جدول زمانی
+timid|adjective|ترسو
+tin|noun|حلبی؛ قوطی
+tiny|adjective|ریز
+tip|noun|انعام؛ نوک
+tire|verb|خسته کردن
+tired|adjective|خسته
+tissue|noun|بافت؛ دستمال کاغذی
+title|noun|عنوان
+toast|noun|نان تست
+tobacco|noun|تنباکو
+today|adverb|امروز
+toe|noun|انگشت پا
+toilet|noun|توالت
+tomato|noun|گوجه‌فرنگی
+tomb|noun|گور
+tomorrow|adverb|فردا
+ton|noun|تن
+tone|noun|لحن
+tongue|noun|زبان (عضو)
+tonight|adverb|امشب
+too|adverb|هم؛ خیلی
+tool|noun|ابزار
+tooth|noun|دندان
+toothache|noun|دندان‌درد
+top|noun|بالا
+topic|noun|موضوع
+torture|noun|شکنجه
+toss|verb|پرتاب سبک
+total|adjective|کل
+touch|verb|لمس کردن
+tough|adjective|سخت؛ زبر
+tour|noun|تور؛ گشت
+tourist|noun|گردشگر
+toward|preposition|به سمت
+towel|noun|حوله
+tower|noun|برج
+town|noun|شهرک
+toy|noun|اسباب‌بازی
+trace|noun|ردپا
+track|noun|مسیر؛ ترک
+trade|noun|تجارت
+tradition|noun|سنت
+traditional|adjective|سنتی
+traffic|noun|ترافیک
+tragedy|noun|تراژدی
+trail|noun|دشت‌راه؛ رد
+train|noun|قطار؛ آموزش دادن
+training|noun|تمرین
+trait|noun|صفت
+transaction|noun|تراکنش
+transfer|verb|منتقل کردن
+transform|verb|تبدیل کردن
+transition|noun|گذار
+translate|verb|ترجمه کردن
+translation|noun|ترجمه
+transmit|verb|منتقل کردن
+transparent|adjective|شفاف
+transport|verb|حمل کردن
+trap|noun|تله
+trash|noun|زباله
+travel|verb|سفر کردن
+tray|noun|سینی
+treasure|noun|گنج
+treat|verb|درمان کردن؛ رفتار کردن
+treatment|noun|درمان
+treaty|noun|پیمان‌نامه
+tree|noun|درخت
+tremble|verb|لرزیدن
+trend|noun|روند
+trial|noun|محاکمه؛ آزمایش
+triangle|noun|مثلث
+tribe|noun|قبیله
+trick|noun|کلک
+trifle|noun|چیز بی‌اهمیت
+trigger|noun|ماشه
+trim|verb|کوتاه کردن
+trip|noun|سفر کوتاه
+triumph|noun|پیروزی
+trolley|noun|واگن برقی
+troop|noun|گروه سربازان
+tropical|adjective|استوایی
+trouble|noun|دردسر
+trousers|noun|شلوار
+truck|noun|کامیون
+true|adjective|درست؛ واقعی
+truly|adverb|واقعاً
+trumpet|noun|ترومپت
+trunk|noun|صندوق عقب؛ تنه
+trust|verb|اعتماد کردن
+truth|noun|حقیقت
+try|verb|تلاش کردن
+tub|noun|تشتی؛ وان
+tube|noun|لوله؛ مترو
+tuesday|noun|سه‌شنبه
+tug|verb|کشیدن محکم
+tuition|noun|شهریه
+tumble|verb|غلتیدن
+tune|noun|ملودی
+tunnel|noun|تونل
+turkey|noun|بوقلمون
+turmoil|noun|آشوب
+turn|verb|چرخاندن
+turtle|noun|لاک‌پشت
+tutor|noun|معلم خصوصی
+twelve|numeral|دوازده
+twenty|numeral|بیست
+twice|adverb|دو بار
+twin|noun|دوقلو
+twist|verb|پیچاندن
+type|noun|نوع؛ تایپ کردن
+typical|adjective|نمونه‌وار؛ معمول
+tyre|noun|لاستیک خودرو
+ugly|adjective|زشت
+ultimate|adjective|نهایی
+umbrella|noun|چتر
+unable|adjective|ناتوان
+uncle|noun|عمو؛ دایی
+uncomfortable|adjective|ناراحت
+uncover|verb|برملا کردن
+under|preposition|زیر
+undergo|verb|تحمل کردن؛ از سر گذراندن
+undergraduate|noun|دانشجوی کارشناسی
+underline|verb|زیرش خط کشیدن
+understand|verb|فهمیدن
+undertake|verb|بر عهده گرفتن
+underwear|noun|لباس زیر
+undo|verb|باز کردن؛ خنثی کردن
+unemployed|adjective|بیکار
+unexpected|adjective|غیرمنتظره
+unfair|adjective|ناعادلانه
+unfold|verb|باز شدن
+unfortunate|adjective|بدشانس
+uniform|noun|یونیفورم
+unify|verb|وحدت کردن
+union|noun|اتحادیه
+unique|adjective|بی‌نظیر
+unit|noun|واحد
+unite|verb|متحد کردن
+universal|adjective|جهانی
+universe|noun|کیهان
+university|noun|دانشگاه
+unless|conjunction|مگر اینکه
+unlike|preposition|برخلاف
+unload|verb|تخلیه کردن
+unlock|verb|باز کردن قفل
+unlucky|adjective|بدشانس
+unnecessary|adjective|لازم نبودن
+unpleasant|adjective|ناخوشایند
+unrest|noun|آشوب
+until|preposition|تا زمانی که
+unusual|adjective|غیرمعمول
+unveil|verb|رونمایی کردن
+up|preposition|بالا
+update|verb|به‌روزرسانی کردن
+upgrade|verb|ارتقا دادن
+uphold|verb|پشتیبانی کردن
+upon|preposition|روی
+upper|adjective|بالایی
+upright|adjective|راست‌قامت؛ درست‌کار
+upset|adjective|دلتنگ؛ ناراحت
+upstairs|adverb|طبقه بالا
+upward|adjective|صعودی
+urban|adjective|شهری
+urge|verb|ترغیب کردن
+urgent|adjective|فوری
+usage|noun|مصرف؛ کاربرد
+use|verb|استفاده کردن
+useful|adjective|مفید
+useless|adjective|بی‌فایده
+usual|adjective|معمول
+usually|adverb|معمولاً
+utility|noun|میزان سودمندی؛ خدمات
+utmost|adjective|نهایت
+utter|verb|بر زبان آوردن
+vacant|adjective|خالی
+vacation|noun|تعطیلات
+vaccine|noun|واکسن
+vague|adjective|مبهم
+vain|adjective|بیهوده؛ مغرور
+valid|adjective|معتبر
+valley|noun|دره
+valuable|adjective|ارزشمند
+value|noun|ارزش
+van|noun|وان باربری
+vanish|verb|ناپدید شدن
+vanity|noun|غرور بیهوده
+vapor|noun|بخار
+variable|adjective|متغیر
+variety|noun|تنوع
+various|adjective|گوناگون
+vary|verb|تنوع داشتن
+vast|adjective|پهناور
+vault|noun|طاق؛ گاوصندوق
+vegetable|noun|سبزیجات
+vehicle|noun|وسیله نقلیه
+veil|noun|پرده؛ نقاب
+venture|noun|ماجراجویی تجاری
+venue|noun|محل برگزاری
+verb|noun|فعل
+verbal|adjective|کلامی
+verdict|noun|رأی هیئت منصفه
+verse|noun|بیت؛ مصرع
+version|noun|نسخه
+vertical|adjective|عمودی
+very|adverb|خیلی
+vessel|noun|کشتی؛ ظرف
+veteran|noun|کهنه‌سرباز
+veto|verb|وتو کردن
+viable|adjective|زنده‌ماندنی؛ عملی
+vibrant|adjective|پرجنب‌وجوش
+vibrate|verb|لرزیدن
+vice|noun|رذیلت؛ معاون
+victim|noun|قربانی
+victorious|adjective|پیروز
+victory|noun|پیروزی
+video|noun|ویدئو
+view|noun|منظر؛ دید
+viewpoint|noun|دیدگاه
+vigorous|adjective|پرقدرت
+village|noun|روستا
+violence|noun|خشونت
+violent|adjective|خشن
+violet|noun|بنفشه
+violin|noun|ویولن
+virtue|noun|فضیلت
+virus|noun|ویروس
+visible|adjective|مرئی
+vision|noun|دید؛ چشم‌انداز
+visit|verb|ملاقات کردن
+visitor|noun|بازدیدکننده
+visual|adjective|بصری
+vital|adjective|حیاتی
+vitamin|noun|ویتامین
+vivid|adjective|زنده؛ روشن
+vocabulary|noun|واژگان
+voice|noun|صدا
+volcano|noun|آتشفشان
+volleyball|noun|والیبال
+volume|noun|جلد؛ حجم
+voluntary|adjective|داوطلبانه
+volunteer|noun|داوطلب
+vote|verb|رأی دادن
+voyage|noun|سفر دریایی
+wage|noun|دستمزد
+wagon|noun|ارابه
+waist|noun|کمر
+wait|verb|منتظر ماندن
+waiter|noun|گارسون
+wake|verb|بیدار شدن
+walk|verb|قدم زدن
+wall|noun|دیوار
+wallet|noun|کیف پول
+walnut|noun|گردو
+wander|verb|سرگردان شدن
+want|verb|خواستن
+war|noun|جنگ
+ward|noun|بخش بیمارستان
+warehouse|noun|انبار
+warfare|noun|جنگ‌اوری
+warm|adjective|گرم
+warn|verb|هشدار دادن
+warranty|noun|گارانتی
+warrior|noun|جنگاور
+wash|verb|شستن
+waste|noun|دورریز
+watch|noun|ساعت مچی؛ تماشا
+water|noun|آب
+waterfall|noun|آبشار
+watermelon|noun|هندوانه
+wave|noun|موج
+wax|noun|موم
+way|noun|راه؛ روش
+weak|adjective|ضعیف
+wealth|noun|ثروت
+weapon|noun|سلاح
+wear|verb|پوشیدن
+weather|noun|هوا
+weave|verb|بافتن
+wedding|noun|عروسی
+wedge|noun|گُوِه
+weed|noun|علف هرز
+week|noun|هفته
+weekday|noun|روز هفته
+weekend|noun|آخر هفته
+weekly|adjective|هفتگی
+weep|verb|گریستن
+weigh|verb|وزن کردن
+weight|noun|وزن
+weird|adjective|عجیب
+welcome|verb|خوش‌آمد گفتن
+weld|verb|جوش دادن
+welfare|noun|رفاه
+well|adverb|خوب
+west|noun|غرب
+wet|adjective|خیس
+whale|noun|نهنگ
+wheat|noun|گندم
+wheel|noun|چرخ
+wheelchair|noun|صندلی چرخ‌دار
+when|adverb|وقتی
+whenever|adverb|هر زمان
+where|adverb|کجا
+whereas|conjunction|در حالی که
+whether|conjunction|آیا
+which|pronoun|کدام
+while|conjunction|در حالی که
+whisper|verb|زمزمه کردن
+whistle|verb|سوت زدن
+white|adjective|سفید
+whole|adjective|کل
+wholly|adverb|کاملاً
+wide|adjective|پهن
+widespread|adjective|گسترده
+widow|noun|بیوه
+width|noun|عرض
+wife|noun|همسر
+wild|adjective|وحشی
+wilderness|noun|بیابان بکر
+willing|adjective|داوطلب؛ مایل
+win|verb|بردن
+wind|noun|باد
+window|noun|پنجره
+wine|noun|شراب
+wing|noun|بال
+wink|verb|چشمک زدن
+winter|noun|زمستان
+wipe|verb|پاک کردن
+wire|noun|سیم
+wisdom|noun|حکمت
+wise|adjective|زیرک
+wish|verb|آرزو کردن
+witch|noun|جادوگر
+with|preposition|با
+withdraw|verb|برداشت کردن (پول)
+withstand|verb|تاب آوردن
+witness|noun|شاهد
+wolf|noun|گرگ
+woman|noun|زن
+wonder|verb|تعجب کردن
+wonderful|adjective|شگفت‌انگیز
+wood|noun|چوب
+wooden|adjective|چوبی
+wool|noun|پشم
+word|noun|کلمه
+work|verb|کار کردن
+worker|noun|کارگر
+workshop|noun|کارگاه
+world|noun|جهان
+worldwide|adjective|جهانی
+worm|noun|کرم
+worried|adjective|نگران
+worry|verb|نگران بودن
+worse|adjective|بدتر
+worship|verb|پرستش کردن
+worst|adjective|بدترین
+worth|adjective|ارزش
+worthwhile|adjective|سودمند
+wrap|verb|بسته‌بندی کردن
+wrist|noun|مچ دست
+write|verb|نوشتن
+writer|noun|نویسنده
+writing|noun|نوشتار
+wrong|adjective|اشتباه
+yacht|noun|قایق بادبانی
+yawn|verb|خمیازه کشیدن
+year|noun|سال
+yearly|adjective|سالانه
+yell|verb|جیغ زدن
+yellow|adjective|زرد
+yes|interjection|بله
+yesterday|adverb|دیروز
+yet|adverb|هنوز
+yield|verb|بازده داشتن؛ تسلیم شدن
+young|adjective|جوان
+youth|noun|جوانی
+zebra|noun|گورخر
+zenith|noun|اوج
+zigzag|noun|خط شکسته
+zip|verb|زیپ کشیدن
+zone|noun|منطقه
+zoo|noun|باغ وحش

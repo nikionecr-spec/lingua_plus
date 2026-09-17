@@ -1,0 +1,338 @@
+the|determiner|حرف تعریف معین «ال»
+to|preposition|به؛ برای
+and|conjunction|و
+of|preposition|از
+a|determiner|یک؛ حرف تعریف نامعین
+in|preposition|درون؛ در
+i|pronoun|من
+is|verb|است
+you|pronoun|تو؛ شما
+it|pronoun|آن (اشاره به شیء)
+on|preposition|روی
+this|pronoun|این
+was|verb|بود (گذشته is)
+be|verb|بودن
+as|preposition|به‌عنوان؛ همان‌طور که
+are|verb|هستند (برای شما/ما/آن‌ها)
+at|preposition|در؛ نزد
+he|pronoun|او (مرد)
+by|preposition|به‌وسیله؛ کنار
+but|conjunction|اما
+my|pronoun|مال من؛ من (ملکی)
+or|conjunction|یا
+we|pronoun|ما
+an|determiner|یک (قبل از واژه صدادار)
+your|pronoun|مال شما؛ تو (ملکی)
+his|pronoun|مال او (مرد)
+they|pronoun|آن‌ها
+me|pronoun|مرا؛ من (مفعولی)
+if|conjunction|اگر
+will|verb|خواهد (آینده)
+what|pronoun|چه؛ چه چیزی
+has|verb|دارد
+do|verb|انجام دادن
+no|adverb|نه؛ خیر
+were|verb|بودند (گذشته are)
+who|pronoun|چه کسی؛ که
+had|verb|داشت (گذشته)
+her|pronoun|او (زن)؛ مال او (زن)
+been|verb|بوده (اسم مفعول be)
+would|verb|می‌کرد؛ (شرطی will)
+she|pronoun|او (زن)
+how|adverb|چطور؛ چگونه
+them|pronoun|آن‌ها (مفعولی)
+its|pronoun|مال آن
+our|pronoun|مال ما
+him|pronoun|او (مرد، مفعولی)
+see|verb|دیدن
+two|numeral|دو
+us|pronoun|ما (مفعولی)
+said|verb|گفت (گذشته say)
+did|verb|کرد (گذشته do)
+years|noun|سال‌ها
+being|verb|بودن (حال کامل)
+going|verb|رفتن (حال استمراری)
+why|adverb|چرا
+made|verb|ساخت (گذشته make)
+got|verb|گرفت (گذشته get)
+those|pronoun|آن‌ها (دور)
+one|numeral|یک
+three|numeral|سه
+four|numeral|چهار
+five|numeral|پنج
+six|numeral|شش
+seven|numeral|هفت
+eight|numeral|هشت
+nine|numeral|نه
+ten|numeral|ده
+eleven|numeral|یازده
+twelve|numeral|دوازده
+twenty|numeral|بیست
+thirty|numeral|سی
+forty|numeral|چهل
+fifty|numeral|پنجاه
+hundred|numeral|صد
+thousand|numeral|هزار
+million|numeral|میلیون
+first|numeral|اول
+second|numeral|دوم
+third|numeral|سوم
+fourth|numeral|چهارم
+fifth|numeral|پنجم
+ monday|noun|دوشنبه
+tuesday|noun|سه‌شنبه
+wednesday|noun|چهارشنبه
+thursday|noun|پنجشنبه
+friday|noun|جمعه
+saturday|noun|شنبه
+sunday|noun|یکشنبه
+january|noun|ژانویه (دی)
+february|noun|فوریه (بهمن)
+march|noun|مارس (اسفند)
+april|noun|آوریل (فروردین)
+may|noun|مه (اردیبهشت)
+june|noun|ژوئن (خرداد)
+july|noun|جولای (تیر)
+august|noun|اوت (مرداد)
+september|noun|سپتامبر (شهریور)
+october|noun|اکتبر (آذر)
+november|noun|نوامبر (آبان)
+december|noun|دسامبر (آذر/دی)
+spring|noun|بهار
+summer|noun|تابستان
+autumn|noun|پاییز
+winter|noun|زمستان
+morning|noun|صبح
+afternoon|noun|بعدازظهر
+evening|noun|عصر
+night|noun|شب
+midnight|noun|نیمه‌شب
+today|adverb|امروز
+tomorrow|adverb|فردا
+yesterday|adverb|دیروز
+now|adverb|الان
+later|adverb|بعداً
+early|adjective|زودهنگام
+late|adjective|دیر؛ دیرهنگام
+red|adjective|قرمز
+blue|adjective|آبی
+green|adjective|سبز
+yellow|adjective|زرد
+black|adjective|سیاه
+white|adjective|سفید
+gray|adjective|خاکستری
+pink|adjective|صورتی
+orange|noun|پرتقال؛ رنگ نارنجی
+purple|adjective|بنفش
+brown|adjective|قهوه‌ای
+hello|interjection|سلام
+hi|interjection|سلام (خودمانی)
+goodbye|interjection|خداحافظ
+bye|interjection|خداحافظ (خودمانی)
+please|adverb|لطفاً
+thanks|noun|متشکرم؛ تشکر
+sorry|adjective|متأسفم؛ پوزش
+yes|adverb|بله
+no|adverb|نه
+welcome|interjection|خوش‌آمدی
+congratulations|interjection|تبریک می‌گویم
+excuse|verb|معذرت خواستن؛ بهانه
+really|adverb|واقعاً
+very|adverb|خیلی
+too|adverb|همچنین؛ بیش از حد
+also|adverb|همچنین
+just|adverb|فقط؛ به‌تازگی
+only|adverb|فقط
+again|adverb|دوباره
+always|adverb|همیشه
+never|adverb|هرگز
+often|adverb|اغلب
+sometimes|adverb|گاهی اوقات
+usually|adverb|معمولاً
+rarely|adverb|به‌ندرت
+soon|adverb|به‌زودی
+here|adverb|اینجا
+there|adverb|آنجا
+everywhere|adverb|همه‌جا
+somewhere|adverb|جایی
+anywhere|adverb|هر جا
+nowhere|adverb|هیچ‌جا
+up|adverb|بالا
+down|adverb|پایین
+left|adjective|چپ
+right|adjective|راست؛ درست
+straight|adjective|مستقیم
+near|preposition|نزدیک
+far|adjective|دور
+inside|preposition|داخل
+outside|preposition|خارج
+above|preposition|بالای
+below|preposition|پایین‌تر از
+between|preposition|بین
+behind|preposition|پشت
+in front of|phrase|جلوِ؛ مقابل
+next to|phrase|کنارِ
+with|preposition|با
+without|preposition|بدون
+for|preposition|برای
+from|preposition|از
+about|preposition|درباره
+into|preposition|به درون
+onto|preposition|رویِ (حرکت)
+through|preposition|از میان
+during|preposition|در طول
+before|preposition|قبل از
+after|preposition|بعد از
+because|conjunction|چون
+although|conjunction|اگرچه
+however|adverb|اما؛ با این حال
+therefore|adverb|بنابراین
+while|conjunction|در حالی که
+when|adverb|وقتی
+where|adverb|کجا
+which|pronoun|کدام
+whose|pronoun|مال چه کسی
+whom|pronoun|چه کسی (مفعولی)
+either|conjunction|یکی از دو
+neither|conjunction|نه آن‌یک نه آن‌دیگر
+both|determiner|هر دو
+all|determiner|همه
+some|determiner|برخی
+any|determiner|هر؛ هیچ
+many|determiner|بسیاری
+much|determiner|خیلی (غیرقابل‌شمارش)
+few|determiner|چند
+several|determiner|چندین
+every|determiner|هر
+each|determiner|هر یک
+none|pronoun|هیچ‌کدام
+everything|pronoun|همه چیز
+nothing|pronoun|هیچ چیز
+something|pronoun|چیزی
+anything|pronoun|هر چیزی
+someone|pronoun|کسی
+anyone|pronoun|هر کسی
+everyone|pronoun|همه
+nobody|pronoun|هیچ‌کس
+myself|pronoun|خودم
+yourself|pronoun|خودت
+himself|pronoun|خودش (مرد)
+herself|pronoun|خودش (زن)
+itself|pronoun|خودش (شیء)
+themselves|pronoun|خودشان
+can|verb|می‌توانستن
+could|verb|می‌توانست (شرطی)
+should|verb|باید (توصیه)
+must|verb|باید (اجبار)
+may|verb|می‌تواند؛ شاید
+might|verb|شاید بتواند
+shall|verb|خواهد (پیشنهاد)
+need|verb|نیاز داشتن
+dare|verb|جرئت کردن
+let|verb|گذاشتن؛ اجازه دادن
+make|verb|ساختن؛ مجبور کردن
+get|verb|گرفتن؛ شدن
+become|verb|شدن
+have|verb|داشتن
+do|verb|انجام دادن
+say|verb|گفتن
+tell|verb|گفتن (به کسی)
+go|verb|رفتن
+come|verb|آمدن
+give|verb|دادن
+take|verb|گرفتن؛ بردن
+find|verb|پیدا کردن
+know|verb|دانستن
+think|verb|فکر کردن
+want|verb|خواستن
+use|verb|استفاده کردن
+work|verb|کار کردن
+call|verb|تماس گرفتن؛ صدا زدن
+try|verb|تلاش کردن
+ask|verb|پرسیدن
+feel|verb|حس کردن
+leave|verb|ترک کردن
+put|verb|گذاشتن
+mean|verb|معنی داشتن؛ قصد داشتن
+keep|verb|نگه داشتن
+let|verb|اجازه دادن
+begin|verb|شروع کردن
+seem|verb|به نظر رسیدن
+help|verb|کمک کردن
+talk|verb|صحبت کردن
+turn|verb|چرخاندن؛ نوبت
+start|verb|شروع کردن
+show|verb|نشان دادن
+hear|verb|شنیدن
+play|verb|بازی کردن
+run|verb|دویدن
+move|verb|حرکت کردن
+like|verb|دوست داشتن؛ مثل
+live|verb|زندگی کردن
+believe|verb|باور داشتن
+hold|verb|نگه داشتن
+bring|verb|آوردن
+happen|verb|اتفاق افتادن
+write|verb|نوشتن
+provide|verb|فراهم کردن
+sit|verb|نشستن
+stand|verb|ایستادن
+lose|verb|باختن؛ از دست دادن
+pay|verb|پرداخت کردن
+meet|verb|ملاقات کردن
+include|verb|شامل بودن
+continue|verb|ادامه دادن
+set|verb|تنظیم کردن
+learn|verb|یاد گرفتن
+change|verb|تغییر دادن
+lead|verb|رهبری کردن
+understand|verb|فهمیدن
+watch|verb|تماشا کردن
+follow|verb|دنبال کردن
+stop|verb|متوقف کردن
+create|verb|ساختن؛ خلق کردن
+speak|verb|صحبت کردن
+read|verb|خواندن
+spend|verb|خرج کردن؛ گذراندن
+grow|verb|رشد کردن
+open|verb|باز کردن
+walk|verb|قدم زدن
+win|verb|بردن
+teach|verb|آموزش دادن
+offer|verb|پیشنهاد دادن
+remember|verb|به یاد داشتن
+love|verb|دوست داشتن
+consider|verb|در نظر گرفتن
+appear|verb|ظاهر شدن
+buy|verb|خریدن
+wait|verb|منتظر ماندن
+serve|verb|خدمت کردن
+die|verb|مردن
+send|verb|فرستادن
+build|verb|ساختن
+stay|verb|ماندن
+fall|verb|افتادن
+cut|verb|بریدن
+reach|verb|رسیدن
+kill|verb|کشتن
+raise|verb|بلند کردن
+pass|verb|رد شدن
+sell|verb|فروختن
+decide|verb|تصمیم گرفتن
+return|verb|برگشتن
+explain|verb|توضیح دادن
+hope|verb|امیدوار بودن
+develop|verb|توسعه دادن
+carry|verb|حمل کردن
+break|verb|شکستن
+receive|verb|دریافت کردن
+agree|verb|موافقت کردن
+support|verb|حمایت کردن
+hit|verb|زدن
+produce|verb|تولید کردن
+eat|verb|خوردن
+cover|verb|پوشاندن
+catch|verb|گرفتن
+draw|verb|کشیدن
+choose|verb|انتخاب کردن
+cause|verb|موجب شدن
