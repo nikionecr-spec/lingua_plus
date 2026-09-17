@@ -1,0 +1,28 @@
+# Flutter/Dart build artifacts
+.dart_tool/
+.packages
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android signing (NEVER commit real keystores)
+key.properties
+android/app/upload-keystore.jks
+android/app/upload-keystore.keystore
+*.keystore
+!android/app/debug.keystore
+
+# Logs & temp
+*.log
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Note: generated files (*.g.dart, *.freezed.dart) ARE committed on purpose
+# so CI can build without running build_runner.
