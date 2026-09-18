@@ -14,6 +14,7 @@ import 'package:lingua_plus/features/library/classics.dart';
 import 'package:lingua_plus/features/library/library_data.dart';
 import 'package:lingua_plus/features/library/library_providers.dart';
 import 'package:lingua_plus/shared/widgets/ui_kit.dart';
+import 'package:lingua_plus/data/models/library_models.dart' show Bookmark;
 import 'package:lingua_plus/features/dictionary/dictionary_providers.dart';
 import 'package:go_router/go_router.dart';
 
