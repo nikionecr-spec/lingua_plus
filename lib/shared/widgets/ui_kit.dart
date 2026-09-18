@@ -8,11 +8,20 @@ import '../../domain/entities/word_entity.dart';
 /// Forces LEFT-TO-RAY direction + Poppins font for English content.
 /// ALWAYS wrap English text (words, IPA, sentences) in this widget.
 class En extends StatelessWidget {
-  const En(this.text, {super.key, this.style, this.textAlign});
+  const En(
+    this.text, {
+    super.key,
+    this.style,
+    this.textAlign,
+    this.maxLines,
+    this.overflow = TextOverflow.clip,
+  });
 
   final String text;
   final TextStyle? style;
   final TextAlign? textAlign;
+  final int? maxLines;
+  final TextOverflow overflow;
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +32,8 @@ class En extends StatelessWidget {
         textAlign: textAlign,
         style: style ?? AppTypography.en(),
         softWrap: true,
+        maxLines: maxLines,
+        overflow: overflow,
       ),
     );
   }

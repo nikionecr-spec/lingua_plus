@@ -19,11 +19,11 @@ Future<void> main() async {
   final sp = await SharedPreferences.getInstance();
   final isar = await IsarDatabase.open();
 
-  // First launch: seed the bundled offline dictionary.
+  // First launch (or dictionary upgrade): seed the bundled dictionary.
   try {
     final jsonText =
         await rootBundle.loadString('assets/data/dictionary.json');
-    await IsarDatabase.seedDictionary(isar, jsonText);
+    await IsarDatabase.seedDictionary(isar, jsonText, sp);
   } catch (e) {
     debugPrint('dictionary seed skipped: $e');
   }

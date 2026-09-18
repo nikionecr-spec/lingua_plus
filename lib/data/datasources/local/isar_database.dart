@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:path_provider/path_provider.dart';
 import 'package:isar/isar.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../models/mappers.dart';
 import '../../models/word_entry.dart';
@@ -35,11 +36,27 @@ class IsarDatabase {
     );
   }
 
-  /// Seeds [jsonText] (dictionary.json format) into an empty database.
-  /// Returns the number of inserted rows (0 when already seeded).
-  static Future<int> seedDictionary(Isar isar, String jsonText) async {
+  /// Bundled-dictionary version. Bump whenever assets/data/dictionary.json
+  /// changes materially, so existing installs re-seed on first launch.
+  static const int kDictionarySeedVersion = 2;
+
+  /// Seeds [jsonText] (dictionary.json format) into an empty database, or
+  /// re-seeds when the stored seed version differs from [version].
+  /// Returns the number of inserted rows (0 when already up to date).
+  static Future<int> seedDictionary(
+    Isar isar,
+    String jsonText,
+    SharedPreferences sp, {
+    int version = kDictionarySeedVersion,
+  }) async {
+    final stored = sp.getInt('dictSeedVersion') ?? 0;
     final count = await isar.wordRows.count();
-    if (count > 0) return 0; // already seeded
+    if (count > 0 && stored == version) return 0; // up to date
+
+    if (count > 0) {
+      // Older bundled dictionary: replace it wholesale, keep user data.
+      await isar.writeTxn(() => isar.wordRows.clear());
+    }
 
     final list = jsonDecode(jsonText) as List<dynamic>;
     final rows = <WordRow>[];
@@ -52,6 +69,7 @@ class IsarDatabase {
       final end = (i + chunk < rows.length) ? i + chunk : rows.length;
       await isar.wordRows.putAll(rows.sublist(i, end));
     }
+    await sp.setInt('dictSeedVersion', version);
     return rows.length;
   }
 }

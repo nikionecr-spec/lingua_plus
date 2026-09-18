@@ -1,7 +1,7 @@
 name: lingua_plus
 description: "Lingua+ — دیکشنری آفلاین، کتابخانه دوزبانه، مترجم هوشمند و یادگیری انگلیسی"
 publish_to: "none"
-version: 1.0.0+1
+version: 1.1.0+2
 
 environment:
   sdk: ">=3.6.0 <4.0.0"
@@ -51,6 +51,7 @@ flutter:
 
   assets:
     - assets/data/
+    - assets/covers/
 
   fonts:
     - family: Vazirmatn
