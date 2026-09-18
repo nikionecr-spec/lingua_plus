@@ -54,6 +54,9 @@ class _FavoritesScreenState extends ConsumerState<FavoritesScreen> {
                   '${Routes.wordDetail}?q=${Uri.encodeComponent(entity.word)}',
                 ),
                 onStar: () => toggleFavoriteWord(ref, entity.word),
+                onSpeak: () => ref
+                    .read(speechProvider)
+                    .speak(entity.display, lang: 'en-US'),
               );
             },
           );

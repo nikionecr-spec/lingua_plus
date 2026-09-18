@@ -370,7 +370,7 @@ class _ContinueCard extends ConsumerWidget {
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final meta = _lookup(bookId);
     if (meta == null) return const SizedBox.shrink();
-    final (titleFa, titleEn, cover, level, size) = meta;
+    final (titleFa, _, cover, _, _) = meta;
     final totalPages =
         total > 0 ? total : 100;
     final value = totalPages > 0 ? (page + 1) / totalPages : 0.0;

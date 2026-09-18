@@ -75,7 +75,7 @@ class HomeScreen extends ConsumerWidget {
               const SizedBox(height: AppDimensions.lg),
               Row(
                 children: [
-                  Expanded(
+                  const Expanded(
                     child: StatCard(
                       icon: LpIcons.dictionary,
                       label: AppStrings.homeStatsWords,
@@ -84,11 +84,11 @@ class HomeScreen extends ConsumerWidget {
                     ),
                   ),
                   const SizedBox(width: AppDimensions.sm),
-                  Expanded(
+                  const Expanded(
                     child: StatCard(
                       icon: LpIcons.library,
                       label: AppStrings.homeStatsBooks,
-                      value: '${kClassicBooks.length + 14}',
+                      value: '۷۳',
                       color: AppColors.accent,
                     ),
                   ),

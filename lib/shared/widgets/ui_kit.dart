@@ -133,7 +133,7 @@ class GradientButton extends StatelessWidget {
         ),
         icon: icon == null
             ? const SizedBox.shrink()
-            : LpIcon(icon, color: Colors.white),
+            : LpIcon(icon!, color: Colors.white),
         label: Text(
           label,
           style: const TextStyle(

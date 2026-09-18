@@ -34,7 +34,7 @@ class DictionaryLocalDs {
     'told': 'tell', 'tells': 'tell', 'telling': 'tell',
     'felt': 'feel', 'feels': 'feel', 'feeling': 'feel',
     'became': 'become', 'becomes': 'become', 'becoming': 'become',
-    'left': 'leave', 'leaves': 'leave', 'leaving': 'leave',
+    'left': 'leave', 'leaving': 'leave',
     'put': 'put', 'puts': 'put', 'putting': 'put',
     'meant': 'mean', 'means': 'mean', 'meaning': 'mean',
     'kept': 'keep', 'keeps': 'keep', 'keeping': 'keep',
