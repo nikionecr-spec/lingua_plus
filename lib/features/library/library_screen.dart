@@ -3,14 +3,17 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import 'package:lingua_plus/core/constants/app_strings.dart';
+import 'package:lingua_plus/core/icons/lp_icons.dart';
 import 'package:lingua_plus/core/router/app_router.dart';
 import 'package:lingua_plus/core/theme/app_colors.dart';
 import 'package:lingua_plus/core/theme/app_dimensions.dart';
 import 'package:lingua_plus/core/theme/app_typography.dart';
 import 'package:lingua_plus/data/models/library_models.dart';
+import 'package:lingua_plus/features/library/classics.dart';
 import 'package:lingua_plus/features/library/library_data.dart';
 import 'package:lingua_plus/features/library/library_providers.dart';
 import 'package:lingua_plus/shared/widgets/ui_kit.dart';
+import 'package:lingua_plus/shared/widgets/app_shell.dart';
 
 /// Brand colors per CEFR level badge.
 const _levelColors = <String, Color>{
@@ -26,8 +29,8 @@ const _levelOrder = ['A1', 'A2', 'B1', 'B2', 'C1'];
 Color _colorForLevel(String level) =>
     _levelColors[level] ?? const Color(0xFF8B5CF6);
 
-/// Library tab: header, level filter chips, "continue reading" rail and a
-/// cover-art grid of all graded bilingual books with per-book progress.
+/// Library tab: header, level filter chips, "continue reading" rail and
+/// cover-art grids for the 59 Gutenberg classics + graded bilinguals.
 class LibraryScreen extends ConsumerStatefulWidget {
   const LibraryScreen({super.key});
 
@@ -38,28 +41,26 @@ class LibraryScreen extends ConsumerStatefulWidget {
 class _LibraryScreenState extends ConsumerState<LibraryScreen> {
   String _filter = 'همه';
 
+  bool _matches(String? level) => _filter == 'همه' || level == _filter;
+
   @override
   Widget build(BuildContext context) {
     final states =
         ref.watch(readingStatesProvider).valueOrNull ?? const <ReadingState>[];
 
-    // One pass over states: bookId → progress (0..1) and the first
-    // three known books for the "continue reading" rail.
-    final progress = <String, double>{};
-    final continueItems = <(BookMeta, int, int)>[]; // (book, page, total)
+    // One pass over states: bookId → (page, total) + first 3 continue items.
+    final progress = <String, (int, int)>{};
+    final continueItems = <(String, int, int)>[]; // (bookId, page, total)
     for (final s in states) {
-      final book = _bookById(s.bookId);
-      final total = s.totalPages > 0 ? s.totalPages : (book?.pages.length ?? 0);
-      if (book == null || total == 0) continue;
-      progress[s.bookId] = s.page / total;
+      if (_bookMeta(s.bookId) == null) continue;
+      progress[s.bookId] = (s.page, s.totalPages);
       if (continueItems.length < 3) {
-        continueItems.add((book, s.page, total));
+        continueItems.add((s.bookId, s.page, s.totalPages));
       }
     }
 
-    final filtered = _filter == 'همه'
-        ? kLibraryBooks
-        : kLibraryBooks.where((b) => b.level == _filter).toList();
+    final classics = kClassicBooks.where((b) => _matches(b.level)).toList();
+    final readers = kLibraryBooks.where((b) => _matches(b.level)).toList();
 
     return Scaffold(
       backgroundColor: Colors.transparent,
@@ -93,7 +94,7 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
                   child: SectionHeader(title: AppStrings.libraryContinue),
                 ),
                 SizedBox(
-                  height: 178,
+                  height: 196,
                   child: ListView.separated(
                     scrollDirection: Axis.horizontal,
                     padding: const EdgeInsets.symmetric(
@@ -103,9 +104,9 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
                     separatorBuilder: (_, __) =>
                         const SizedBox(width: AppDimensions.md),
                     itemBuilder: (context, index) {
-                      final (book, page, total) = continueItems[index];
+                      final (bookId, page, total) = continueItems[index];
                       return _ContinueCard(
-                        book: book,
+                        bookId: bookId,
                         page: page,
                         total: total,
                       );
@@ -117,17 +118,18 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: AppDimensions.lg),
                 child: SectionHeader(
-                  title: _filter == 'همه' ? 'همه کتاب‌ها' : 'سطح $_filter',
+                  title: AppStrings.libraryClassicsSection,
+                  actionText:
+                      '${classics.length} کتاب',
+                  onAction: null,
                 ),
               ),
               GridView.builder(
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
-                padding: const EdgeInsets.fromLTRB(
-                  AppDimensions.lg,
-                  AppDimensions.md,
-                  AppDimensions.lg,
-                  AppDimensions.xl,
+                padding: pagePadding().copyWith(
+                  top: AppDimensions.sm,
+                  bottom: AppDimensions.xl,
                 ),
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
@@ -135,15 +137,53 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
                   crossAxisSpacing: AppDimensions.md,
                   childAspectRatio: 0.66,
                 ),
-                itemCount: filtered.length,
+                itemCount: classics.length,
                 itemBuilder: (context, index) {
-                  final book = filtered[index];
-                  return _BookCard(
+                  final book = classics[index];
+                  final prog = progress[book.id];
+                  return _ClassicCoverCard(
                     book: book,
-                    progress: progress[book.id] ?? 0,
+                    page: prog?.$1,
+                    total: prog?.$2,
                   );
                 },
               ),
+              if (readers.isNotEmpty) ...[
+                Padding(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: AppDimensions.lg,
+                  ),
+                  child: SectionHeader(
+                    title: AppStrings.libraryReadersSection,
+                    actionText: '${readers.length} کتاب',
+                  ),
+                ),
+                GridView.builder(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  padding: pagePadding().copyWith(
+                    top: AppDimensions.sm,
+                    bottom: AppDimensions.xxl,
+                  ),
+                  gridDelegate:
+                      const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                    mainAxisSpacing: AppDimensions.md,
+                    crossAxisSpacing: AppDimensions.md,
+                    childAspectRatio: 0.66,
+                  ),
+                  itemCount: readers.length,
+                  itemBuilder: (context, index) {
+                    final book = readers[index];
+                    final prog = progress[book.id];
+                    return _ReaderCoverCard(
+                      book: book,
+                      page: prog?.$1,
+                      total: prog?.$2,
+                    );
+                  },
+                ),
+              ],
             ],
           ),
         ),
@@ -152,22 +192,69 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
   }
 
   Map<String, int> _countsByLevel() {
-    final counts = <String, int>{};
-    for (final b in kLibraryBooks) {
-      counts[b.level] = (counts[b.level] ?? 0) + 1;
+    final counts = <String, int>{'همه': kClassicBooks.length + kLibraryBooks.length};
+    for (final l in _levelOrder) {
+      counts[l] = kClassicBooks.where((b) => b.level == l).length +
+          kLibraryBooks.where((b) => b.level == l).length;
     }
     return counts;
   }
 
-  BookMeta? _bookById(String id) {
-    for (final book in kLibraryBooks) {
-      if (book.id == id) return book;
+  /// (titleFa, cover, level) for either collection.
+  (String, String?, String?)? _bookMeta(String id) {
+    for (final c in kClassicBooks) {
+      if (c.id == id) return (c.titleFa, c.cover, c.level);
+    }
+    for (final b in kLibraryBooks) {
+      if (b.id == id) return (b.titleFa, b.cover, b.level);
     }
     return null;
   }
 }
 
-/// Horizontal row of level filter chips (همه / A1 / A2 / B1 / B2 / C1).
+// ── Header ────────────────────────────────────────────────────────────────
+
+class _Header extends StatelessWidget {
+  const _Header();
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Container(
+          width: 46,
+          height: 46,
+          decoration: BoxDecoration(
+            gradient: AppColors.primaryGradient,
+            borderRadius: BorderRadius.circular(AppDimensions.rMd),
+          ),
+          child: const Center(
+            child: LpIcon(LpIcons.library, color: Colors.white, size: 24),
+          ),
+        ),
+        const SizedBox(width: AppDimensions.md),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                AppStrings.libraryTitle,
+                style: Theme.of(context).textTheme.headlineSmall,
+              ),
+              Text(
+                AppStrings.librarySubtitle,
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+// ── Level chips ───────────────────────────────────────────────────────────
+
 class _LevelChips extends StatelessWidget {
   const _LevelChips({
     required this.selected,
@@ -177,167 +264,85 @@ class _LevelChips extends StatelessWidget {
 
   final String selected;
   final Map<String, int> counts;
-  final ValueChanged<String> onSelected;
+  final void Function(String) onSelected;
 
   @override
   Widget build(BuildContext context) {
-    final labels = ['همه', ..._levelOrder];
-    return SizedBox(
-      height: 38,
-      child: ListView.separated(
-        scrollDirection: Axis.horizontal,
-        itemCount: labels.length,
-        itemBuilder: (context, i) {
-          final label = labels[i];
-          final isSelected = label == selected;
-          final color = label == 'همه' ? null : _colorForLevel(label);
-          final count = label == 'همه'
-              ? kLibraryBooks.length
-              : (counts[label] ?? 0);
-          return GestureDetector(
-            onTap: () => onSelected(label),
-            child: AnimatedContainer(
-              duration: const Duration(milliseconds: 180),
-              padding: const EdgeInsets.symmetric(horizontal: 14),
-              alignment: Alignment.center,
-              decoration: BoxDecoration(
-                gradient: isSelected ? AppColors.primaryGradient : null,
-                color: isSelected
-                    ? null
-                    : Theme.of(context).brightness == Brightness.dark
-                        ? Colors.white.withValues(alpha: 0.06)
-                        : Colors.black.withValues(alpha: 0.04),
-                borderRadius: BorderRadius.circular(19),
-                border: Border.all(
-                  color: isSelected
-                      ? Colors.transparent
-                      : (color ?? AppColors.mutedDark).withValues(alpha: 0.35),
-                ),
-              ),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  if (color != null) ...[
-                    Container(
-                      width: 8,
-                      height: 8,
-                      decoration:
-                          BoxDecoration(color: color, shape: BoxShape.circle),
-                    ),
-                    const SizedBox(width: 6),
-                  ],
-                  Text(
-                    count > 0 && label != 'همه' ? '$label · $count' : label,
-                    style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                          color: isSelected
-                              ? Colors.white
-                              : Theme.of(context).brightness == Brightness.dark
-                                  ? AppColors.mutedDark
-                                  : AppColors.mutedLight,
-                          fontWeight:
-                              isSelected ? FontWeight.w700 : FontWeight.w500,
-                        ),
-                  ),
-                ],
+    final levels = ['همه', ..._levelOrder];
+    return SingleChildScrollView(
+      scrollDirection: Axis.horizontal,
+      clipBehavior: Clip.none,
+      child: Row(
+        children: [
+          for (final level in levels)
+            Padding(
+              padding: const EdgeInsets.only(left: AppDimensions.sm),
+              child: _LevelChip(
+                label: level == 'همه' ? AppStrings.all : level,
+                count: counts[level] ?? 0,
+                color: level == 'همه' ? AppColors.primary : _colorForLevel(level),
+                selected: selected == level,
+                onTap: () => onSelected(level),
               ),
             ),
-          );
-        },
-        separatorBuilder: (_, __) => const SizedBox(width: AppDimensions.sm),
+        ],
       ),
     );
   }
 }
 
-/// Top header: gradient emoji tile + title + subtitle.
-class _Header extends StatelessWidget {
-  const _Header();
-
-  @override
-  Widget build(BuildContext context) {
-    final textTheme = Theme.of(context).textTheme;
-    return Row(
-      children: [
-        Container(
-          width: 52,
-          height: 52,
-          decoration: BoxDecoration(
-            gradient: AppColors.primaryGradient,
-            borderRadius: BorderRadius.circular(AppDimensions.rMd),
-          ),
-          child: const Center(
-            child: Text('📚', style: TextStyle(fontSize: 26)),
-          ),
-        ),
-        const SizedBox(width: AppDimensions.md),
-        Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(AppStrings.libraryTitle, style: textTheme.headlineSmall),
-              Text(AppStrings.librarySubtitle, style: textTheme.bodySmall),
-            ],
-          ),
-        ),
-      ],
-    );
-  }
-}
-
-/// Horizontal "continue reading" card with a mini cover + progress bar.
-class _ContinueCard extends StatelessWidget {
-  const _ContinueCard({
-    required this.book,
-    required this.page,
-    required this.total,
+class _LevelChip extends StatelessWidget {
+  const _LevelChip({
+    required this.label,
+    required this.count,
+    required this.color,
+    required this.selected,
+    required this.onTap,
   });
 
-  final BookMeta book;
-  final int page;
-  final int total;
+  final String label;
+  final int count;
+  final Color color;
+  final bool selected;
+  final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final muted = isDark ? AppColors.mutedDark : AppColors.mutedLight;
-    return SizedBox(
-      width: 176,
-      child: GlassCard(
-        onTap: () => context.push('${Routes.reader}?book=${book.id}'),
-        padding: const EdgeInsets.all(AppDimensions.md),
+    return GestureDetector(
+      onTap: onTap,
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 200),
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 7),
+        decoration: BoxDecoration(
+          color: selected
+              ? color.withValues(alpha: 0.16)
+              : (Theme.of(context).brightness == Brightness.dark
+                  ? AppColors.cardDark
+                  : AppColors.cardLight),
+          borderRadius: BorderRadius.circular(999),
+          border: Border.all(
+            color: selected ? color : AppColors.strokeLight,
+          ),
+        ),
         child: Row(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+          mainAxisSize: MainAxisSize.min,
           children: [
-            Expanded(child: _CoverImage(book: book, radius: AppDimensions.rSm)),
-            const SizedBox(width: AppDimensions.md),
-            Expanded(
-              flex: 2,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    book.titleFa,
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                    style: Theme.of(context).textTheme.titleSmall,
-                  ),
-                  const SizedBox(height: 2),
-                  _LevelBadge(level: book.level, compact: true),
-                  const Spacer(),
-                  GradientProgressBar(
-                    value: total > 0 ? page / total : 0,
-                    height: 6,
-                  ),
-                  const SizedBox(height: 6),
-                  Text(
-                    'صفحه ${page + 1} از $total',
-                    style: AppTypography.en(
-                      fontSize: 10,
-                      weight: FontWeight.w500,
-                      color: muted,
-                    ),
-                  ),
-                ],
+            Text(
+              label,
+              style: TextStyle(
+                fontFamily: AppTypography.faFamily,
+                fontSize: 13,
+                fontWeight: FontWeight.w700,
+                color: selected ? color : null,
+              ),
+            ),
+            const SizedBox(width: 6),
+            En(
+              '$count',
+              style: AppTypography.en(
+                fontSize: 11,
+                weight: FontWeight.w600,
+                color: selected ? color : AppColors.mutedDark,
               ),
             ),
           ],
@@ -347,97 +352,106 @@ class _ContinueCard extends StatelessWidget {
   }
 }
 
-/// Cover image with graceful emoji fallback when the asset is missing.
-class _CoverImage extends StatelessWidget {
-  const _CoverImage({required this.book, this.radius = AppDimensions.rMd});
+// ── Continue rail ─────────────────────────────────────────────────────────
 
-  final BookMeta book;
-  final double radius;
+class _ContinueCard extends ConsumerWidget {
+  const _ContinueCard({
+    required this.bookId,
+    required this.page,
+    required this.total,
+  });
 
-  @override
-  Widget build(BuildContext context) {
-    final cover = book.cover;
-    return ClipRRect(
-      borderRadius: BorderRadius.circular(radius),
-      child: Stack(
-        fit: StackFit.expand,
-        children: [
-          if (cover != null)
-            Image.asset(
-              cover,
-              fit: BoxFit.cover,
-              errorBuilder: (_, __, ___) => _CoverFallback(book: book),
-            )
-          else
-            _CoverFallback(book: book),
-        ],
-      ),
-    );
-  }
-}
-
-/// Gradient + emoji fallback used when a cover asset is unavailable.
-class _CoverFallback extends StatelessWidget {
-  const _CoverFallback({required this.book});
-
-  final BookMeta book;
+  final String bookId;
+  final int page;
+  final int total;
 
   @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: const BoxDecoration(gradient: AppColors.primaryGradient),
-      alignment: Alignment.center,
-      child: Text(book.emoji, style: const TextStyle(fontSize: 40)),
-    );
-  }
-}
+  Widget build(BuildContext context, WidgetRef ref) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final meta = _lookup(bookId);
+    if (meta == null) return const SizedBox.shrink();
+    final (titleFa, titleEn, cover, level, size) = meta;
+    final totalPages =
+        total > 0 ? total : 100;
+    final value = totalPages > 0 ? (page + 1) / totalPages : 0.0;
 
-/// Small colored CEFR badge.
-class _LevelBadge extends StatelessWidget {
-  const _LevelBadge({required this.level, this.compact = false});
-
-  final String level;
-  final bool compact;
-
-  @override
-  Widget build(BuildContext context) {
-    final color = _colorForLevel(level);
-    return Container(
-      padding: EdgeInsets.symmetric(
-        horizontal: compact ? 7 : 10,
-        vertical: compact ? 2 : 4,
+    return GestureDetector(
+      onTap: () => context.push(
+        '${Routes.reader}?book=${Uri.encodeComponent(bookId)}',
       ),
-      decoration: BoxDecoration(
-        color: color.withValues(alpha: 0.16),
-        borderRadius: BorderRadius.circular(compact ? 8 : 10),
-        border: Border.all(color: color.withValues(alpha: 0.55)),
-      ),
-      child: Text(
-        level,
-        style: AppTypography.en(
-          fontSize: compact ? 9.5 : 11.5,
-          weight: FontWeight.w700,
-          color: color,
+      child: Container(
+        width: 150,
+        padding: const EdgeInsets.all(AppDimensions.sm),
+        decoration: BoxDecoration(
+          color: isDark ? AppColors.cardDark : AppColors.cardLight,
+          borderRadius: BorderRadius.circular(AppDimensions.rMd),
+          border: Border.all(
+            color: isDark ? AppColors.strokeDark : AppColors.strokeLight,
+          ),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Expanded(
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(AppDimensions.rSm),
+                child: cover != null
+                    ? Image.asset(cover, fit: BoxFit.cover)
+                    : const ColoredBox(color: AppColors.night2),
+              ),
+            ),
+            const SizedBox(height: AppDimensions.sm),
+            Text(
+              titleFa,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: Theme.of(context).textTheme.labelLarge,
+            ),
+            const SizedBox(height: 4),
+            GradientProgressBar(value: value, height: 5),
+          ],
         ),
       ),
     );
   }
+
+  (String, String, String?, String, int)? _lookup(String id) {
+    for (final c in kClassicBooks) {
+      if (c.id == id) {
+        return (c.titleFa, c.titleEn, c.cover, c.level, c.sizeKb);
+      }
+    }
+    for (final b in kLibraryBooks) {
+      if (b.id == id) {
+        return (b.titleFa, b.titleEn, b.cover, b.level, 0);
+      }
+    }
+    return null;
+  }
 }
 
-/// Grid tile for one book: cover art, level badge, titles, progress.
-class _BookCard extends StatelessWidget {
-  const _BookCard({required this.book, required this.progress});
+// ── Cover cards ───────────────────────────────────────────────────────────
 
-  final BookMeta book;
-  final double progress;
+class _ClassicCoverCard extends StatelessWidget {
+  const _ClassicCoverCard({
+    required this.book,
+    this.page,
+    this.total,
+  });
+
+  final ClassicBook book;
+  final int? page;
+  final int? total;
 
   @override
   Widget build(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final muted = isDark ? AppColors.mutedDark : AppColors.mutedLight;
-    return GlassCard(
-      onTap: () => context.push('${Routes.reader}?book=${book.id}'),
-      padding: const EdgeInsets.all(AppDimensions.sm),
+    final progress = (page != null && total != null && total! > 0)
+        ? (page! + 1) / total!
+        : null;
+    return GestureDetector(
+      onTap: () => context.push(
+        '${Routes.reader}?book=${Uri.encodeComponent(book.id)}',
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -445,79 +459,107 @@ class _BookCard extends StatelessWidget {
             child: Stack(
               fit: StackFit.expand,
               children: [
-                _CoverImage(book: book),
-                // Bottom scrim so text stays readable over art.
-                Positioned(
-                  left: 0,
-                  right: 0,
-                  bottom: 0,
-                  height: 64,
-                  child: DecoratedBox(
-                    decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Colors.black.withValues(alpha: 0),
-                          Colors.black.withValues(alpha: 0.65),
-                        ],
-                      ),
-                    ),
-                  ),
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(AppDimensions.rMd),
+                  child: Image.asset(book.cover, fit: BoxFit.cover),
                 ),
                 Positioned(
                   top: 8,
                   left: 8,
-                  child: _LevelBadge(level: book.level, compact: true),
-                ),
-                if (progress > 0)
-                  Positioned(
-                    left: 8,
-                    right: 8,
-                    bottom: 8,
-                    child: GradientProgressBar(value: progress, height: 5),
-                  ),
-              ],
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(6, 10, 6, 4),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  book.titleFa,
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  style: Theme.of(context).textTheme.titleSmall,
-                ),
-                const SizedBox(height: 2),
-                Row(
-                  children: [
-                    Expanded(
-                      child: En(
-                        book.titleEn,
-                        style: AppTypography.en(
-                          fontSize: 10.5,
-                          weight: FontWeight.w500,
-                          color: muted,
-                        ),
-                        maxLines: 1,
-                      ),
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 8,
+                      vertical: 3,
                     ),
-                    Text(
-                      '${book.pages.length}ص',
+                    decoration: BoxDecoration(
+                      color: _colorForLevel(book.level).withValues(alpha: 0.9),
+                      borderRadius: BorderRadius.circular(999),
+                    ),
+                    child: En(
+                      book.level,
                       style: AppTypography.en(
-                        fontSize: 10,
-                        weight: FontWeight.w600,
-                        color: muted,
+                        fontSize: 11,
+                        weight: FontWeight.w700,
+                        color: Colors.white,
                       ),
                     ),
-                  ],
+                  ),
                 ),
               ],
             ),
           ),
+          if (progress != null) ...[
+            const SizedBox(height: 6),
+            GradientProgressBar(value: progress, height: 4),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+class _ReaderCoverCard extends StatelessWidget {
+  const _ReaderCoverCard({
+    required this.book,
+    this.page,
+    this.total,
+  });
+
+  final BookMeta book;
+  final int? page;
+  final int? total;
+
+  @override
+  Widget build(BuildContext context) {
+    final progress = (page != null && total != null && total! > 0)
+        ? (page! + 1) / total!
+        : null;
+    return GestureDetector(
+      onTap: () => context.push(
+        '${Routes.reader}?book=${Uri.encodeComponent(book.id)}',
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Expanded(
+            child: Stack(
+              fit: StackFit.expand,
+              children: [
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(AppDimensions.rMd),
+                  child: book.cover != null
+                      ? Image.asset(book.cover!, fit: BoxFit.cover)
+                      : const ColoredBox(color: AppColors.night2),
+                ),
+                Positioned(
+                  top: 8,
+                  left: 8,
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 8,
+                      vertical: 3,
+                    ),
+                    decoration: BoxDecoration(
+                      color: _colorForLevel(book.level).withValues(alpha: 0.9),
+                      borderRadius: BorderRadius.circular(999),
+                    ),
+                    child: En(
+                      book.level,
+                      style: AppTypography.en(
+                        fontSize: 11,
+                        weight: FontWeight.w700,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          if (progress != null) ...[
+            const SizedBox(height: 6),
+            GradientProgressBar(value: progress, height: 4),
+          ],
         ],
       ),
     );

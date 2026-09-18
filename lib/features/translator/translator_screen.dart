@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../../core/constants/app_strings.dart';
+import '../../core/icons/lp_icons.dart';
 import '../../core/providers.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_dimensions.dart';
@@ -123,10 +124,8 @@ class _TranslatorScreenState extends ConsumerState<TranslatorScreen> {
                     children: [
                       IconButton(
                         onPressed: _toggleMic,
-                        icon: Icon(
-                          _listening
-                              ? Icons.mic_rounded
-                              : Icons.mic_none_rounded,
+                        icon: LpIcon(
+                          LpIcons.mic,
                           color: _listening
                               ? AppColors.danger
                               : AppColors.primary,
@@ -144,7 +143,7 @@ class _TranslatorScreenState extends ConsumerState<TranslatorScreen> {
                           setState(() => _controller.clear());
                           ref.read(translatorStateProvider.notifier).reset();
                         },
-                        icon: const Icon(Icons.close_rounded, size: 20),
+                        icon: const LpIcon(LpIcons.backspace, size: 20),
                         visualDensity: VisualDensity.compact,
                       ),
                     ],
@@ -176,7 +175,7 @@ class _TranslatorScreenState extends ConsumerState<TranslatorScreen> {
             // ── Translate button ───────────────────────────────────────
             GradientButton(
               label: AppStrings.translatorTranslate,
-              icon: Icons.translate_rounded,
+              icon: LpIcons.translator,
               onPressed: () =>
                   ref.read(translatorStateProvider.notifier).translateNow(),
             ),
@@ -230,19 +229,19 @@ class _TranslatorScreenState extends ConsumerState<TranslatorScreen> {
                         result.output,
                         lang: result.toLang == 'fa' ? 'fa-IR' : 'en-US',
                       ),
-                  icon: const Icon(Icons.volume_up_rounded),
+                  icon: const LpIcon(LpIcons.volumeUp),
                   color: AppColors.primary,
                   tooltip: AppStrings.pronunciationUs,
                 ),
                 IconButton(
                   onPressed: () => _copy(result.output),
-                  icon: const Icon(Icons.copy_rounded, size: 20),
+                  icon: const LpIcon(LpIcons.copy, size: 20),
                   color: AppColors.info,
                   tooltip: AppStrings.copy,
                 ),
                 IconButton(
                   onPressed: () => Share.share(result.output),
-                  icon: const Icon(Icons.share_rounded, size: 20),
+                  icon: const LpIcon(LpIcons.share, size: 20),
                   color: AppColors.accent,
                   tooltip: AppStrings.share,
                 ),
@@ -265,8 +264,7 @@ class _TranslatorScreenState extends ConsumerState<TranslatorScreen> {
           padding: const EdgeInsets.symmetric(vertical: AppDimensions.lg),
           child: Column(
             children: [
-              const Icon(Icons.cloud_off_rounded,
-                  color: AppColors.danger, size: 32),
+              const LpIcon(LpIcons.alert, color: AppColors.danger, size: 32),
               const SizedBox(height: AppDimensions.sm),
               Text(
                 trState.error ?? AppStrings.translatorError,
@@ -282,7 +280,7 @@ class _TranslatorScreenState extends ConsumerState<TranslatorScreen> {
           padding: const EdgeInsets.symmetric(vertical: AppDimensions.xl),
           child: Column(
             children: [
-              const Icon(Icons.translate_rounded,
+              const LpIcon(LpIcons.translator,
                   color: AppColors.mutedDark, size: 32),
               const SizedBox(height: AppDimensions.sm),
               Text(
@@ -391,10 +389,12 @@ class _SwapButton extends ConsumerWidget {
           gradient: AppColors.primaryGradient,
           shape: BoxShape.circle,
         ),
-        child: const Icon(
-          Icons.swap_horiz_rounded,
-          color: Colors.white,
-          size: 22,
+        child: const Center(
+          child: LpIcon(
+            LpIcons.swap,
+            color: Colors.white,
+            size: 22,
+          ),
         ),
       ),
     );

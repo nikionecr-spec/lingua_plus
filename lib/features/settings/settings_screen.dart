@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/constants/app_strings.dart';
+import '../../core/icons/lp_icons.dart';
+import 'package:go_router/go_router.dart';
 import '../../core/providers.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_dimensions.dart';
@@ -58,7 +60,13 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
 
     return Scaffold(
       backgroundColor: Colors.transparent,
-      appBar: AppBar(title: const Text(AppStrings.settingsTitle)),
+      appBar: AppBar(
+        leading: IconButton(
+          onPressed: () => context.pop(),
+          icon: const LpIcon(LpIcons.chevronRight),
+        ),
+        title: const Text(AppStrings.settingsTitle),
+      ),
       body: ListView(
         padding: pagePadding() +
             const EdgeInsets.only(bottom: AppDimensions.xxl),
@@ -68,7 +76,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             children: [
               Expanded(
                 child: _ThemeOption(
-                  icon: Icons.brightness_auto_rounded,
+                  icon: LpIcons.autoTheme,
                   label: AppStrings.settingsThemeSystem,
                   selected: themeMode == ThemeMode.system,
                   onTap: () => ref
@@ -79,7 +87,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
               const SizedBox(width: AppDimensions.md),
               Expanded(
                 child: _ThemeOption(
-                  icon: Icons.light_mode_rounded,
+                  icon: LpIcons.sun,
                   label: AppStrings.settingsThemeLight,
                   selected: themeMode == ThemeMode.light,
                   onTap: () => ref
@@ -90,7 +98,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
               const SizedBox(width: AppDimensions.md),
               Expanded(
                 child: _ThemeOption(
-                  icon: Icons.dark_mode_rounded,
+                  icon: LpIcons.moon,
                   label: AppStrings.settingsThemeDark,
                   selected: themeMode == ThemeMode.dark,
                   onTap: () => ref
@@ -118,10 +126,12 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                     color: AppColors.danger.withValues(alpha: 0.14),
                     borderRadius: BorderRadius.circular(AppDimensions.rSm),
                   ),
-                  child: const Icon(
-                    Icons.delete_sweep_rounded,
-                    color: AppColors.danger,
-                    size: 22,
+                  child: const Center(
+                    child: LpIcon(
+                      LpIcons.trash,
+                      color: AppColors.danger,
+                      size: 22,
+                    ),
                   ),
                 ),
                 const SizedBox(width: AppDimensions.md),
@@ -131,8 +141,9 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                     style: textTheme.titleSmall,
                   ),
                 ),
-                const Icon(
-                  Icons.chevron_left_rounded,
+                const LpIcon(
+                  LpIcons.chevronLeft,
+                  size: 20,
                   color: AppColors.mutedDark,
                 ),
               ],
@@ -206,7 +217,7 @@ class _ThemeOption extends StatelessWidget {
     required this.onTap,
   });
 
-  final IconData icon;
+  final LpIconData icon;
   final String label;
   final bool selected;
   final VoidCallback onTap;
@@ -226,7 +237,7 @@ class _ThemeOption extends StatelessWidget {
       borderColor: selected ? AppColors.primary : null,
       child: Column(
         children: [
-          Icon(
+          LpIcon(
             icon,
             size: 26,
             color: selected

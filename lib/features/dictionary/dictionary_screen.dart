@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import 'package:lingua_plus/core/constants/app_strings.dart';
+import 'package:lingua_plus/core/icons/lp_icons.dart';
 import 'package:lingua_plus/core/providers.dart';
 import 'package:lingua_plus/core/router/app_router.dart';
 import 'package:lingua_plus/core/theme/app_colors.dart';
@@ -13,7 +14,9 @@ import 'package:lingua_plus/shared/widgets/app_shell.dart';
 import 'package:lingua_plus/shared/widgets/ui_kit.dart';
 import 'package:lingua_plus/features/dictionary/dictionary_providers.dart';
 
-/// Dictionary branch screen: gradient search header + WOTD / results body.
+/// Dictionary branch screen: gradient search header + suggestions /
+/// results body. The search is smart: base forms, typo tolerance and
+/// audible pronunciation on every tile.
 class DictionaryScreen extends ConsumerStatefulWidget {
   const DictionaryScreen({super.key});
 
@@ -33,6 +36,7 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
   void _applyQuery(String value) {
     ref.read(searchQueryProvider.notifier).state = value;
     ref.invalidate(searchResultsProvider);
+    ref.invalidate(suggestionsProvider);
   }
 
   void _searchFromChip(String query) {
@@ -99,13 +103,12 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
                 IconButton(
                   onPressed: () => context.push(Routes.favorites),
                   tooltip: AppStrings.favoritesTitle,
-                  icon: const Icon(Icons.star_rounded, color: Colors.white),
+                  icon: const LpIcon(LpIcons.star, color: Colors.white),
                 ),
                 IconButton(
                   onPressed: () => context.push(Routes.settings),
                   tooltip: AppStrings.settingsTitle,
-                  icon:
-                      const Icon(Icons.settings_outlined, color: Colors.white),
+                  icon: const LpIcon(LpIcons.settings, color: Colors.white),
                 ),
               ],
             ),
@@ -119,10 +122,17 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
                 hintText: AppStrings.dictionaryHint,
                 filled: true,
                 fillColor: isDark ? AppColors.night2 : AppColors.cardLight,
-                prefixIcon: const Icon(
-                  Icons.search_rounded,
-                  color: AppColors.primary,
-                ),
+                prefixIcon: const LpIcon(LpIcons.search,
+                    color: AppColors.primary),
+                suffixIcon: _controller.text.isEmpty
+                    ? null
+                    : IconButton(
+                        onPressed: () {
+                          _controller.clear();
+                          _applyQuery('');
+                        },
+                        icon: const LpIcon(LpIcons.backspace, size: 20),
+                      ),
               ),
             ),
           ],
@@ -156,7 +166,7 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
         ),
         const SizedBox(height: AppDimensions.lg),
         const EmptyState(
-          icon: Icons.travel_explore_rounded,
+          icon: LpIcons.globe,
           title: AppStrings.dictionaryEmptyTitle,
           subtitle: AppStrings.dictionaryEmptyBody,
         ),
@@ -207,7 +217,8 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
             IconButton(
               onPressed: () =>
                   ref.read(speechProvider).speak(wotd.word),
-              icon: const Icon(Icons.volume_up_rounded),
+              tooltip: AppStrings.pronunciationPlay,
+              icon: const LpIcon(LpIcons.volumeUp),
               color: AppColors.primary,
             ),
           ],
@@ -229,6 +240,7 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
             children: [
               for (final query in items)
                 ActionChip(
+                  avatar: const LpIcon(LpIcons.clock, size: 16),
                   label: En(query, style: AppTypography.en(fontSize: 13)),
                   onPressed: () => _searchFromChip(query),
                 ),
@@ -243,11 +255,20 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
 
   Widget _resultsBody() {
     final resultsAsync = ref.watch(searchResultsProvider);
+    final suggestionsAsync = ref.watch(suggestionsProvider);
     return resultsAsync.when(
       loading: () => const Center(child: CircularProgressIndicator()),
       error: (_, __) => _noResults(),
       data: (results) {
-        if (results.isEmpty) return _noResults();
+        if (results.isEmpty) {
+          // Smart fallback: "did you mean" from the suggestion engine.
+          return suggestionsAsync.maybeWhen(
+            data: (suggestions) => suggestions.isEmpty
+                ? _noResults()
+                : _didYouMean(suggestions),
+            orElse: () => _noResults(),
+          );
+        }
         return Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
@@ -277,6 +298,9 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
                       '${Routes.wordDetail}?q=${Uri.encodeComponent(entity.word)}',
                     ),
                     onStar: () => toggleFavoriteWord(ref, entity.word),
+                    onSpeak: () => ref
+                        .read(speechProvider)
+                        .speak(entity.display, lang: 'en-US'),
                   );
                 },
               ),
@@ -287,8 +311,44 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
     );
   }
 
+  Widget _didYouMean(List<String> suggestions) {
+    return ListView(
+      padding: pagePadding().copyWith(
+        top: AppDimensions.xl,
+        bottom: AppDimensions.xxl,
+      ),
+      children: [
+        Text(
+          AppStrings.dictionaryDidYouMean,
+          style: Theme.of(context).textTheme.titleMedium,
+          textAlign: TextAlign.center,
+        ),
+        const SizedBox(height: AppDimensions.lg),
+        Wrap(
+          alignment: WrapAlignment.center,
+          spacing: AppDimensions.sm,
+          runSpacing: AppDimensions.sm,
+          children: [
+            for (final word in suggestions)
+              ActionChip(
+                label: En(
+                  word,
+                  style: AppTypography.en(
+                    fontSize: 14,
+                    weight: FontWeight.w600,
+                    color: AppColors.primary,
+                  ),
+                ),
+                onPressed: () => _searchFromChip(word),
+              ),
+          ],
+        ),
+      ],
+    );
+  }
+
   Widget _noResults() => const EmptyState(
-        icon: Icons.search_off_rounded,
+        icon: LpIcons.searchOff,
         title: AppStrings.dictionaryNoResults,
         subtitle: AppStrings.dictionaryNoResultsBody,
       );

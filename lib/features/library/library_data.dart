@@ -13,7 +13,6 @@ class BookMeta {
     required this.id,
     required this.titleFa,
     required this.titleEn,
-    required this.emoji,
     required this.pages,
     this.level = 'A1',
     this.cover,
@@ -23,7 +22,6 @@ class BookMeta {
   final String id;
   final String titleFa;
   final String titleEn;
-  final String emoji;
   final List<BookPage> pages;
 
   /// CEFR level used for grouping and filtering: A1, A2, B1, B2, C1.
@@ -41,7 +39,6 @@ const kLibraryBooks = <BookMeta>[
     id: 'story_star',
     titleFa: 'ستاره کوچک',
     titleEn: 'The Little Star',
-    emoji: '⭐',
     level: 'A1',
     cover: 'assets/covers/cover_01.png',
     pages: [
@@ -93,7 +90,6 @@ const kLibraryBooks = <BookMeta>[
     id: 'story_city',
     titleFa: 'یک روز در شهر',
     titleEn: 'A Day in the City',
-    emoji: '🚌',
     level: 'A1',
     cover: 'assets/covers/cover_02.png',
     pages: [
@@ -143,7 +139,6 @@ const kLibraryBooks = <BookMeta>[
     id: 'story_friend',
     titleFa: 'دوستی',
     titleEn: 'A True Friend',
-    emoji: '💙',
     level: 'A2',
     cover: 'assets/covers/cover_03.png',
     pages: [
@@ -190,7 +185,6 @@ const kLibraryBooks = <BookMeta>[
     id: 'gram_present',
     titleFa: 'گرامر: زمان حال ساده',
     titleEn: 'Grammar: Present Simple',
-    emoji: '📘',
     level: 'A2',
     cover: 'assets/covers/cover_04.png',
     pages: [
@@ -218,11 +212,11 @@ const kLibraryBooks = <BookMeta>[
         'Negative: do not (don\'t) / does not (doesn\'t) + base verb.\n'
             'I don\'t like coffee. • She doesn\'t watch TV.\n'
             'After "doesn\'t" the verb has no -s:\n'
-            'She doesn\'t works ✗ → She doesn\'t work ✓.',
+            'Wrong: She doesn\'t works. Right: She doesn\'t work.',
         'منفی: do not (don\'t) / does not (doesn\'t) + فعلِ ساده.\n'
             'I don\'t like coffee. • She doesn\'t watch TV.\n'
             'بعد از doesn\'t فعل، s نمی‌گیرد:\n'
-            'She doesn\'t works ✗ → درست: She doesn\'t work ✓.',
+            'غلط: She doesn\'t works. درست: She doesn\'t work.',
       ),
       BookPage(
         'Questions: Do/Does + subject + base verb?\n'
@@ -235,14 +229,14 @@ const kLibraryBooks = <BookMeta>[
             'کلماتِ پرسشی اول می‌آیند: Where do you work?',
       ),
       BookPage(
-        'Common mistakes ✗ → ✓\n'
+        'Common mistakes (wrong → right)\n'
             'He go to school. → He goes to school.\n'
             'I am agree. → I agree.\n'
             'She don\'t know. → She doesn\'t know.\n'
             'Do he play? → Does he play?\n'
             'Signal words: always, usually, often, sometimes, never, '
             'every day.',
-        'اشتباه‌های رایج ✗ → درست ✓\n'
+        'اشتباه‌های رایج (غلط → درست)\n'
             'He go to school. → He goes to school.\n'
             'I am agree. → I agree. (فعلِ agree خودش «موافقم» است.)\n'
             'She don\'t know. → She doesn\'t know.\n'
@@ -256,7 +250,6 @@ const kLibraryBooks = <BookMeta>[
     id: 'gram_past',
     titleFa: 'گرامر: زمان گذشته ساده',
     titleEn: 'Grammar: Past Simple',
-    emoji: '⏳',
     level: 'B1',
     cover: 'assets/covers/cover_06.png',
     pages: [
@@ -288,12 +281,12 @@ const kLibraryBooks = <BookMeta>[
         'Negative: did not (didn\'t) + base verb — for every subject.\n'
             'I didn\'t sleep well. • They didn\'t come to the party.\n'
             'After "didn\'t" never use the past form:\n'
-            'I didn\'t went ✗ → I didn\'t go ✓.',
+            'Wrong: I didn\'t went. Right: I didn\'t go.',
         'منفی: did not (didn\'t) + شکلِ ساده‌ی فعل — برای همه‌ی '
             'فاعل‌ها.\n'
             'I didn\'t sleep well. • They didn\'t come to the party.\n'
             'بعد از didn\'t هرگز شکلِ گذشته‌ی فعل را نگذار:\n'
-            'I didn\'t went ✗ → درست: I didn\'t go ✓.',
+            'غلط: I didn\'t went. درست: I didn\'t go.',
       ),
       BookPage(
         'Questions: Did + subject + base verb?\n'
@@ -306,14 +299,14 @@ const kLibraryBooks = <BookMeta>[
             'قیدهای زمان: yesterday، last week، in 2019، two days ago.',
       ),
       BookPage(
-        'Common mistakes ✗ → ✓\n'
+        'Common mistakes (wrong → right)\n'
             'I did went home. → I went home.\n'
             'Did she called you? → Did she call you?\n'
             'He writed a letter. → He wrote a letter.\n'
             'We was tired. → We were tired.\n'
             'Tip: in questions and negatives, the past lives in "did", not '
             'in the main verb.',
-        'اشتباه‌های رایج ✗ → درست ✓\n'
+        'اشتباه‌های رایج (غلط → درست)\n'
             'I did went home. → I went home.\n'
             'Did she called you? → Did she call you?\n'
             'He writed a letter. → He wrote a letter.\n'
@@ -326,56 +319,55 @@ const kLibraryBooks = <BookMeta>[
     id: 'vocab_travel',
     titleFa: 'واژگان سفر',
     titleEn: 'Travel Vocabulary',
-    emoji: '✈️',
     level: 'A2',
     cover: 'assets/covers/cover_05.png',
     pages: [
       BookPage(
-        'At the Airport ✈️\n'
+        'At the Airport\n'
             'boarding pass • passport • luggage\n'
             'check-in desk • security check • gate\n'
             'flight • departure / arrival',
-        'در فرودگاه ✈️\n'
+        'در فرودگاه\n'
             'کارت پرواز • گذرنامه • چمدان\n'
             'پیشخوان پذیرش • بازرسی امنیتی • دروازه پرواز\n'
             'پرواز • عزیمت / ورود',
       ),
       BookPage(
-        'At the Hotel 🏨\n'
+        'At the Hotel\n'
             'reception • room key / key card • reservation\n'
             'single room / double room • check in • check out\n'
             'luggage cart • tip',
-        'در هتل 🏨\n'
+        'در هتل\n'
             'پذیرش • کلید اتاق / کارت کلید • رزرو\n'
             'اتاق یک‌نفره / اتاق دونفره • تحویل گرفتن اتاق • تخلیه اتاق\n'
             'چرخ دستی بار • انعام',
       ),
       BookPage(
-        'Asking for Directions 🗺️\n'
+        'Asking for Directions\n'
             'turn left • turn right • go straight\n'
             'next to • across from • between\n'
             'intersection • crosswalk',
-        'پرسیدن آدرس 🗺️\n'
+        'پرسیدن آدرس\n'
             'به چپ بپیچ • به راست بپیچ • مستقیم برو\n'
             'کنارِ • روبرویِ • بینِ\n'
             'چهارراه • خط عابر پیاده',
       ),
       BookPage(
-        'Food & Restaurant 🍽️\n'
+        'Food & Restaurant\n'
             'menu • waiter / waitress • order\n'
             'bill / check • starter • main course\n'
             'dessert • still water / sparkling water',
-        'غذا و رستوران 🍽️\n'
+        'غذا و رستوران\n'
             'منو • گارسون • سفارش دادن\n'
             'صورت‌حساب • پیش‌غذا • غذای اصلی\n'
             'دسر • آب بی‌گاز / آب گازدار',
       ),
       BookPage(
-        'Emergency 🚨\n'
+        'Emergency\n'
             'help! • call the police • ambulance\n'
             'hospital • pharmacy • embassy\n'
             'I lost my passport. • I need a doctor.',
-        'اضطراری 🚨\n'
+        'اضطراری\n'
             'کمک! • به پلیس زنگ بزن • آمبولانس\n'
             'بیمارستان • داروخانه • سفارت\n'
             'گذرنامه‌ام را گم کرده‌ام. • دکتر لازم دارم.',
@@ -386,7 +378,6 @@ BookMeta(
     id: "story_umbrella",
     titleFa: "\u0686\u062a\u0631 \u0642\u0631\u0645\u0632 \u0645\u0646",
     titleEn: "My Red Umbrella",
-    emoji: "\u2614",
     level: "A1",
     cover: "assets/covers/cover_07.png",
     pages: [
@@ -404,7 +395,6 @@ BookMeta(
     id: "story_market",
     titleFa: "\u062f\u0631 \u0645\u06cc\u0648\u0647\u200c\u0641\u0631\u0648\u0634\u06cc",
     titleEn: "At the Fruit Market",
-    emoji: "\ud83c\udf4e",
     level: "A1",
     cover: "assets/covers/cover_08.png",
     pages: [
@@ -421,7 +411,6 @@ BookMeta(
     id: "story_key",
     titleFa: "\u06a9\u0644\u06cc\u062f \u06af\u0645\u0634\u062f\u0647",
     titleEn: "The Lost Key",
-    emoji: "\ud83d\udddd\ufe0f",
     level: "A2",
     cover: "assets/covers/cover_09.png",
     pages: [
@@ -439,7 +428,6 @@ BookMeta(
     id: "story_bus",
     titleFa: "\u0633\u0641\u0631 \u0627\u062a\u0648\u0628\u0648\u0633",
     titleEn: "The Long Bus Ride",
-    emoji: "\ud83d\ude8c",
     level: "B1",
     cover: "assets/covers/cover_10.png",
     pages: [
@@ -457,7 +445,6 @@ BookMeta(
     id: "story_recipes",
     titleFa: "\u062f\u0633\u062a\u0648\u0631\u0647\u0627\u06cc \u0645\u0627\u062f\u0631\u0628\u0632\u0631\u06af",
     titleEn: "Grandmother's Recipes",
-    emoji: "\ud83c\udf5a",
     level: "B1",
     cover: "assets/covers/cover_11.png",
     pages: [
@@ -475,7 +462,6 @@ BookMeta(
     id: "story_signal",
     titleFa: "\u0633\u06cc\u06af\u0646\u0627\u0644\u06cc \u0627\u0632 \u06af\u0630\u0634\u062a\u0647",
     titleEn: "Signal from the Past",
-    emoji: "\ud83d\udcfb",
     level: "B2",
     cover: "assets/covers/cover_12.png",
     pages: [
@@ -494,7 +480,6 @@ BookMeta(
     titleFa: "\u062f\u062e\u062a\u0631 \u0646\u0642\u0634\u0647\u200c\u06a9\u0634",
     titleEn: "The Cartographer's Daughter",
     authorEn: "Lingua+ Press",
-    emoji: "\ud83d\uddfa\ufe0f",
     level: "C1",
     cover: "assets/covers/cover_13.png",
     pages: [
@@ -512,7 +497,6 @@ BookMeta(
     titleFa: "\u0622\u062e\u0631\u06cc\u0646 \u0646\u06af\u0647\u0628\u0627\u0646 \u0641\u0627\u0646\u0648\u0633 \u062f\u0631\u06cc\u0627\u06cc\u06cc",
     titleEn: "The Last Lighthouse Keeper",
     authorEn: "Lingua+ Press",
-    emoji: "\ud83d\uddfc",
     level: "C1",
     cover: "assets/covers/cover_14.png",
     pages: [

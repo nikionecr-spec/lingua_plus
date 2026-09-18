@@ -3,8 +3,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import 'package:lingua_plus/core/constants/app_strings.dart';
+import 'package:lingua_plus/core/icons/lp_icons.dart';
 import 'package:lingua_plus/core/router/app_router.dart';
 import 'package:lingua_plus/core/theme/app_dimensions.dart';
+import 'package:lingua_plus/core/providers.dart';
 import 'package:lingua_plus/shared/widgets/app_shell.dart';
 import 'package:lingua_plus/shared/widgets/ui_kit.dart';
 import 'package:lingua_plus/features/dictionary/dictionary_providers.dart';
@@ -24,7 +26,13 @@ class _FavoritesScreenState extends ConsumerState<FavoritesScreen> {
     final favoritesAsync = ref.watch(favoritesProvider);
     return Scaffold(
       backgroundColor: Colors.transparent,
-      appBar: AppBar(title: const Text(AppStrings.favoritesTitle)),
+      appBar: AppBar(
+        leading: IconButton(
+          onPressed: () => context.pop(),
+          icon: const LpIcon(LpIcons.chevronRight),
+        ),
+        title: const Text(AppStrings.favoritesTitle),
+      ),
       body: favoritesAsync.when(
         loading: () => const Center(child: CircularProgressIndicator()),
         error: (_, __) => _emptyState,
@@ -55,7 +63,7 @@ class _FavoritesScreenState extends ConsumerState<FavoritesScreen> {
   }
 
   Widget get _emptyState => const EmptyState(
-        icon: Icons.star_rounded,
+        icon: LpIcons.star,
         title: AppStrings.favoritesEmpty,
         subtitle: AppStrings.favoritesEmptyBody,
       );

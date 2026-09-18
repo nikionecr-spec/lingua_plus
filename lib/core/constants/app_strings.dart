@@ -11,7 +11,6 @@ class AppStrings {
   static const String navDictionary = 'دیکشنری';
   static const String navLibrary = 'کتابخانه';
   static const String navTranslator = 'مترجم';
-  static const String navLearning = 'یادگیری';
 
   // Common
   static const String search = 'جستجو';
@@ -19,7 +18,7 @@ class AppStrings {
   static const String confirm = 'تأیید';
   static const String delete = 'حذف';
   static const String copy = 'کپی';
-  static const String copied = 'کپی شد ✓';
+  static const String copied = 'کپی شد';
   static const String share = 'اشتراک‌گذاری';
   static const String retry = 'تلاش دوباره';
   static const String next = 'بعدی';
@@ -28,47 +27,52 @@ class AppStrings {
   static const String seeAll = 'مشاهده همه';
 
   // Onboarding
-  static const String onboardingTitle1 = 'دیکشنری آفلاین';
+  static const String onboardingTitle1 = 'دیکشنری هوشمند و آفلاین';
   static const String onboardingBody1 =
-      'بیش از ۳ هزار واژه با تلفظ بریتیش و آمریکایی، معنی فارسی، مثال و سطح‌بندی CEFR — حتی بدون اینترنت.';
-  static const String onboardingTitle2 = 'کتابخانه دوزبانه';
+      'حدود ۱۰ هزار واژه با تلفظ صوتی بریتیش و آمریکایی، معنی فارسی، مثال، '
+      'جستجوی هوشمند حتی با غلط تایپی و سطح‌بندی CEFR — همه آفلاین.';
+  static const String onboardingTitle2 = 'کتابخانه کلاسیک‌ها';
   static const String onboardingBody2 =
-      'داستان‌ها و درس‌های کوتاه انگلیسی با ترجمه فارسی سطر‌به‌سطر، نشانک‌گذاری و ادامه مطالعه از جایی که رها کردی.';
-  static const String onboardingTitle3 = 'یادگیری هوشمند';
+      'بیش از ۵۰ کتاب معتبر دنیا با جلد اختصاصی، سطح‌بندی CEFR، تلفظ با ضربه '
+      'روی هر واژه، ترجمه صفحه و ادامه مطالعه از جایی که رها کردی.';
+  static const String onboardingTitle3 = 'مترجم آنلاین';
   static const String onboardingBody3 =
-      'فلش‌کارت با مرور فاصله‌دار، آزمون واژگان، واژه روز، امتیاز XP و نشان‌ها — یادگیری همان‌طور که باید، تدریجی و لذت‌بخش.';
+      'ترجمه فوری فارسی و انگلیسی با تشخیص خودکار زبان، ورودی صوتی و خواندن '
+      'متن ترجمه‌شده — رایگان و بدون کلید API.';
   static const String onboardingStart = 'شروع کنیم';
   static const String onboardingSkip = 'رد کردن';
 
   // Home
-  static const String homeGreeting = 'سلام! 👋';
-  static const String homeSubtitle = 'امروز چند واژه یاد می‌گیری؟';
+  static const String homeGreeting = 'سلام!';
+  static const String homeSubtitle = 'امروز چه واژه‌ای کشف می‌کنی؟';
   static const String homeWordOfDay = 'واژه روز';
   static const String homeContinueReading = 'ادامه مطالعه';
-  static const String homeDailyChallenge = 'چالش روزانه';
-  static const String homeDailyChallengeBody = 'امروز ۱۰ فلش‌کارت مرور کن';
   static const String homeQuickActions = 'دسترسی سریع';
-  static const String homeStatsXp = 'امتیاز';
-  static const String homeStatsStreak = 'روز پیاپی';
-  static const String homeStatsLearned = 'واژه یادگرفته';
+  static const String homeStatsWords = 'واژه در دیکشنری';
+  static const String homeStatsBooks = 'کتاب در کتابخانه';
+  static const String homeStatsFavorites = 'علاقه‌مندی';
 
   // Dictionary
   static const String dictionaryTitle = 'دیکشنری';
   static const String dictionaryHint = 'جستجوی واژه انگلیسی یا فارسی…';
   static const String dictionaryEmptyTitle = 'واژه‌ای بنویس';
   static const String dictionaryEmptyBody =
-      'نام واژه را تایپ کن تا معنی، تلفظ و مثال‌هایش را ببینی. جستجوی فارسی هم کار می‌کند!';
+      'نام واژه را تایپ کن تا معنی، تلفظ صوتی و مثال‌هایش را ببینی. '
+      'جستجوی فارسی هم کار می‌کند!';
   static const String dictionaryNoResults = 'نتیجه‌ای پیدا نشد';
   static const String dictionaryNoResultsBody =
-      'شاید املای واژه متفاوت است؛ نسخه کوتاه‌تری را امتحان کن.';
+      'شاید املای واژه متفاوت است؛ پیشنهادهای ما را امتحان کن.';
   static const String dictionaryRecent = 'جستجوهای اخیر';
   static const String dictionaryClearHistory = 'پاک‌سازی تاریخچه';
+  static const String dictionaryDidYouMean = 'منظورت این بود؟';
+  static const String dictionarySuggestions = 'پیشنهادها';
   static const String favoritesTitle = 'علاقه‌مندی‌ها';
   static const String favoritesEmpty = 'لیست علاقه‌مندی‌ها خالی است';
   static const String favoritesEmptyBody =
       'با زدن نشان ستاره، واژه‌های مهم را اینجا ذخیره کن.';
   static const String pronunciationUs = 'آمریکایی';
   static const String pronunciationUk = 'بریتیش';
+  static const String pronunciationPlay = 'تلفظ صوتی';
   static const String meanings = 'معانی';
   static const String examples = 'مثال‌ها';
   static const String synonyms = 'مترادف‌ها';
@@ -78,14 +82,26 @@ class AppStrings {
 
   // Library
   static const String libraryTitle = 'کتابخانه';
-  static const String librarySubtitle = 'داستان و درس‌های دوزبانه';
+  static const String librarySubtitle = '۵۹ کلاسیک داستان + دوزبانه‌های سطح‌بندی‌شده';
+  static const String libraryClassicsSection = 'کلاسیک‌های جهان';
+  static const String libraryReadersSection = 'دوزبانه‌های آموزشی';
   static const String libraryContinue = 'ادامه خواندن';
   static const String libraryEmpty = 'هنوز چیزی نخوانده‌ای';
   static const String libraryProgress = 'پیشرفت';
   static const String readerBookmark = 'نشانک';
   static const String readerBookmarks = 'نشانک‌ها';
   static const String readerNoBookmarks = 'این کتاب هنوز نشانکی ندارد';
-  static const String readerFinish = 'پایان کتاب 🎉';
+  static const String readerFinish = 'پایان کتاب';
+  static const String readerTranslatePage = 'ترجمه این صفحه';
+  static const String readerTranslating = 'در حال ترجمه…';
+  static const String readerHideTranslation = 'پنهان‌کردن ترجمه';
+  static const String readerTapWordHint =
+      'برای دیدن معنی و شنیدن تلفظ، روی هر واژه ضربه بزن';
+  static const String readerTranslateOffline =
+      'برای ترجمه آنلاین، به اینترنت نیاز است.';
+
+  // Word popup (reader)
+  static const String popupSeeFull = 'نمایش کامل واژه';
 
   // Translator
   static const String translatorTitle = 'مترجم';
@@ -101,22 +117,6 @@ class AppStrings {
       'ترجمه ناموفق بود؛ اتصال اینترنت را بررسی کن.';
   static const String translatorEmptyInput = 'متنی برای ترجمه وارد کن.';
 
-  // Learning
-  static const String learningTitle = 'یادگیری';
-  static const String learningStartReview = 'مرور امروز';
-  static const String learningFlashcards = 'فلش‌کارت';
-  static const String learningQuiz = 'آزمون واژگان';
-  static const String learningDue = 'کارتی برای مرور';
-  static const String learningAllDone = 'همه کارت‌های امروز مرور شد! 🎉';
-  static const String learningKnow = 'بلد بودم';
-  static const String learningDontKnow = 'بلد نبودم';
-  static const String learningTapToFlip = 'برای دیدن پاسخ ضربه بزن';
-  static const String learningQuizScore = 'نتیجه آزمون';
-  static const String learningQuizAgain = 'آزمون جدید';
-  static const String learningXpGained = 'XP کسب‌شده';
-  static const String learningBadges = 'نشان‌ها';
-  static const String learningDailyProgress = 'پیشرفت چالش امروز';
-
   // Settings
   static const String settingsTitle = 'تنظیمات';
   static const String settingsTheme = 'پوسته برنامه';
@@ -126,10 +126,11 @@ class AppStrings {
   static const String settingsData = 'داده‌ها';
   static const String settingsClearHistory = 'پاک‌سازی تاریخچه جستجو';
   static const String settingsAbout = 'درباره';
-  static const String settingsVersion = 'نسخه ۱.۰.۰';
+  static const String settingsVersion = 'نسخه ۱.۲.۰';
   static const String settingsSources =
-      'داده دیکشنری از Wiktionary/Kaikki، تلفظ‌ها از ipa-dict و سطح‌بندی از wordfreq.';
-  static const String settingsHistoryCleared = 'تاریخچه پاک شد ✓';
+      'داده دیکشنری از Wiktionary/Kaikki، تلفظ‌ها از ipa-dict، سطح‌بندی از '
+      'wordfreq و متن کتاب‌ها از Project Gutenberg (مالکیت عمومی).';
+  static const String settingsHistoryCleared = 'تاریخچه پاک شد';
 
   // Misc
   static const String errorGeneric = 'خطایی رخ داد؛ دوباره تلاش کن.';

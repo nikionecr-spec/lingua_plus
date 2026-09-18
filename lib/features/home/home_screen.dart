@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import 'package:lingua_plus/core/constants/app_strings.dart';
+import 'package:lingua_plus/core/icons/lp_icons.dart';
 import 'package:lingua_plus/core/providers.dart';
 import 'package:lingua_plus/core/router/app_router.dart';
 import 'package:lingua_plus/core/theme/app_colors.dart';
@@ -10,21 +11,21 @@ import 'package:lingua_plus/core/theme/app_dimensions.dart';
 import 'package:lingua_plus/core/theme/app_typography.dart';
 import 'package:lingua_plus/data/models/library_models.dart';
 import 'package:lingua_plus/features/dictionary/dictionary_providers.dart';
-import 'package:lingua_plus/features/learning/learning_providers.dart';
-import 'package:lingua_plus/features/library/library_data.dart';
+import 'package:lingua_plus/features/library/classics.dart';
 import 'package:lingua_plus/shared/widgets/ui_kit.dart';
+import 'package:lingua_plus/features/library/library_providers.dart';
+import 'package:lingua_plus/features/library/library_data.dart';
 
-/// Home dashboard: greeting, stats, WOTD, daily challenge, quick
-/// actions and continue-reading.
+/// Home dashboard: greeting, live stats, WOTD, quick actions and
+/// continue-reading. The learning module was removed in v1.2.0.
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final stats = ref.watch(statsProvider).value;
-    final dueCount = ref.watch(dueCardsProvider).value?.length ?? 0;
-    // Simple daily-challenge approximation: fills up as the deck drains.
-    final challenge = dueCount >= 20 ? 0.0 : (20 - dueCount) / 20;
+    final favCount = ref.watch(favoritesProvider).value?.length ?? 0;
+    final states =
+        ref.watch(readingStatesProvider).valueOrNull ?? const <ReadingState>[];
 
     return Scaffold(
       backgroundColor: Colors.transparent,
@@ -67,7 +68,7 @@ class HomeScreen extends ConsumerWidget {
                   ),
                   IconButton(
                     onPressed: () => context.push(Routes.settings),
-                    icon: const Icon(Icons.settings_rounded),
+                    icon: const LpIcon(LpIcons.settings, size: 24),
                   ),
                 ],
               ),
@@ -76,28 +77,28 @@ class HomeScreen extends ConsumerWidget {
                 children: [
                   Expanded(
                     child: StatCard(
-                      icon: Icons.bolt_rounded,
-                      label: AppStrings.homeStatsXp,
-                      value: '${stats?.xp ?? 0}',
+                      icon: LpIcons.dictionary,
+                      label: AppStrings.homeStatsWords,
+                      value: '۹,۹۷۷',
+                      color: AppColors.primary,
+                    ),
+                  ),
+                  const SizedBox(width: AppDimensions.sm),
+                  Expanded(
+                    child: StatCard(
+                      icon: LpIcons.library,
+                      label: AppStrings.homeStatsBooks,
+                      value: '${kClassicBooks.length + 14}',
+                      color: AppColors.accent,
+                    ),
+                  ),
+                  const SizedBox(width: AppDimensions.sm),
+                  Expanded(
+                    child: StatCard(
+                      icon: LpIcons.starFilled,
+                      label: AppStrings.homeStatsFavorites,
+                      value: '$favCount',
                       color: AppColors.warning,
-                    ),
-                  ),
-                  const SizedBox(width: AppDimensions.sm),
-                  Expanded(
-                    child: StatCard(
-                      icon: Icons.local_fire_department_rounded,
-                      label: AppStrings.homeStatsStreak,
-                      value: '${stats?.streak ?? 0}',
-                      color: AppColors.danger,
-                    ),
-                  ),
-                  const SizedBox(width: AppDimensions.sm),
-                  Expanded(
-                    child: StatCard(
-                      icon: Icons.school_rounded,
-                      label: AppStrings.homeStatsLearned,
-                      value: '${stats?.learnedWords ?? 0}',
-                      color: AppColors.success,
                     ),
                   ),
                 ],
@@ -105,60 +106,12 @@ class HomeScreen extends ConsumerWidget {
               const SizedBox(height: AppDimensions.xl),
               _wordOfTheDay(context, ref),
               const SizedBox(height: AppDimensions.xl),
-              GlassCard(
-                onTap: () => context.push(Routes.flashcards),
-                gradient: LinearGradient(
-                  colors: [
-                    AppColors.primary.withValues(alpha: 0.16),
-                    AppColors.accent.withValues(alpha: 0.10),
-                  ],
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Container(
-                          width: 44,
-                          height: 44,
-                          decoration: BoxDecoration(
-                            gradient: AppColors.primaryGradient,
-                            borderRadius:
-                                BorderRadius.circular(AppDimensions.rMd),
-                          ),
-                          child: const Icon(
-                            Icons.flag_rounded,
-                            color: Colors.white,
-                            size: 22,
-                          ),
-                        ),
-                        const SizedBox(width: AppDimensions.md),
-                        Expanded(
-                          child: Text(
-                            AppStrings.homeDailyChallenge,
-                            style:
-                                Theme.of(context).textTheme.titleMedium,
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: AppDimensions.sm),
-                    Text(
-                      AppStrings.homeDailyChallengeBody,
-                      style: Theme.of(context).textTheme.bodySmall,
-                    ),
-                    const SizedBox(height: AppDimensions.md),
-                    GradientProgressBar(value: challenge, height: 8),
-                  ],
-                ),
-              ),
-              const SizedBox(height: AppDimensions.xl),
               const SectionHeader(title: AppStrings.homeQuickActions),
               Row(
                 children: [
                   Expanded(
                     child: _QuickAction(
-                      icon: Icons.menu_book_rounded,
+                      icon: LpIcons.dictionary,
                       label: AppStrings.navDictionary,
                       onTap: () => context.go(Routes.dictionary),
                     ),
@@ -166,7 +119,7 @@ class HomeScreen extends ConsumerWidget {
                   const SizedBox(width: AppDimensions.md),
                   Expanded(
                     child: _QuickAction(
-                      icon: Icons.auto_stories_rounded,
+                      icon: LpIcons.library,
                       label: AppStrings.navLibrary,
                       onTap: () => context.go(Routes.library),
                     ),
@@ -178,7 +131,7 @@ class HomeScreen extends ConsumerWidget {
                 children: [
                   Expanded(
                     child: _QuickAction(
-                      icon: Icons.translate_rounded,
+                      icon: LpIcons.translator,
                       label: AppStrings.navTranslator,
                       onTap: () => context.go(Routes.translator),
                     ),
@@ -186,15 +139,15 @@ class HomeScreen extends ConsumerWidget {
                   const SizedBox(width: AppDimensions.md),
                   Expanded(
                     child: _QuickAction(
-                      icon: Icons.psychology_rounded,
-                      label: AppStrings.navLearning,
-                      onTap: () => context.go(Routes.learning),
+                      icon: LpIcons.star,
+                      label: AppStrings.favoritesTitle,
+                      onTap: () => context.push(Routes.favorites),
                     ),
                   ),
                 ],
               ),
               const SizedBox(height: AppDimensions.xl),
-              _continueReading(context, ref),
+              _continueReading(context, ref, states),
             ],
           ),
         ),
@@ -226,10 +179,12 @@ class HomeScreen extends ConsumerWidget {
                   gradient: AppColors.primaryGradient,
                   borderRadius: BorderRadius.circular(AppDimensions.rMd),
                 ),
-                child: const Icon(
-                  Icons.auto_awesome_rounded,
-                  color: Colors.white,
-                  size: 22,
+                child: const Center(
+                  child: LpIcon(
+                    LpIcons.sparkle,
+                    color: Colors.white,
+                    size: 24,
+                  ),
                 ),
               ),
               const SizedBox(width: AppDimensions.md),
@@ -237,6 +192,11 @@ class HomeScreen extends ConsumerWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Text(
+                      AppStrings.homeWordOfDay,
+                      style: Theme.of(context).textTheme.labelSmall,
+                    ),
+                    const SizedBox(height: 2),
                     En(
                       wotd.display.isEmpty ? wotd.word : wotd.display,
                       style: AppTypography.en(
@@ -244,7 +204,6 @@ class HomeScreen extends ConsumerWidget {
                         weight: FontWeight.w700,
                       ),
                     ),
-                    const SizedBox(height: 2),
                     Text(
                       faMeaning,
                       maxLines: 1,
@@ -258,12 +217,12 @@ class HomeScreen extends ConsumerWidget {
                 onPressed: () => ref
                     .read(speechProvider)
                     .speak(wotd.word, lang: 'en-US'),
-                icon: const Icon(Icons.volume_up_rounded, size: 20),
+                icon: const LpIcon(LpIcons.volumeUp, size: 22),
                 color: AppColors.primary,
                 visualDensity: VisualDensity.compact,
               ),
-              const Icon(Icons.chevron_left_rounded,
-                  color: AppColors.mutedDark),
+              const LpIcon(LpIcons.chevronLeft,
+                  size: 20, color: AppColors.mutedDark),
             ],
           ),
         );
@@ -273,68 +232,73 @@ class HomeScreen extends ConsumerWidget {
     );
   }
 
-  Widget _continueReading(BuildContext context, WidgetRef ref) {
-    return FutureBuilder<List<ReadingState>>(
-      future: ref.read(libraryDsProvider).readingStates(),
-      builder: (context, snap) {
-        final states = snap.data;
-        if (states == null || states.isEmpty) return const SizedBox.shrink();
-        final state = states.first;
-        BookMeta? meta;
-        for (final b in kLibraryBooks) {
-          if (b.id == state.bookId) {
-            meta = b;
-            break;
-          }
-        }
-        if (meta == null) return const SizedBox.shrink();
-        final total =
-            state.totalPages > 0 ? state.totalPages : meta.pages.length;
-        final value = total > 0 ? (state.page + 1) / total : 0.0;
-        return Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const SectionHeader(title: AppStrings.homeContinueReading),
-            GlassCard(
-              onTap: () => context.push(
-                '${Routes.reader}?book=${Uri.encodeComponent(state.bookId)}',
+  Widget _continueReading(
+    BuildContext context,
+    WidgetRef ref,
+    List<ReadingState> states,
+  ) {
+    if (states.isEmpty) return const SizedBox.shrink();
+    final state = states.first;
+    BookMeta? meta;
+    for (final b in kLibraryBooks) {
+      if (b.id == state.bookId) meta = b;
+    }
+    ClassicBook? classic;
+    for (final c in kClassicBooks) {
+      if (c.id == state.bookId) classic = c;
+    }
+    final titleFa = meta?.titleFa ?? classic?.titleFa;
+    final titleEn = meta?.titleEn ?? classic?.titleEn;
+    final cover = meta?.cover ?? classic?.cover;
+    if (titleFa == null || titleEn == null) return const SizedBox.shrink();
+    final total = state.totalPages > 0 ? state.totalPages : 100;
+    final value = total > 0 ? (state.page + 1) / total : 0.0;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const SectionHeader(title: AppStrings.homeContinueReading),
+        GlassCard(
+          onTap: () => context.push(
+            '${Routes.reader}?book=${Uri.encodeComponent(state.bookId)}',
+          ),
+          child: Row(
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(AppDimensions.rSm),
+                child: cover != null
+                    ? Image.asset(cover, width: 44, height: 62, fit: BoxFit.cover)
+                    : const SizedBox(width: 44, height: 62),
               ),
-              child: Row(
-                children: [
-                  Text(meta.emoji,
-                      style: const TextStyle(fontSize: 28)),
-                  const SizedBox(width: AppDimensions.md),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          meta.titleFa,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: Theme.of(context).textTheme.titleSmall,
-                        ),
-                        const SizedBox(height: 2),
-                        En(
-                          meta.titleEn,
-                          style: AppTypography.en(
-                            fontSize: 12,
-                            color: AppColors.mutedDark,
-                          ),
-                        ),
-                        const SizedBox(height: AppDimensions.sm),
-                        GradientProgressBar(value: value, height: 6),
-                      ],
+              const SizedBox(width: AppDimensions.md),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      titleFa,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: Theme.of(context).textTheme.titleSmall,
                     ),
-                  ),
-                  const Icon(Icons.chevron_left_rounded,
-                      color: AppColors.mutedDark),
-                ],
+                    const SizedBox(height: 2),
+                    En(
+                      titleEn,
+                      style: AppTypography.en(
+                        fontSize: 12,
+                        color: AppColors.mutedDark,
+                      ),
+                    ),
+                    const SizedBox(height: AppDimensions.sm),
+                    GradientProgressBar(value: value, height: 6),
+                  ],
+                ),
               ),
-            ),
-          ],
-        );
-      },
+              const LpIcon(LpIcons.chevronLeft,
+                  size: 20, color: AppColors.mutedDark),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }
@@ -347,7 +311,7 @@ class _QuickAction extends StatelessWidget {
     required this.onTap,
   });
 
-  final IconData icon;
+  final LpIconData icon;
   final String label;
   final VoidCallback onTap;
 
@@ -368,7 +332,7 @@ class _QuickAction extends StatelessWidget {
               gradient: AppColors.primaryGradient,
               borderRadius: BorderRadius.circular(AppDimensions.rSm),
             ),
-            child: Icon(icon, color: Colors.white, size: 22),
+            child: Center(child: LpIcon(icon, color: Colors.white, size: 22)),
           ),
           const SizedBox(width: AppDimensions.md),
           Expanded(

@@ -5,9 +5,6 @@ import '../../features/dictionary/dictionary_screen.dart';
 import '../../features/dictionary/favorites_screen.dart';
 import '../../features/dictionary/word_detail_screen.dart';
 import '../../features/home/home_screen.dart';
-import '../../features/learning/flashcards_screen.dart';
-import '../../features/learning/learning_hub_screen.dart';
-import '../../features/learning/quiz_screen.dart';
 import '../../features/library/library_screen.dart';
 import '../../features/library/reader_screen.dart';
 import '../../features/onboarding/onboarding_screen.dart';
@@ -28,13 +25,10 @@ class Routes {
   static const String library = '/library';
   static const String reader = '/reader';
   static const String translator = '/translator';
-  static const String learning = '/learning';
-  static const String flashcards = '/flashcards';
-  static const String quiz = '/quiz';
   static const String settings = '/settings';
 }
 
-/// Paths of the 5 bottom-nav branches, in order.
+/// Paths of the 4 bottom-nav branches, in order.
 class ShellBranchPaths {
   ShellBranchPaths._();
 
@@ -43,14 +37,13 @@ class ShellBranchPaths {
     Routes.dictionary,
     Routes.library,
     Routes.translator,
-    Routes.learning,
   ];
 }
 
 final GlobalKey<NavigatorState> _rootKey =
     GlobalKey<NavigatorState>(debugLabel: 'root');
 final List<GlobalKey<NavigatorState>> _branchKeys = List.generate(
-  5,
+  4,
   (i) => GlobalKey<NavigatorState>(debugLabel: 'branch-$i'),
 );
 
@@ -94,14 +87,6 @@ GoRouter buildAppRouter({required dynamic sp}) {
           bookId: state.uri.queryParameters['book'] ?? '',
         ),
       ),
-      GoRoute(
-        path: Routes.flashcards,
-        builder: (context, state) => const FlashcardsScreen(),
-      ),
-      GoRoute(
-        path: Routes.quiz,
-        builder: (context, state) => const QuizScreen(),
-      ),
       StatefulShellRoute.indexedStack(
         builder: (context, state, navigationShell) =>
             AppShell(navigationShell: navigationShell),
@@ -142,15 +127,6 @@ GoRouter buildAppRouter({required dynamic sp}) {
               ),
             ],
           ),
-          StatefulShellBranch(
-            navigatorKey: _branchKeys[4],
-            routes: [
-              GoRoute(
-                path: Routes.learning,
-                builder: (context, state) => const LearningHubScreen(),
-              ),
-            ],
-          ),
         ],
       ),
     ],
@@ -163,5 +139,4 @@ const List<String> kNavTitles = [
   AppStrings.navDictionary,
   AppStrings.navLibrary,
   AppStrings.navTranslator,
-  AppStrings.navLearning,
 ];

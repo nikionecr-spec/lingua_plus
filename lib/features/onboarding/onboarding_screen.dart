@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import 'package:lingua_plus/core/constants/app_strings.dart';
+import 'package:lingua_plus/core/icons/lp_icons.dart';
 import 'package:lingua_plus/core/providers.dart';
 import 'package:lingua_plus/core/router/app_router.dart';
 import 'package:lingua_plus/core/theme/app_colors.dart';
@@ -18,21 +19,21 @@ class OnboardingScreen extends ConsumerStatefulWidget {
 }
 
 class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
-  static const List<(String, String, IconData)> _pages = [
+  static const List<(String, String, LpIconData)> _pages = [
     (
       AppStrings.onboardingTitle1,
       AppStrings.onboardingBody1,
-      Icons.menu_book_rounded,
+      LpIcons.dictionary,
     ),
     (
       AppStrings.onboardingTitle2,
       AppStrings.onboardingBody2,
-      Icons.auto_stories_rounded,
+      LpIcons.library,
     ),
     (
       AppStrings.onboardingTitle3,
       AppStrings.onboardingBody3,
-      Icons.psychology_rounded,
+      LpIcons.translator,
     ),
   ];
 
@@ -94,7 +95,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                                 AppDimensions.rXl,
                               ),
                             ),
-                            child: Icon(icon, size: 56, color: Colors.white),
+                            child: Center(child: LpIcon(icon, size: 56, color: Colors.white)),
                           ),
                           const SizedBox(height: AppDimensions.xxl),
                           Text(
@@ -135,9 +136,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
               const SizedBox(height: AppDimensions.md),
               GradientButton(
                 label: _isLast ? AppStrings.onboardingStart : AppStrings.next,
-                icon: _isLast
-                    ? Icons.rocket_launch_rounded
-                    : Icons.arrow_back_rounded, // RTL: next points LEFT
+                icon: _isLast ? LpIcons.check : LpIcons.chevronLeft,
                 onPressed: _next,
               ),
             ],

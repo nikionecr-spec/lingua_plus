@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:share_plus/share_plus.dart';
 
 import 'package:lingua_plus/core/constants/app_strings.dart';
+import 'package:lingua_plus/core/icons/lp_icons.dart';
 import 'package:lingua_plus/core/providers.dart';
 import 'package:lingua_plus/core/router/app_router.dart';
 import 'package:lingua_plus/core/theme/app_colors.dart';
@@ -14,7 +15,8 @@ import 'package:lingua_plus/shared/widgets/app_shell.dart';
 import 'package:lingua_plus/shared/widgets/ui_kit.dart';
 import 'package:lingua_plus/features/dictionary/dictionary_providers.dart';
 
-/// Full bilingual entry: pronunciation, meanings, examples, thesaurus.
+/// Full bilingual entry: audio pronunciation (US/UK), meanings,
+/// examples, thesaurus.
 class WordDetailScreen extends ConsumerStatefulWidget {
   const WordDetailScreen({super.key, required this.word});
 
@@ -58,6 +60,10 @@ class _WordDetailScreenState extends ConsumerState<WordDetailScreen> {
     return Scaffold(
       backgroundColor: Colors.transparent,
       appBar: AppBar(
+        leading: IconButton(
+          onPressed: () => context.pop(),
+          icon: const LpIcon(LpIcons.chevronRight),
+        ),
         title: En(
           widget.word,
           style: AppTypography.en(fontSize: 17, weight: FontWeight.w600),
@@ -68,8 +74,8 @@ class _WordDetailScreenState extends ConsumerState<WordDetailScreen> {
             tooltip: isFavorite
                 ? AppStrings.removeFromFavorites
                 : AppStrings.addToFavorites,
-            icon: Icon(
-              isFavorite ? Icons.star_rounded : Icons.star_outline_rounded,
+            icon: LpIcon(
+              isFavorite ? LpIcons.starFilled : LpIcons.star,
               color: isFavorite ? AppColors.warning : null,
             ),
           ),
@@ -78,7 +84,7 @@ class _WordDetailScreenState extends ConsumerState<WordDetailScreen> {
                 ? null
                 : () => _share(wordAsync.value!),
             tooltip: AppStrings.share,
-            icon: const Icon(Icons.share_rounded),
+            icon: const LpIcon(LpIcons.share),
           ),
         ],
       ),
@@ -204,6 +210,17 @@ class _WordDetailScreenState extends ConsumerState<WordDetailScreen> {
                   .speak(entity.display, lang: 'en-GB'),
             ),
           ],
+          const SizedBox(height: AppDimensions.md),
+          // Big audible play button — the entry is always pronounceable,
+          // even when an IPA row is missing.
+          GradientButton(
+            label: AppStrings.pronunciationPlay,
+            icon: LpIcons.volumeUp,
+            expanded: false,
+            onPressed: () => ref
+                .read(speechProvider)
+                .speak(entity.display, lang: 'en-US'),
+          ),
         ],
       ),
     );
@@ -225,7 +242,7 @@ class _WordDetailScreenState extends ConsumerState<WordDetailScreen> {
   }
 
   Widget _notFound() => const EmptyState(
-        icon: Icons.search_off_rounded,
+        icon: LpIcons.searchOff,
         title: AppStrings.dictionaryNoResults,
         subtitle: AppStrings.dictionaryNoResultsBody,
       );

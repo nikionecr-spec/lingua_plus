@@ -5,7 +5,6 @@ import 'package:isar/isar.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/datasources/local/dictionary_local_ds.dart';
-import '../data/datasources/local/learning_local_ds.dart';
 import '../data/datasources/local/library_local_ds.dart';
 import '../data/datasources/remote/translator_remote_ds.dart';
 import '../shared/services/speech_service.dart';
@@ -28,10 +27,6 @@ final appRouterProvider = Provider<GoRouter>(
 
 final dictionaryDsProvider = Provider<DictionaryLocalDs>(
   (ref) => DictionaryLocalDs(ref.watch(isarProvider)),
-);
-
-final learningDsProvider = Provider<LearningLocalDs>(
-  (ref) => LearningLocalDs(ref.watch(isarProvider)),
 );
 
 final libraryDsProvider = Provider<LibraryLocalDs>(

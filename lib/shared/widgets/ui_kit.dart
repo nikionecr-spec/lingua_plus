@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
+import '../../core/icons/lp_icons.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_dimensions.dart';
 import '../../core/theme/app_typography.dart';
 import '../../domain/entities/word_entity.dart';
+import '../../core/constants/app_strings.dart';
 
 /// Forces LEFT-TO-RAY direction + Poppins font for English content.
 /// ALWAYS wrap English text (words, IPA, sentences) in this widget.
@@ -103,7 +105,7 @@ class GradientButton extends StatelessWidget {
 
   final String label;
   final VoidCallback? onPressed;
-  final IconData? icon;
+  final LpIconData? icon;
   final bool expanded;
 
   @override
@@ -131,7 +133,7 @@ class GradientButton extends StatelessWidget {
         ),
         icon: icon == null
             ? const SizedBox.shrink()
-            : Icon(icon, color: Colors.white),
+            : LpIcon(icon, color: Colors.white),
         label: Text(
           label,
           style: const TextStyle(
@@ -267,7 +269,7 @@ class EmptyState extends StatelessWidget {
     required this.subtitle,
   });
 
-  final IconData icon;
+  final LpIconData icon;
   final String title;
   final String subtitle;
 
@@ -286,7 +288,7 @@ class EmptyState extends StatelessWidget {
                 gradient: AppColors.primaryGradient,
                 borderRadius: BorderRadius.circular(AppDimensions.rLg),
               ),
-              child: Icon(icon, size: 40, color: Colors.white),
+              child: Center(child: LpIcon(icon, size: 40, color: Colors.white)),
             ),
             const SizedBox(height: AppDimensions.lg),
             Text(title, style: Theme.of(context).textTheme.titleMedium),
@@ -313,7 +315,7 @@ class StatCard extends StatelessWidget {
     this.color = AppColors.primary,
   });
 
-  final IconData icon;
+  final LpIconData icon;
   final String label;
   final String value;
   final Color color;
@@ -328,7 +330,7 @@ class StatCard extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, color: color, size: 22),
+          LpIcon(icon, color: color, size: 24),
           const SizedBox(height: 6),
           Text(value, style: Theme.of(context).textTheme.titleMedium),
           const SizedBox(height: 2),
@@ -374,7 +376,7 @@ class IpaRow extends StatelessWidget {
           ),
           IconButton(
             onPressed: onSpeak,
-            icon: const Icon(Icons.volume_up_rounded, size: 20),
+            icon: const LpIcon(LpIcons.volumeUp, size: 20),
             color: AppColors.primary,
             visualDensity: VisualDensity.compact,
           ),
@@ -385,17 +387,21 @@ class IpaRow extends StatelessWidget {
 }
 
 /// Reusable dictionary result row (search list / favorites).
+/// The tile speaks the English word on the speaker button — every
+/// result is audible without opening the entry.
 class WordTile extends StatelessWidget {
   const WordTile({
     super.key,
     required this.entity,
     required this.onTap,
     required this.onStar,
+    required this.onSpeak,
   });
 
   final WordEntity entity;
   final VoidCallback onTap;
   final VoidCallback onStar;
+  final VoidCallback onSpeak;
 
   @override
   Widget build(BuildContext context) {
@@ -406,7 +412,7 @@ class WordTile extends StatelessWidget {
       onTap: onTap,
       padding: const EdgeInsets.symmetric(
         horizontal: AppDimensions.md,
-        vertical: AppDimensions.md,
+        vertical: AppDimensions.sm,
       ),
       child: Row(
         children: [
@@ -444,11 +450,17 @@ class WordTile extends StatelessWidget {
             ),
           ),
           IconButton(
+            onPressed: onSpeak,
+            tooltip: AppStrings.pronunciationPlay,
+            icon: const LpIcon(LpIcons.volumeUp, size: 21),
+            color: AppColors.primary,
+            visualDensity: VisualDensity.compact,
+          ),
+          IconButton(
             onPressed: onStar,
-            icon: Icon(
-              entity.isFavorite
-                  ? Icons.star_rounded
-                  : Icons.star_outline_rounded,
+            icon: LpIcon(
+              entity.isFavorite ? LpIcons.starFilled : LpIcons.star,
+              size: 21,
               color: entity.isFavorite
                   ? AppColors.warning
                   : Theme.of(context).textTheme.bodySmall?.color,

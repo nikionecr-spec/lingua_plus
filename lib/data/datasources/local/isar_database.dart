@@ -7,7 +7,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../models/mappers.dart';
 import '../../models/word_entry.dart';
 import '../../models/favorite_word.dart';
-import '../../models/flashcard_state.dart';
 import '../../models/library_models.dart';
 
 /// Opens the single Isar instance used by the whole app and seeds the
@@ -19,8 +18,6 @@ class IsarDatabase {
     WordRowSchema,
     FavoriteWordSchema,
     SearchLogSchema,
-    FlashcardStateSchema,
-    UserProfileSchema,
     BookmarkSchema,
     ReadingStateSchema,
   ];
@@ -38,7 +35,7 @@ class IsarDatabase {
 
   /// Bundled-dictionary version. Bump whenever assets/data/dictionary.json
   /// changes materially, so existing installs re-seed on first launch.
-  static const int kDictionarySeedVersion = 2;
+  static const int kDictionarySeedVersion = 3;
 
   /// Seeds [jsonText] (dictionary.json format) into an empty database, or
   /// re-seeds when the stored seed version differs from [version].
@@ -64,10 +61,16 @@ class IsarDatabase {
       rows.add(wordRowFromJson(item as Map<String, dynamic>));
     }
 
+    // ⚠️ Isar 3.x requires an explicit write transaction for EVERY write.
+    // Previously putAll ran outside writeTxn → IsarError → the whole seed
+    // failed silently and the dictionary stayed empty on every device.
     const chunk = 500;
     for (var i = 0; i < rows.length; i += chunk) {
       final end = (i + chunk < rows.length) ? i + chunk : rows.length;
-      await isar.wordRows.putAll(rows.sublist(i, end));
+      final chunkRows = rows.sublist(i, end);
+      await isar.writeTxn(() async {
+        await isar.wordRows.putAll(chunkRows);
+      });
     }
     await sp.setInt('dictSeedVersion', version);
     return rows.length;

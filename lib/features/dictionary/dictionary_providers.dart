@@ -13,6 +13,12 @@ final searchResultsProvider = FutureProvider<List<WordEntity>>((ref) async {
   return ref.watch(dictionaryDsProvider).search(query);
 });
 
+/// Type-ahead word suggestions (exact / prefix / base forms / fuzzy).
+final suggestionsProvider = FutureProvider<List<String>>((ref) async {
+  final query = ref.watch(searchQueryProvider);
+  return ref.watch(dictionaryDsProvider).suggest(query);
+});
+
 /// Full entry for a single word (null → not found).
 final wordDetailProvider =
     FutureProvider.family<WordEntity?, String>((ref, word) {
